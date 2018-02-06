@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Courses</title>
+    </head>
+    <body>
+        <form action="/action_page.php">
+            <select name="Knowledge Area">
+                <option value=""></option>
+                <option value="AL">Algorithms and Complexity</option>
+                <option value="AR">Architecture and Organization</option>
+                <option value="CN">Computational Science</option>
+                <option value="DS">Discrete Structures</option>
+                <option value="GV">Graphics and Visualization</option>
+                <option value="HCI">Human-Computer Interaction</option>
+                <option value="IAS">Information Assurance and Security</option>
+                <option value="IM">Information Management</option>
+                <option value="IS">Intelligent Systems</option>
+                <option value="NC">Networking and Communication</option>
+                <option value="OS">Operating Systems</option>
+                <option value="PBD">Platform-Based Development</option>
+                <option value="PD">Parallel and Distributed Computing</option>
+                <option value="PL">Programming Languages</option>
+                <option value="SDF">Software Development Fundamentals</option>
+                <option value="SE">Software Engineering</option>
+                <option value="SF">Systems Fundamentals</option>
+                <option value="SP">Social Issues and Professional Practice</option>
+            </select>
+            <select name="Knowledge Unit">
+                <option value=""></option>
+                <option value="AL/BasicAnalysis">Basic Analysis</option>
+                <option value="AL/AlgorithmicStrategies">Algorithmic Strategies</option>
+                <option value="AL/FundamentalDataStructuresandAlgorithms">Fundamental Data Structures and Algorithms</option>
+                <option value="AL/BasicsAutomataComputabilityandComplexity">Basics Automata, Computability, and Complexity</option>
+                <option value="AL/AdvancedComputationalTheory">Advanced Computational Theory</option>
+                <option value="AL/AdvancedAutomataComputabilityandComplexity">Advanced Automata, Computability, and Complexity</option>
+                <option value="AL/AdvancedDataStructuresAlgorithmsandAnalysis">Advanced Data Structures Algorithms and Analysis</option>
+                <option value="AR/DigitalLogicandDigitalSystems">Digital Logic and Digital Systems</option>
+                <option value="AR/MachineLevelRepresentationofData">Machine Level Representation of Data</option>
+                <option value="AR/AssemblyLevelMachineOrganization">Assembly Level Machine Organization</option>
+                <option value="AR/MemorySystemOrganizationandArchitecture">Memory System Organization and Architecture</option>
+                <option value="AR/InterfacingandCommunication">Interfacing and Communication</option>
+                <option value="AR/FunctionalOrganization">Functional Organization</option>
+                <option value="AR/MultiprocessingandAlternativeArchitectures">Multiprocessing and Alternative Architectures</option>
+                <option value="AR/PerformanceEnhancements">Performance Enhancements</option>
+                <option value="CN/IntroductiontoModelingandSimulation">Introduction to Modeling and Simulation</option>
+                <option value="CN/ModelingandSimulation">Modeling and Simulation</option>
+                <option value="CN/Processing">Processing</option>
+                <option value="CN/InteractiveVisualization">Interactive Visualization</option>
+                <option value="CN/DataInformationandKnowledge">Data, Information, and Knowledge</option>
+                <option value="CN/NumericalAnalysis">Numerical Analysis</option>
+                <option value="DS/SetsRelationsandFunctions">Sets, Relations, and Functions</option>
+                <option value="DS/BasicLogic">Basic Logic</option>
+                <option value="DS/ProofTechniques">Proof Techniques</option>
+                <option value="DS/BasicsofCounting">Basics of Counting</option>
+                <option value="DS/GraphsandTrees">Graphs and Trees</option>
+                <option value="DS/DiscreteProbability">Discrete Probability</option>
+                <option value="GV/FundamentalConcepts">Fundamental Concepts</option>
+                <option value="GV/BasicRendering">Basic Rendering</option>
+                <option value="GV/GeometricModeling">Geometric Modeling</option>
+                <option value="GV/AdvancedRendering">Advanced Rendering</option>
+                <option value="GV/ComputerAnimation">Computer Animation</option>
+                <option value="GV/Visualization">Visualization</option>
+                <option value="HCI/Foundations">Foundations</option>
+                <option value="HCI/DesigningInteraction">Designing Interaction</option>
+                <option value="HCI/ProgrammingInteractiveSystems">Programming Interactive Systems</option>
+                <option value="HCI/UserCenteredDesignandTesting">User-Centered Design and Testing</option>
+                <option value="HCI/NewInteractiveTechnologies">New Interactive Technologies</option>
+                <option value="HCI/CollaborationandCommunication">Collaboration and Communication</option>
+                <option value="HCI/StatisticalMethodsforHCI">Statistical Methods for HCI</option>
+                <option value="HCI/HumanFactorsandSecurity">Human Factors and Security</option>
+                <option value="HCI/MixedAugmentedandVirtualReality">Mixed Augmented and Virtual Reality</option>
+                <option value="IAS/PrinciplesofSecureDesign">Principles of Secure Design</option>
+                <option value="IAS/DefensiveProgramming">Defensive Programming</option>
+                <option value="IAS/ThreatsandAttacks">Threats and Attacks</option>
+                <option value="IAS/NetworkSecurity">Network Security</option>
+                <option value="IAS/Cryptography">Cryptography</option>
+                <option value="IAS/WebSecurity">Web Security</option>
+                <option value="IAS/PlatformSecurity">Platform Security</option>
+                <option value="IAS/SecurityPolicyandGovernance">Security Policy and Governance</option>
+                <option value="IAS/DigitalForensics">Digital Forensics</option>
+                <option value="IAS/SecureSoftwareEngineering">Secure Software Engineering</option>
+                <option value="IM/InformationManagementConcepts">Information Management Concepts</option>
+                <option value="IM/DatabaseSystems">Database Systems</option>
+                <option value="IM/DataModeling">Data Modeling</option>
+                <option value="IM/Indexing">Indexing</option>
+                <option value="IM/RelationalDatabases">Relational Databases</option>
+                <option value="IM/QueryLanguages">Query Languages</option>
+                <option value="IM/TransactionProcessing">Transaction Processing</option>
+                <option value="IM/DistributedDatabases">Distributed Databases</option>
+                <option value="IM/PhysicalDatabaseDesign">Physical Database Design</option>
+                <option value="IM/DataMining">Data Mining</option>
+                <option value="IM/InformationStorageandRetrieval">Information Storage and Retrieval</option>
+                <option value="IM/MultimediaSystems">Multimedia Systems</option>
+                <option value="IS/FundamentalIssues">Fundamental Issues</option>
+                <option value="IS/BasicSearchStrategies">Basic Search Strategies</option>
+                <option value="IS/BasicKnowledgeRepresentationsandReasoning">Basic Knowledge Representations and Reasoning</option>
+                <option value="IS/BasicMachineLearning">Basic Machine Learning</option>
+                <option value="IS/AdvancedSearch">Advanced Search</option>
+                <option value="IS/AdvancedRepresentationandReasoning">Advanced Representation and Reasoning</option>
+                <option value="IS/ReasoningUnderUncertainty">Reasoning Under Uncertainty</option>
+                <option value="IS/Agents">Agents</option>
+                <option value="IS/NaturalLanguageProcessing">Natural Language Processing</option>
+                <option value="IS/AdvancedMachineLearning">Advanced Machine Learning</option>
+                <option value="IS/Robotics">Robotics</option>
+                <option value="IS/PerceptionandComputerVision">Perception and Computer Vision</option>
+                <option value="NC/Introduction">Introduction</option>
+                <option value="NC/NetworkedApplications">Networked Applications</option>
+                <option value="NC/ReliableDataDelivery">Reliable Data Delivery</option>
+                <option value="NC/RoutingandForwarding">Routing and Forwarding</option>
+                <option value="NC/LocalAreaNetworks">Local Area Networks</option>
+                <option value="NC/ResourceAllocation">Resource Allocation</option>
+                <option value="NC/Mobility">Mobility</option>
+                <option value="NC/SocialNetworking">Social Networking</option>
+                <option value="OS/OverviewofOperatingSystems">Overview of Operating Systems</option>
+                <option value="OS/OperatingSystemPrinciples">Operating System Principles</option>
+                <option value="OS/Concurrency">Concurrency</option>
+                <option value="OS/SchedulingandDispatch">Scheduling and Dispatch</option>
+                <option value="OS/MemoryManagement">Memory Management</option>
+                <option value="OS/SecurityandProtection">Security and Protection</option>
+                <option value="OS/VirtualMachines">Virtual Machines</option>
+                <option value="OS/DeviceManagement">Device Management</option>
+                <option value="OS/FileSystems">File Systems</option>
+                <option value="OS/RealTimeandEmbeddedSystems">Real Time and Embedded Systems</option>
+                <option value="OS/FaultTolerance">Fault Tolerance</option>
+                <option value="OS/SystemPerformanceEvaluation">System Performance Evaluation</option>
+                <option value="PBD/Introduction">Introduction</option>
+                <option value="PBD/WebPlatforms">Web Platforms</option>
+                <option value="PBD/MobilePlatforms">Mobile Platforms</option>
+                <option value="PBD/IndustrialPlatforms">Industrial Platforms</option>
+                <option value="PBD/GamePlatforms">Game Platforms</option>
+                <option value="PD/ParallelismFundamentals">Parallelism Fundamentals</option>
+                <option value="PD/ParallelDecomposition">Parallel Decomposition</option>
+                <option value="PD/CommunicationandCoordination">Communication and Coordination</option>
+                <option value="PD/ParallelAlgorithmsAnalysisandProgramming">Parallel Algorithms, Analysis, and Programming</option>
+                <option value="PD/ParallelArchitecture">Parallel Architecture</option>
+                <option value="PD/ParallelPerformance">Parallel Performance</option>
+                <option value="PD/DistributedSystems">Distributed Systems</option>
+                <option value="PD/CloudComputing">Cloud Computing</option>
+                <option value="PD/FormalModelsandSemantics">Formal Models and Semantics</option>
+                <option value="PL/ObjectOrientedProgramming">Object-Oriented Programming</option>
+                <option value="PL/FunctionalProgramming">Functional Programming</option>
+                <option value="PL/EventDrivenandReactiveProgramming">Event-Driven and Reactive Programming</option>
+                <option value="PL/BasicTypeSystems">Basic Type Systems</option>
+                <option value="PL/ProgramRepresentation">Program Representation</option>
+                <option value="PL/LanguageTranslationandExecution">Language Translation and Execution</option>
+                <option value="PL/SyntaxAnalysis">Syntax Analysis</option>
+                <option value="PL/CompilerSemanticAnalysis">Compiler Semantic Analysis</option>
+                <option value="PL/CodeGeneration">Code Generation</option>
+                <option value="PL/RuntimeSystems">Runtime Systems</option>
+                <option value="PL/StaticAnalysis">Static Analysis</option>
+                <option value="PL/AdvancedProgrammingConstructs">Advanced Programming Constructs</option>
+                <option value="PL/ConcurrencyandParallelism">Concurrency and Parallelism</option>
+                <option value="PL/TypeSystems">Type Systems</option>
+                <option value="PL/FormalSemantics">Formal Semantics</option>
+                <option value="PL/LanguagePragmatics">Language Pragmatics</option>
+                <option value="PL/LogicProgramming">Logic Programming</option>
+                <option value="SDF/AlgorithmsandDesign">Algorithms and Design</option>
+                <option value="SDF/FundamentalProgrammingConcepts">Fundamental Programming Concepts</option>
+                <option value="SDF/FundamentalDataStructures">Fundamental Data Structures</option>
+                <option value="SDF/DevelopmentMethods">Development Methods</option>
+                <option value="SE/SoftwareProcesses">Software Processes</option>
+                <option value="SE/SoftwareProjectManagement">Software Project Management</option>
+                <option value="SE/ToolsandEnvironments">Tools and Environments</option>
+                <option value="SE/RequirementsEngineering">Requirements Engineering</option>
+                <option value="SE/SoftwareDesign">Software Design</option>
+                <option value="SE/SoftwareConstruction">Software Construction</option>
+                <option value="SE/SoftwareVerificationandValidation">Software Verification and Validation</option>
+                <option value="SE/SoftwareEvolution">Software Evolution</option>
+                <option value="SE/SoftwareReliability">Software Reliability</option>
+                <option value="SE/FormalMethods">Formal Methods</option>
+                <option value="SF/ComputationalParadigms">Computational Paradigms</option>
+                <option value="SF/CrossLayerCommunications">Cross-Layer Communications</option>
+                <option value="SF/StateandStateMachines">State and State Machines</option>
+                <option value="SF/Parallelism">Parallelism</option>
+                <option value="SF/Evaluation">Evaluation</option>
+                <option value="SF/ResourceAllocationandScheduling">Resource Allocation and Scheduling</option>
+                <option value="SF/Proximity">Proximity</option>
+                <option value="SF/VirtualizationandIsolation">Virtualization and Isolation</option>
+                <option value="SF/ReliabilityThroughRedundancy">Reliability Through Redundancy</option>
+                <option value="SF/QuantitativeEvaluation">Quantitative Evaluation</option>
+                <option value="SP/SocialContext">Social Context</option>
+                <option value="SP/AnalyticalTools">Analytical Tools</option>
+                <option value="SP/ProfessionalEthics">Professional Ethics</option>
+                <option value="SP/IntellectualProperty">Intellectual Property</option>
+                <option value="SP/PrivacyandCivilLiberties">Privacy and Civil Liberties</option>
+                <option value="SP/ProfessionalCommunication">Professional Communication</option>
+                <option value="SP/Sustainability">Sustainability</option>
+                <option value="SP/History">History</option>
+                <option value="SP/EconomiesofComputing">Economies of Computing</option>
+                <option value="SP/SecurityPoliciesLawsandComputerCrimes">Security Policies, Laws, and Computer Crimes</option>
+            </select>
+            <select name="Topic">
+                <option name=""></option>
+                <option name="" title="Tier 1">Topic 1</option>
+                <option name="" title="Tier 2">Topic 2</option>
+                <option name="" title="Elective">Elective Topic</option>
+            </select>
+            <input name="Hours" type=text>
+            <text>Hours</text>
+            <button type="button" onclick="">Remove</button>
+            <br>
+            <button type="button" onclick="">Add New Guidelines</button>
+            <br><br>
+            <button type="button" onclick="">Cancel</button>
+            <button type="button" onclick="">Submit</button>
+        </form>
+    </body>
+</html>
