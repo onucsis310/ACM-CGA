@@ -1,0 +1,84 @@
+CREATE TABLE Guidelines (
+    Guidelines_ID VARCHAR(50) NOT NULL AUTO_INCREMENT,
+    Name VARCHAR(50),
+    Discipline VARCHAR(50),
+    Sources VARCHAR(50),
+    PRIMARY KEY Guidelines_ID);
+
+CREATE TABLE Knowledge_Area(
+    Knowledge_Area_ID VARCHAR(3) NOT NULL AUTO_INCREMENT,
+    Name VARCHAR(39),
+    PRIMARY KEY Knowledge_Area_ID);
+    
+CREATE TABLE Knowledge_Unit(
+    Knowledge_Unit_ID VARCHAR(5) NOT NULL AUTO_INCREMENT,
+    Name VARCHAR(49),
+    Default_Tier1_Hours int(3),
+    Alternative_Tier1_Hours int(3),
+    Default_Tier2_Hours int(3),
+    Alternative_Tier2_Hours int(3),
+    Default_Electives TINYINT(1),
+    Alternative_Electives TINYINT(1),
+    Distributed TINYINT(1),
+    PRIMARY KEY Knowledge_Unit_ID);
+/* ADDED: Alternative tier and elective hours
+** To support distributive knowledge units such as IAS and IM
+** ADDED: Distributed column
+** Boolean to flag whether alternative or default hours are being obtained
+*/
+
+    
+CREATE TABLE Tier1_Topic(
+    Tier1_Topic_ID VARCHAR(500) NOT NULL AUTO_INCREMENT,
+    Knowledge_Unit VARCHAR(49),
+    PRIMARY KEY Tier1_Topic_ID);
+    
+CREATE TABLE Tier2_Topic(
+    Tier2_Topic_ID VARCHAR(500) NOT NULL AUTO_INCREMENT,
+    Knowledge_Unit VARCHAR(49),
+    PRIMARY KEY Tier2_Topic_ID);
+    
+CREATE TABLE Elective_Topic(
+    Elective_Topic_ID VARCHAR(500) NOT NULL AUTO_INCREMENT,
+    Knowledge_Unit VARCHAR(49),
+    PRIMARY KEY Elective_Topic_ID);
+    
+CREATE TABLE Course_Curriculum(
+    Course_Curriculum_ID VARCHAR(50) NOT NULL AUTO_INCREMENT,
+    Name VARCHAR(100),
+    PRIMARY KEY Course_Curriculum_ID);
+
+CREATE TABLE Curricula (
+    Curricula_ID VARCHAR(50) NOT NULL AUTO_INCREMENT,
+    Curricula VARCHAR(50),
+    PRIMARY KEY Curricula_ID);
+/* Didn't include:
+**  Tier 2 hours
+**  Because it didn't make sense for the table
+**  Needs to be verified
+*/
+
+CREATE TABLE Institution (
+    Institution_ID VARCHAR(50) NOT NULL AUTO_INCREMENT,
+    Name VARCHAR(100),
+    Web_Domain VARCHAR(200),
+    Contact_Information VARCHAR(200),
+    PRIMARY KEY Institution_ID);
+    
+CREATE TABLE System_User (
+    System_User_ID VARCHAR(50) NOT NULL AUTO_INCREMENT,
+    Username VARCHAR(50),
+    User_Password VARCHAR(50),
+    Email VARCHAR(100),
+    PRIMARY KEY System_User_ID);
+/* CHANGED: Table name (and table key ID)
+** 'USER' is a reserved word in MySQL
+** CHANGED: Password
+** 'PASSWORD' is a reserved word in MySQL
+*/
+
+CREATE TABLE Access_Key (
+    Access_Key_ID VARCHAR(50) NOT NULL AUTO_INCREMENT,
+    Access_Level VARCHAR(50),
+    PRIMARY KEY Access_Key_ID);
+
