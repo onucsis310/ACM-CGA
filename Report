@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+	<h1>Report</h1>
+	<style>
+		tr:nth-child(even) {background-color: #c9abe8;}
+		tr:nth-child(odd) {background-color: #fffedb;}
+		#fffdc6
+
+		
+		<!-- Olivet purple "#471e6f" is too dark for this report -->
+		<!-- Here is a faded Olivet purple "#c9abe8" -->
+	</style>
+</head>
+<body>
+	<table>
+
+	<thead style = "font-weight:bold"><tr><h5><td>Knowledge Area</td><td>ACM Hours</td><td>Actual Hours</td><td>Difference</td></tr></thead>
+	<tr><td>Algorithms and Complexity</td><td>15</td><td>14</td><td>1</td></tr>
+	<tr><td>Architecture and Organization</td><td>12</td><td>11</td><td>1</td></tr>
+	<tr><td>Computational Science</td><td>10</td><td>13</td><td>-3</td></tr>
+	<tr><td>Discrete Structures</td><td>17</td><td>5</td><td>+12</td></tr>
+	<tr><td>Graphics and Visualization</td><td>12</td><td>20</td><td>-8</td></tr>
+	<tr><td>Human-Computer Interaction</td><td>17</td><td>4</td><td>+13</td></tr>
+	<tr><td>Information Assurance and Security</td><td>13</td><td>13</td><td>0</td></tr>
+	<tr><td>Information Management</td><td>16</td><td>16</td><td>0</td></tr>
+	<tr><td>Intelligent Systems</td><td>15</td><td>15</td><td>0</td></tr>
+	<tr><td>Networking and Communications</td><td>12</td><td>11</td><td>+1</td></tr>
+	<tr><td>Operating Systems</td><td>12</td><td>10</td><td>+2</td></tr>
+	<tr><td>Platform-Based Development</td><td>15</td><td>13</td><td>+2</td></tr>
+	<tr><td>Parallel and Distributed Computing</td><td>1</td><td>5</td><td>-4</td></tr>
+	<tr><td>Programming Languages</td><td>12</td><td>12</td><td>0</td></tr>
+	<tr><td>Software Development Fundamentals</td><td>1</td><td>12</td><td>-11</td></tr>
+	<tr><td>Software Engineering</td><td>17</td><td>13</td><td>4</td></tr>
+	<tr><td>Systems Fundamentals</td><td>10</td><td>14</td><td>-4</td></tr>
+	<tr><td>Social Issues and Professional Practice</td><td>12</td><td>13</td><td>-1</td></tr>
+	</table>
+</body>
+</html>
