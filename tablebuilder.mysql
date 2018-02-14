@@ -2,7 +2,7 @@ CREATE TABLE Guidelines (
     Guidelines_ID VARCHAR(50) NOT NULL AUTO_INCREMENT,
     Name VARCHAR(50),
     Discipline VARCHAR(50),
-    Sources VARCHAR(50),
+    Source VARCHAR(50),
     PRIMARY KEY Guidelines_ID);
 
 CREATE TABLE Knowledge_Area(
@@ -30,16 +30,19 @@ CREATE TABLE Knowledge_Unit(
     
 CREATE TABLE Tier1_Topic(
     Tier1_Topic_ID VARCHAR(500) NOT NULL AUTO_INCREMENT,
+    Name VARCHAR(100),
     Knowledge_Unit VARCHAR(49),
     PRIMARY KEY Tier1_Topic_ID);
     
 CREATE TABLE Tier2_Topic(
     Tier2_Topic_ID VARCHAR(500) NOT NULL AUTO_INCREMENT,
+    Name VARCHAR(100),
     Knowledge_Unit VARCHAR(49),
     PRIMARY KEY Tier2_Topic_ID);
     
 CREATE TABLE Elective_Topic(
     Elective_Topic_ID VARCHAR(500) NOT NULL AUTO_INCREMENT,
+    Name VARCHAR(100),
     Knowledge_Unit VARCHAR(49),
     PRIMARY KEY Elective_Topic_ID);
     
