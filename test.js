@@ -43,5 +43,5 @@ function getGeneratedVars(){
 	return pth;
 }
 function redirect(){
-	window.location = "Print.php?" + getGeneratedVars();
-}	
+	window.location = "CourseListPg2.php?" + getGeneratedVars();
+}
