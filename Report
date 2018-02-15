@@ -1,39 +1,228 @@
 <!doctype html>
 <html>
 <head>
-	<h1>Report</h1>
+	<!--<h1>Report</h1> -->
 	<style>
+			/* Accordion style below modified from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_accordion */
+	
+		.accordion {
+		background-color: #c9abe8;
+		color: #444;
+		cursor: pointer;
+		padding: 5px;
+		width: 100%;
+		border: none;
+		text-align: left;
+		font-size: 15px;
+		transition: 0.4s;
+	}
+		.panel {
+			padding: 0 18px;
+			background-color: white;
+			display: none;
+			overflow: hidden;
+		}
+		
+		
+		
+		
 		tr:nth-child(even) {background-color: #c9abe8;}
 		tr:nth-child(odd) {background-color: #fffedb;}
-		#fffdc6
 
 		
-		<!-- Olivet purple "#471e6f" is too dark for this report -->
-		<!-- Here is a faded Olivet purple "#c9abe8" -->
+		
+		
+		
+		/*  Olivet purple "#471e6f" is too dark for this report */
+		/*  Here is a faded Olivet purple "#c9abe8" */
+		
+		
+
+		
+		
+		
+		
+		.active, .accordion:hover {
+			.background-color: #ccc;
+		}
 	</style>
+	
+	
+	<script>
+	var differences = document.getElementsByClassName("difference");
+	var i;
+
+	for (i = 0; i < acc.length; i++) {
+
+	}
+	</script>
+	
+	
+	
+	
+
 </head>
 <body>
-	<table>
 
-	<thead style = "font-weight:bold"><tr><h5><td>Knowledge Area</td><td>ACM Hours</td><td>Actual Hours</td><td>Difference</td></tr></thead>
-	<tr><td>Algorithms and Complexity</td><td>15</td><td>14</td><td>1</td></tr>
-	<tr><td>Architecture and Organization</td><td>12</td><td>11</td><td>1</td></tr>
-	<tr><td>Computational Science</td><td>10</td><td>13</td><td>-3</td></tr>
-	<tr><td>Discrete Structures</td><td>17</td><td>5</td><td>+12</td></tr>
-	<tr><td>Graphics and Visualization</td><td>12</td><td>20</td><td>-8</td></tr>
-	<tr><td>Human-Computer Interaction</td><td>17</td><td>4</td><td>+13</td></tr>
-	<tr><td>Information Assurance and Security</td><td>13</td><td>13</td><td>0</td></tr>
-	<tr><td>Information Management</td><td>16</td><td>16</td><td>0</td></tr>
-	<tr><td>Intelligent Systems</td><td>15</td><td>15</td><td>0</td></tr>
-	<tr><td>Networking and Communications</td><td>12</td><td>11</td><td>+1</td></tr>
-	<tr><td>Operating Systems</td><td>12</td><td>10</td><td>+2</td></tr>
-	<tr><td>Platform-Based Development</td><td>15</td><td>13</td><td>+2</td></tr>
-	<tr><td>Parallel and Distributed Computing</td><td>1</td><td>5</td><td>-4</td></tr>
-	<tr><td>Programming Languages</td><td>12</td><td>12</td><td>0</td></tr>
-	<tr><td>Software Development Fundamentals</td><td>1</td><td>12</td><td>-11</td></tr>
-	<tr><td>Software Engineering</td><td>17</td><td>13</td><td>4</td></tr>
-	<tr><td>Systems Fundamentals</td><td>10</td><td>14</td><td>-4</td></tr>
-	<tr><td>Social Issues and Professional Practice</td><td>12</td><td>13</td><td>-1</td></tr>
+
+
+
+	
+
+	
+	<h1>Audit Summary</h1>
+	
+	<table class = ButtonTable>
+
+	<thead style = "font-weight:bold"><tr><h5><td>Knowledge Area</td><td>ACM Tier1 Hours</td><td>Actual Tier1 Hours</td><td>Tier1 Hours Difference</td><td>ACM Tier2 Hours</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>ACM Electives</td><td>Actual Electives</td></tr></thead>
+	<tr><h5><td>Algorithms and Complexity</td><td>19</td><td>5</td><td difference = "14"></td><td>9</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>Yes</td><td>Actual Electives</td></tr>
+	<tr><h5><td>Architecture and Organization</td><td>0</td><td>Actual Tier1 Hours</td><td>Tier1 Hours Difference</td><td>16</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>ACM Electives</td><td>Actual Electives</td></tr>
+	<tr><h5><td>Computational Science</td><td>1</td><td>Actual Tier1 Hours</td><td>Tier1 Hours Difference</td><td>0</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>ACM Electives</td><td>Actual Electives</td></tr>
+	<tr><h5><td>Discrete Structures</td><td>37</td><td>Actual Tier1 Hours</td><td>Tier1 Hours Difference</td><td>4</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>ACM Electives</td><td>Actual Electives</td></tr>
+	<tr><h5><td>Graphics and Visualization</td><td>2</td><td>Actual Tier1 Hours</td><td>Tier1 Hours Difference</td><td>1</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>ACM Electives</td><td>Actual Electives</td></tr>
+	<tr><h5><td>Human-Computer Interaction</td><td>4</td><td>Actual Tier1 Hours</td><td>Tier1 Hours Difference</td><td>4</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>ACM Electives</td><td>Actual Electives</td></tr>
+	<tr><h5><td>Information Assurance and Security</td><td>3</td><td>Actual Tier1 Hours</td><td>Tier1 Hours Difference</td><td>6</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>ACM Electives</td><td>Actual Electives</td></tr>
+	<tr><h5><td>Information Management</td><td>1</td><td>Actual Tier1 Hours</td><td>Tier1 Hours Difference</td><td>9</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>ACM Electives</td><td>Actual Electives</td></tr>
+	<tr><h5><td>Intelligent Systems</td><td>0</td><td>Actual Tier1 Hours</td><td>Tier1 Hours Difference</td><td>10</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>ACM Electives</td><td>Actual Electives</td></tr>
+	<tr><h5><td>Networking and Communications</td><td>ACM Tier1 Hours</td><td>Actual Tier1 Hours</td><td>Tier1 Hours Difference</td><td>10</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>ACM Electives</td><td>Actual Electives</td></tr>
+	<tr><h5><td>Operating Systems</td><td>4</td><td>Actual Tier1 Hours</td><td>Tier1 Hours Difference</td><td>11</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>ACM Electives</td><td>Actual Electives</td></tr>
+	<tr><h5><td>Platform-Based Development</td><td>0</td><td>Actual Tier1 Hours</td><td>Tier1 Hours Difference</td><td>0</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>ACM Electives</td><td>Actual Electives</td></tr>
+	<tr><h5><td>Parallel and Distributed Computing</td><td>5</td><td>Actual Tier1 Hours</td><td>Tier1 Hours Difference</td><td>10</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>ACM Electives</td><td>Actual Electives</td></tr>
+	<tr><h5><td>Programming Languages</td><td>8</td><td>Actual Tier1 Hours</td><td>Tier1 Hours Difference</td><td>20</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>ACM Electives</td><td>Actual Electives</td></tr>
+	<tr><h5><td>Software Development Fundamentals</td><td>43</td><td>Actual Tier1 Hours</td><td>Tier1 Hours Difference</td><td>0</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>ACM Electives</td><td>Actual Electives</td></tr>
+	<tr><h5><td>Software Engineering</td><td>6</td><td>Actual Tier1 Hours</td><td>Tier1 Hours Difference</td><td>21</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>ACM Electives</td><td>Actual Electives</td></tr>
+	<tr><h5><td>Systems Fundamentals</td><td>18</td><td>Actual Tier1 Hours</td><td>Tier1 Hours Difference</td><td>9</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>ACM Electives</td><td>Actual Electives</td></tr>
+	<tr><h5><td>Social Issues and Professional Practice</td><td>11</td><td>Actual Tier1 Hours</td><td>Tier1 Hours Difference</td><td>5</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>ACM Electives</td><td>Actual Electives</td></tr>
+	
 	</table>
+	
+	<h1>Audit Details</h1>
+
+	<button class = "accordion">Algorithms and Complexity</button>
+
+	<div class = "panel">
+
+	<table>
+	<thead style = "font-weight:bold"><tr><h5><td>Algorithms and Complexity</td><td>ACM Tier1 Hours</td><td>Actual Tier1 Hours</td><td>Tier1 Hours Difference</td><td>ACM Tier2 Hours</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>ACM Electives</td><td>Actual Electives</td></tr></thead>
+		<tr><h5><td>AL/Basic Analysis</td><td>2</td><td>2</td><td>Tier1 Hours Difference</td><td>2</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>N</td><td>N</td></tr>
+		<tr><h5><td>AL/Algorithmic Strategies</td><td>5</td><td>5</td><td>Tier1 Hours Difference</td><td>1</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>N</td><td>N</td></tr>
+		<tr><h5><td>AL/Fundamental Data Structure and Algorithms</td><td>9</td><td>8</td><td>Tier1 Hours Difference</td><td>3</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>N</td><td>N</td></tr>
+		<tr><h5><td>AL/Basic Automata, Computability and Complexity</td><td>3</td><td>5</td><td>Tier1 Hours Difference</td><td>3</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>N</td><td>N</td></tr>
+		<tr><h5><td>AL/Advanced Computational Complexity</td><td>0</td><td>0</td><td>Tier1 Hours Difference</td><td>0</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>Y</td><td>N</td></tr>
+		<tr><h5><td>AL/Advanced Automata Theory and Computability</td><td>0</td><td>0</td><td>Tier1 Hours Difference</td><td>0</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>Y</td><td>N</td></tr>
+		<tr><h5><td>AL/Advanced Data Structures, Algorithms, and Analysis</td><td>0</td><td>2</td><td>Tier1 Hours Difference</td><td>0</td><td>Actual Tier2 Hours</td><td>Tier2 Hours Difference</td><td>Y</td><td>N</td></tr>
+	</table>
+	</div>
+	
+	<button class = "accordion">Architecture and Organization</button>
+	<div class = "panel">
+	
+	</div>
+	
+	<button class = "accordion">Computational Science</button>
+	<div class = "panel">
+	
+	</div>
+	
+	<button class = "accordion">Discrete Structures</button>
+	<div class = "panel">
+	
+	</div>
+	
+	<button class = "accordion">Graphics and Visualization</button>
+	<div class = "panel">
+	
+	</div>
+	
+	<button class = "accordion">Human-Computer Interaction</button>
+	<div class = "panel">
+	
+	</div>
+	
+	<button class = "accordion">Information Assurance and Security</button>
+	<div class = "panel">
+	
+	</div>
+	
+	<button class = "accordion">Information Management</button>
+	<div class = "panel">
+	
+	</div>
+	
+	<button class = "accordion">Intelligent Systems</button>
+	<div class = "panel">
+	
+	</div>
+	
+	<button class = "accordion">Networking and Communications</button>
+	<div class = "panel">
+	
+	</div>
+	
+	<button class = "accordion">Operating Systems</button>
+	<div class = "panel">
+	
+	</div>
+	
+	<button class = "accordion">Platform-Based Development</button>
+	<div class = "panel">
+	
+	</div>
+	
+	<button class = "accordion">Parallel and Distributed Computing</button>
+	<div class = "panel">
+	
+	</div>
+	
+	<button class = "accordion">Programming Languages</button>
+	<div class = "panel">
+	
+	</div>
+	
+	<button class = "accordion">Software Development Fundamentals</button>
+	<div class = "panel">
+	
+	</div>
+	
+	<button class = "accordion">Software Engineering</button>
+	<div class = "panel">
+	
+	</div>
+	
+	<button class = "accordion">Systems Fundamentals</button>
+	<div class = "panel">
+	
+	</div>
+	
+	<button class = "accordion">Social Issues and Professional Practice</button>
+	<div class = "panel">
+	
+	</div>
+	
+	
+	
+	
+	
+
+
+	<!-- Following script from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_accordion-->
+	<script>
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+
+	for (i = 0; i < acc.length; i++) {
+		acc[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var panel = this.nextElementSibling;
+			if (panel.style.display === "block") {
+				panel.style.display = "none";
+				this.label = "+" + this.label;
+			} else {
+				panel.style.display = "block";
+			}
+		});
+	}
+	</script>
 </body>
 </html>
+        
