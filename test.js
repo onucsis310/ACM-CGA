@@ -45,3 +45,13 @@ function getGeneratedVars(){
 function redirect(){
 	window.location = "CourseListPg2.php?" + getGeneratedVars();
 }
+
+var i = 0;
+var content = document.getElementById('row');
+document.getElementById('button').onclick = copyDiv;
+
+function copyDiv() {
+    var cp = content.cloneNode(true);
+    cp.id = "row_" + (i++); 
+    content.parentNode.appendChild(cp);
+}
