@@ -2,7 +2,13 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Courses</title>
+		<!-- sets tab title to the course you are editing -->
+		<script>
+		var myURL = document.URL;
+		var courseInput = myURL.substring(68);
+		courseInput = decodeURI(courseInput);
+		window.document.title = courseInput;
+		</script>
     </head>
     <body>
 <div>
@@ -16,10 +22,14 @@
 </div>
 <br>
 <input type="submit" id="button" onclick="copyDiv()" value="Add New Guidelines"><br><br>
-<input type="submit" value="cancel">
-<input type="button" value="submit">
+<input type="submit" onclick="history.back()" value="cancel">
+<input type="button" onclick="history.back()" value="submit">
 <!--
         <form action="/action_page.php">
+		<label> Knowledge Area &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
+		        Knowledge Unit &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+				Topic Tiers	   &emsp;
+				Hours </br></label>
             <select name="Knowledge Area">
                 <option value=""></option>
                 <option value="AL">Algorithms and Complexity</option>
@@ -217,8 +227,8 @@
             <br>
             <button type="button" onclick="">Add New Guidelines</button>
             <br><br>
-            <button type="button" onclick="">Cancel</button>
-            <button type="button" onclick="">Submit</button>
+            <button type="button" onclick="history.back()">Cancel</button>
+            <button type="button" onclick="history.back()">Submit</button>
         </form>
 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
