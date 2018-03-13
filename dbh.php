@@ -1,10 +1,10 @@
 <?php 
 
 class dbh{
-	private $server,
-			$user,
-			$pass,
-			$db;
+	private $server;
+	private $user;
+	private $pass;
+	private $db;
 	protected function connect(){
 		$this -> server = "";
 		$this -> user   = "";
