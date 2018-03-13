@@ -11,7 +11,7 @@ class dbh{
 		$this -> pass   = "";
 		$this -> db     = "";
 		
-		$con = new msqli($this -> server, $this -> user, $this -> pass, $this -> db);
+		$con = new mysqli($this -> server, $this -> user, $this -> pass, $this -> db);
 		return $con;
 	}
 
