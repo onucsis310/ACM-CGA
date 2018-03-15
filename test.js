@@ -46,7 +46,6 @@ function redirect(){
 	window.location = "CourseListPg2.php?" + getGeneratedVars();
 }
 
-<<<<<<< HEAD
 var i = 0;
 var trackNumRows = 0;
 var content = document.getElementById('row_0');
@@ -74,25 +73,4 @@ function removeDiv(curRemoveButtonID){
 }
 function updateRows(curNumRows){
 	trackNumRows = curNumRows + trackNumRows;
-=======
-var i = 1;
-var content = document.getElementById('row');
-document.getElementById('addNewGuidelinesButton').onclick = copyDiv;
-var buttonVar = document.getElementById('removeNewGuidelinesButton');
-//document.getElementById('removeNewGuidelinesButton').onclick = removeDiv;
-
-function copyDiv() {
-    var cp = content.cloneNode(true);
-    var rmButton = content.cloneNode(true);
-	cp.id = "row_" + (i++);
-	console.log(i + "a");
-	rmButton.id = "removeNewGuidelinesButton_" + (i++);
-    console.log(i + "b");
-   `content.parentNode.appendChild(cp);
->>>>>>> 433bc1911a092e27b73602ade611c505323bd3bd
-}
-
-function removeDiv() {
-	var rm;
-	
 }

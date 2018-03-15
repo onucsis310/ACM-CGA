@@ -2,17 +2,10 @@
 <html>
     <head>
         <meta charset="UTF-8">
-		<!-- sets tab title to the course you are editing -->
-		<script>
-		var myURL = document.URL;
-		var courseInput = myURL.substring(68);
-		courseInput = decodeURI(courseInput);
-		window.document.title = courseInput;
-		</script>
+        <title>Courses</title>
     </head>
     <body>
 <div>
-<<<<<<< HEAD
   <div id="row_0"> 
     Knowledge Area: <select></select>
     Knowledge Unit: <select></select>
@@ -27,14 +20,6 @@
 <input type="button" value="submit">
 <!--
         <form action="/action_page.php">
-=======
-  <div id="row"> 
-    <form action="/action_page.php">
-		<label> Knowledge Area &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
-		        Knowledge Unit &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-				Topic Tiers	   &emsp;&emsp;&emsp;
-				Hours </br></label>
->>>>>>> 433bc1911a092e27b73602ade611c505323bd3bd
             <select name="Knowledge Area">
                 <option value=""></option>
                 <option value="AL">Algorithms and Complexity</option>
@@ -226,18 +211,16 @@
                 <option name="" title="Tier 2">Topic 2</option>
                 <option name="" title="Elective">Elective Topic</option>
             </select>
-            <input name="Hours" type=text size="4">
-            <button type="button" id="removeNewGuidelinesButton" onclick="">Remove</button>
+            <input name="Hours" type=text>
+            <text>Hours</text>
+            <button type="button" onclick="">Remove</button>
             <br>
+            <button type="button" onclick="">Add New Guidelines</button>
+            <br><br>
+            <button type="button" onclick="">Cancel</button>
+            <button type="button" onclick="">Submit</button>
         </form>
-  </div>
-</div>
-<br>
-<input type="submit" id="addNewGuidelinesButton" onclick="copyDiv()" value="Add New Guidelines"><br><br>
-<input type="submit" onclick="history.back()" value="cancel">
-<input type="button" onclick="history.back()" value="submit">
-
-        
+-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="test.js"></script>
     </body>
