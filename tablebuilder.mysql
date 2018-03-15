@@ -3,8 +3,7 @@ CREATE TABLE Guidelines (
     Name VARCHAR(50),
     Discipline VARCHAR(50),
     Source VARCHAR(50),
-    PRIMARY KEY Guidelines_ID);
-
+    PRIMARY KEY Guidelines_ID)
 CREATE TABLE Knowledge_Area(
     Knowledge_Area_ID VARCHAR(3) NOT NULL AUTO_INCREMENT,
     Name VARCHAR(39),
