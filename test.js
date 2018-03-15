@@ -45,13 +45,30 @@ function getGeneratedVars(){
 function redirect(){
 	window.location = "CourseListPg2.php?" + getGeneratedVars();
 }
-
 var i = 0;
-var content = document.getElementById('row');
+var trackNumRows = 0;
+var content = document.getElementById('row_0');
 document.getElementById('button').onclick = copyDiv;
-
 function copyDiv() {
-    var cp = content.cloneNode(true);
-    cp.id = "row_" + (i++); 
-    content.parentNode.appendChild(cp);
+	i++;
+	var cp = content.cloneNode(true);
+    	cp.id = "row_" + (i); 
+    	cp.getElementsByTagName('input')[1].id = "removeButton_" + i;
+    	content.parentNode.appendChild(cp);
+	updateRows(1);
+}
+function removeDiv(curRemoveButtonID){
+	if(curRemoveButtonID == "removeButton_0"){
+		// Keeps always one row 
+	}else{
+		if(trackNumRows == 0){}else{
+			var cRemoveBtnID = document.getElementById(curRemoveButtonID);
+			var row = cRemoveBtnID.parentNode;
+			row.remove(row);
+			updateRows(-1);
+		}
+	}
+}
+function updateRows(curNumRows){
+	trackNumRows = curNumRows + trackNumRows;
 }
