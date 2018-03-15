@@ -1,5 +1,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="test.js"></script>
+<head>
+	<title> Course List Pg 2 </title>
+</head>
+
 <body>
 <div id="test1">
 
@@ -22,3 +26,5 @@ start++;
 }
 
 </script>
+<input type="submit" name="Submit" value="Generate Report" onClick="location.href='http://acm.guidelines.baby/ACM-CGA/Report'";>
+</body>
