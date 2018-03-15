@@ -46,23 +46,31 @@ function redirect(){
 	window.location = "CourseListPg2.php?" + getGeneratedVars();
 }
 
-var i = 1;
-var content = document.getElementById('row');
-document.getElementById('addNewGuidelinesButton').onclick = copyDiv;
-var buttonVar = document.getElementById('removeNewGuidelinesButton');
-//document.getElementById('removeNewGuidelinesButton').onclick = removeDiv;
+var i = 0;
+var trackNumRows = 0;
+var content = document.getElementById('row_0');
+document.getElementById('button').onclick = copyDiv;
 
 function copyDiv() {
-    var cp = content.cloneNode(true);
-    var rmButton = content.cloneNode(true);
-	cp.id = "row_" + (i++);
-	console.log(i + "a");
-	rmButton.id = "removeNewGuidelinesButton_" + (i++);
-    console.log(i + "b");
-   `content.parentNode.appendChild(cp);
+	i++;
+	var cp = content.cloneNode(true);
+    	cp.id = "row_" + (i); 
+    	cp.getElementsByTagName('input')[1].id = "removeButton_" + i;
+    	content.parentNode.appendChild(cp);
+	updateRows(1);
 }
-
-function removeDiv() {
-	var rm;
-	
+function removeDiv(curRemoveButtonID){
+	if(curRemoveButtonID == "removeButton_0"){
+		// Keeps always one row 
+	}else{
+		if(trackNumRows == 0){}else{
+			var cRemoveBtnID = document.getElementById(curRemoveButtonID);
+			var row = cRemoveBtnID.parentNode;
+			row.remove(row);
+			updateRows(-1);
+		}
+	}
+}
+function updateRows(curNumRows){
+	trackNumRows = curNumRows + trackNumRows;
 }
