@@ -13,22 +13,10 @@
     <body>
 <div>
   <div id="row"> 
-    Knowledge Area: <select></select>
-    Knowledge Unit: <select></select>
-    Topics: <select></select>
-    Hours<input type="text">
-    <input type="button" value="remove"/>
-  </div>
-</div>
-<br>
-<input type="submit" id="button" onclick="copyDiv()" value="Add New Guidelines"><br><br>
-<input type="submit" onclick="history.back()" value="cancel">
-<input type="button" onclick="history.back()" value="submit">
-<!--
-        <form action="/action_page.php">
+    <form action="/action_page.php">
 		<label> Knowledge Area &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
-		        Knowledge Unit &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-				Topic Tiers	   &emsp;
+		        Knowledge Unit &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+				Topic Tiers	   &emsp;&emsp;&emsp;
 				Hours </br></label>
             <select name="Knowledge Area">
                 <option value=""></option>
@@ -221,16 +209,18 @@
                 <option name="" title="Tier 2">Topic 2</option>
                 <option name="" title="Elective">Elective Topic</option>
             </select>
-            <input name="Hours" type=text>
-            <text>Hours</text>
-            <button type="button" onclick="">Remove</button>
+            <input name="Hours" type=text size="4">
+            <button type="button" id="removeNewGuidelinesButton" onclick="">Remove</button>
             <br>
-            <button type="button" onclick="">Add New Guidelines</button>
-            <br><br>
-            <button type="button" onclick="history.back()">Cancel</button>
-            <button type="button" onclick="history.back()">Submit</button>
         </form>
--->
+  </div>
+</div>
+<br>
+<input type="submit" id="addNewGuidelinesButton" onclick="copyDiv()" value="Add New Guidelines"><br><br>
+<input type="submit" onclick="history.back()" value="cancel">
+<input type="button" onclick="history.back()" value="submit">
+
+        
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 	<script src="test.js"></script>
