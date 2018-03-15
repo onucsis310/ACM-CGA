@@ -2,25 +2,23 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Courses</title>
+		<!-- sets tab title to the course you are editing -->
+		<script>
+		var myURL = document.URL;
+		var courseInput = myURL.substring(68);
+		courseInput = decodeURI(courseInput);
+		window.document.title = courseInput;
+		</script>
     </head>
     <body>
 <div>
   <div id="row_0"> 
-    Knowledge Area: <select></select>
-    Knowledge Unit: <select></select>
-    Topics: <select></select>
-    Hours<input type="text">
-    <input type="button" id="removeButton_0" value="remove" onclick="removeDiv(this.id)" />
-  </div>
-</div>
-<br>
-<input type="submit" id="button" onclick="copyDiv()" value="Add New Guidelines"><br><br>
-<input type="submit" value="cancel">
-<input type="button" value="submit">
-<!--
-        <form action="/action_page.php">
-            <select name="Knowledge Area">
+            <form action="/action_page.php">
+            <label> Knowledge Area &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
+		        Knowledge Unit &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+				Topic Tiers	   &emsp;&emsp;
+				Hours </br></label>
+			<select name="Knowledge Area">
                 <option value=""></option>
                 <option value="AL">Algorithms and Complexity</option>
                 <option value="AR">Architecture and Organization</option>
@@ -211,16 +209,15 @@
                 <option name="" title="Tier 2">Topic 2</option>
                 <option name="" title="Elective">Elective Topic</option>
             </select>
-            <input name="Hours" type=text>
-            <text>Hours</text>
-            <button type="button" onclick="">Remove</button>
-            <br>
-            <button type="button" onclick="">Add New Guidelines</button>
-            <br><br>
-            <button type="button" onclick="">Cancel</button>
-            <button type="button" onclick="">Submit</button>
+            <input name="Hours" type=text size="4">
+			<input type="button" id="removeButton_0" value="Remove" onclick="removeDiv(this.id)" />
         </form>
--->
+  </div>
+</div>
+<br>
+<input type="submit" id="button" onclick="copyDiv()" value="Add New Guidelines"><br><br>
+<input type="submit" onclick="history.back()" value="cancel">
+<input type="button" onclick="history.back()" value="submit">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="test.js"></script>
     </body>
