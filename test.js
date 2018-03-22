@@ -19,10 +19,17 @@ function setValues(){
 		coursesNParam.push(courseNums);
 		n++;
 	}
-	var words = schoolCourses().split("\n");
-	storeCourses(words);
-	assignToParam();
-	redirect(getGeneratedVars());
+	if (numOfCourses() == 1)
+	{
+		alert("You must enter in at least one course!");
+	}
+	else
+	{
+		var words = schoolCourses().split("\n");
+		storeCourses(words);
+		assignToParam();
+		redirect(getGeneratedVars());
+	}
 }
 function storeCourses(wds){
 	for(var i = 0; i < numOfCourses(); i++){
