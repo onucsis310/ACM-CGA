@@ -64,7 +64,7 @@ var trackNumRows = 0;
 var content = document.getElementById('row_0');
 document.getElementById('button').onclick = copyDiv;
 
-function copyDiv() {
+function copyDiv(){
 	i++;
 	var cp = content.cloneNode(true);
     	cp.id = "row_" + (i); 
@@ -88,4 +88,14 @@ function removeDiv(curRemoveButtonID){
 
 function updateRows(curNumRows){
 	trackNumRows = curNumRows + trackNumRows;
+}
+
+function createAccountSuccess(){
+	alert("Account Created! Window will redirect to login page.");
+	window.history.back();
+}
+
+function resetPasswordSuccess(){
+	alert("Password reset instructions sent. Window will redirect to login page.");
+	window.history.back();
 }
