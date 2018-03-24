@@ -1,13 +1,13 @@
 /* edited from suggestion at https://stackoverflow.com/questions/3635166/how-to-import-csv-file-to-mysql-table as answered by User: Fahad */
 
 LOAD DATA LOCAL INFILE  
-'CSV/Guidelines.csv'
+'CSV/ACM Database Tables - Guidelines.csv'
 INTO TABLE Guidelines  
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(Guidelines_ID,Name ,Discipline, Source);
+(Guidelines_ID,Name ,Discipline, Curriculum_Source);
 
 LOAD DATA LOCAL INFILE  
 'CSV/ACM Database Tables - Knowledge_Area.csv'
