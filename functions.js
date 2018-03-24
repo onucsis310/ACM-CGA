@@ -7,10 +7,12 @@ function schoolCourses(){
 	var allWords = $("#data").val();
 	return allWords;
 }
+
 function numOfCourses(){
 	var numWords = schoolCourses().split("\n").length;
 	return numWords;
 }
+
 function setValues(){
 	var addCourse = "course";
 	var courseNums;
@@ -31,11 +33,13 @@ function setValues(){
 		redirect(getGeneratedVars());
 	}
 }
+
 function storeCourses(wds){
 	for(var i = 0; i < numOfCourses(); i++){
 		listCourses[i] = wds[i];
 	}
 }
+
 function assignToParam(){
 	n = 0;	
 	while(n < numOfCourses()){
@@ -44,11 +48,13 @@ function assignToParam(){
 		n++;
 	}
 }
+
 function getGeneratedVars(){
 	var pth;
 	pth = aCourseNParam.toString().replace(/,/g,"&");
 	return pth;
 }
+
 function redirect(){
 	window.location = "CourseListPg2.php?" + getGeneratedVars();
 }
@@ -66,6 +72,7 @@ function copyDiv() {
     	content.parentNode.appendChild(cp);
 	updateRows(1);
 }
+
 function removeDiv(curRemoveButtonID){
 	if(curRemoveButtonID == "removeButton_0"){
 		// Keeps always one row 
@@ -78,6 +85,7 @@ function removeDiv(curRemoveButtonID){
 		}
 	}
 }
+
 function updateRows(curNumRows){
 	trackNumRows = curNumRows + trackNumRows;
 }

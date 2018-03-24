@@ -1,24 +1,25 @@
-<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
 		<!-- sets tab title to the course you are editing -->
 		<script>
-		var myURL = document.URL;
-		var courseInput = myURL.substring(68);
-		courseInput = decodeURI(courseInput);
-		window.document.title = courseInput;
+			var myURL = document.URL;
+			var courseInput = myURL.substring(68);
+			courseInput = decodeURI(courseInput);
+			window.document.title = courseInput;
 		</script>
     </head>
-    <body>
-<div>
-  <div id="row_0"> 
-            <form action="/action_page.php">
-            <label> Knowledge Area &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
+    
+	<body>
+		<div>
+  		<div id="row_0"> 
+            	<form action="/action_page.php">
+            	<label> Knowledge Area &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
 		        Knowledge Unit &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-				Topic Tiers	   &emsp;&emsp;
-				Hours </br></label>
-			<select name="Knowledge Area">
+			Topic Tiers	   &emsp;&emsp;
+			Hours </br></label>
+		
+		<select name="Knowledge Area">
                 <option value=""></option>
                 <option value="AL">Algorithms and Complexity</option>
                 <option value="AR">Architecture and Organization</option>
@@ -38,8 +39,9 @@
                 <option value="SE">Software Engineering</option>
                 <option value="SF">Systems Fundamentals</option>
                 <option value="SP">Social Issues and Professional Practice</option>
-            </select>
-            <select name="Knowledge Unit">
+		</select>
+		
+		<select name="Knowledge Unit">
                 <option value=""></option>
                 <option value="AL/BasicAnalysis">Basic Analysis</option>
                 <option value="AL/AlgorithmicStrategies">Algorithmic Strategies</option>
@@ -202,23 +204,25 @@
                 <option value="SP/History">History</option>
                 <option value="SP/EconomiesofComputing">Economies of Computing</option>
                 <option value="SP/SecurityPoliciesLawsandComputerCrimes">Security Policies, Laws, and Computer Crimes</option>
-            </select>
-            <select name="Topic">
+            	</select>
+            	<select name="Topic">
                 <option name=""></option>
                 <option name="" title="Tier 1">Topic 1</option>
                 <option name="" title="Tier 2">Topic 2</option>
                 <option name="" title="Elective">Elective Topic</option>
-            </select>
-            <input name="Hours" type=text size="4">
-			<input type="button" id="removeButton_0" value="Remove" onclick="removeDiv(this.id)" />
-        </form>
-  </div>
-</div>
-<br>
-<input type="submit" id="button" onclick="copyDiv()" value="Add New Guidelines"><br><br>
-<input type="submit" onclick="history.back()" value="cancel">
-<input type="button" onclick="history.back()" value="submit">
+            	</select>
+            	
+		<input name="Hours" type=text size="4">
+		<input type="button" id="removeButton_0" value="Remove" onclick="removeDiv(this.id)"/>
+        	</form>
+		
+		</div>
+		</div>
+	<br>
+	<input type="submit" id="button" onclick="copyDiv()" value="Add New Guidelines"><br><br>
+	<input type="submit" onclick="history.back()" value="cancel">
+	<input type="button" onclick="history.back()" value="submit">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="test.js"></script>
-    </body>
+	<script src="functions.js"></script>
+	</body>
 </html>
