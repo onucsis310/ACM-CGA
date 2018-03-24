@@ -41,7 +41,7 @@ CREATE TABLE Tier1_Outcomes (
     Tier1_Outcomes_ID int(50) NOT NULL AUTO_INCREMENT,
     Name VARCHAR(500),
     Knowledge_Unit VARCHAR(100),
-    PRIMARY KEY (Tier1_Outcome_ID));
+    PRIMARY KEY (Tier1_Outcomes_ID));
     
 CREATE TABLE Tier2_Topic (
     Tier2_Topic_ID int(50) NOT NULL AUTO_INCREMENT,
