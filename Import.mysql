@@ -73,7 +73,7 @@ IGNORE 1 LINES
 (Curricula_ID,Curricula );
 
 LOAD DATA LOCAL INFILE  
-'CSV/ACM Database Tables - Institution'
+'CSV/ACM Database Tables - Institution.csv'
 INTO TABLE Institution   
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
