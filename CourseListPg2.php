@@ -25,5 +25,5 @@
 	start++;
 	}
 	</script>
-	<input type="submit" name="Submit" value="Generate Report" onClick="location.href='Report.html'";>
+	<input type="submit" name="Submit" value="Generate Report" onClick="location.href='Report.php'";>
 </body>
