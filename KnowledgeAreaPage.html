@@ -19,7 +19,7 @@
 			Topic Tiers	   &emsp;&emsp;
 			Hours </br></label>
 		
-		<select name="Knowledge Area">
+		<select id="Knowledge Area">
                 <option value=""></option>
                 <option value="AL">Algorithms and Complexity</option>
                 <option value="AR">Architecture and Organization</option>
@@ -41,7 +41,7 @@
                 <option value="SP">Social Issues and Professional Practice</option>
 		</select>
 		
-		<select name="Knowledge Unit">
+		<select id="Knowledge Unit">
                 <option value=""></option>
                 <option value="AL/BasicAnalysis">Basic Analysis</option>
                 <option value="AL/AlgorithmicStrategies">Algorithmic Strategies</option>
@@ -205,14 +205,14 @@
                 <option value="SP/EconomiesofComputing">Economies of Computing</option>
                 <option value="SP/SecurityPoliciesLawsandComputerCrimes">Security Policies, Laws, and Computer Crimes</option>
             	</select>
-            	<select name="Topic">
+            	<select id="Topic">
                 <option name=""></option>
                 <option name="" title="Tier 1">Topic 1</option>
                 <option name="" title="Tier 2">Topic 2</option>
                 <option name="" title="Elective">Elective Topic</option>
             	</select>
             	
-		<input name="Hours" type=text size="4">
+		<input name="Hours" type=text size="4" id="hours">
 		<input type="button" id="removeButton_0" value="Remove" onclick="removeDiv(this.id)"/>
         	</form>
 		

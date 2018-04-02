@@ -67,7 +67,8 @@ document.getElementById('button').onclick = copyDiv;
 function copyDiv(){
 	i++;
 	var cp = content.cloneNode(true);
-    	cp.id = "row_" + (i); 
+    	cp.id = "row_" + (i);
+	cleanUpInputs(cp);
     	cp.getElementsByTagName('input')[1].id = "removeButton_" + i;
     	content.parentNode.appendChild(cp);
 	updateRows(1);
@@ -75,7 +76,11 @@ function copyDiv(){
 
 function removeDiv(curRemoveButtonID){
 	if(curRemoveButtonID == "removeButton_0"){
-		// Keeps always one row 
+		// Keeps always one row
+		cleanUpInputs(content);
+		document.getElementById("Knowledge Area").selectedIndex=0;
+		document.getElementById("Knowledge Unit").selectedIndex=0;
+		document.getElementById("Topic").selectedIndex=0;
 	}else{
 		if(trackNumRows == 0){}else{
 			var cRemoveBtnID = document.getElementById(curRemoveButtonID);
@@ -98,4 +103,18 @@ function createAccountSuccess(){
 function resetPasswordSuccess(){
 	alert("Password reset instructions sent. Window will redirect to login page.");
 	window.history.back();
+}
+
+function cleanUpInputs(obj){
+	for (var i=0; n=obj.childNodes[i]; i++)
+	{
+		if (n.childNodes && n.tagName != 'INPUT')
+		{
+			cleanUpInputs(n);
+		}
+		else if (n.tagName == 'INPUT' && n.type == 'text')
+		{
+			n.value = '';
+		}
+	}
 }

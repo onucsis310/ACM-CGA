@@ -5,9 +5,8 @@
 	</head>
 
 	<body>
-		<table>
-			<p>
-			<tr><td>Institution</td><td><select> 
+		<p>&emsp;&emsp;&emsp;&emsp;Institution
+		<select> 
     			<optgroup label = "Illinois">  
       				<option value = "Olivet_Nazarene_University">Olivet Nazarene University</option> 
       				<option value = "Kankakee_Community_College">Kankakee Community College</option> 
@@ -19,15 +18,19 @@
     			<optgroup label = "California">  
       				<option value = "Stanford_University">Stanford University</option> 
     			</optgroup> 
-    			</select></td></tr>
-			</p>
- 			<p>
-    			<tr><td>&emsp;&emsp;Email</td><td><input type="username"></input><td></tr>
- 			</p>
-			<p>
- 			<tr><td>Password</td><td><input type="password"></input></td></tr>
- 			</p>
-		</table>
+    		</select>
+		</p>
+			
+		<p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Email
+    		<input name="email" required="required" type="username" id="username"></input></p>
+ 			
+		<p>&emsp;&emsp;&emsp;&emsp;Password
+    		<input name="password" required="required" type="password" id="password"></input></p>
+ 			
+		<p>Retype Password
+    		<input name="password_retype" required="required" type="password" id="password_retype"
+                       oninput="check(this)"></input></p>	
+			
 		<button type="submit" onclick="createAccountSuccess()";>Create Account</button>
 	</body>
 </html>
