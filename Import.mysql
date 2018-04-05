@@ -1,3 +1,4 @@
+
 /* edited from suggestion at https://stackoverflow.com/questions/3635166/how-to-import-csv-file-to-mysql-table as answered by User: Fahad */
 
 LOAD DATA LOCAL INFILE  
@@ -82,7 +83,7 @@ IGNORE 1 LINES
 (Institution_ID,Name  , Web_Domain, Contact_Information);
 
 LOAD DATA LOCAL INFILE  
-'CSV/ACM Database Tables - User.csv'
+'CSV/ACM Database Tables - System_User.csv'
 INTO TABLE  System_User  
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
@@ -100,21 +101,12 @@ LINES TERMINATED BY '\n'
 IGNORE 1 LINES;
 
 LOAD DATA LOCAL INFILE  
-'CSV/ACM Database Tables - Elective_Outcomes.csv'
-INTO TABLE  Elective_Outcomes  
-FIELDS TERMINATED BY ',' 
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-(Elective_Outcomes_ID,Name, Knowledge_Unit)
-IGNORE 1 LINES;
-
-LOAD DATA LOCAL INFILE  
 'CSV/ACM Database Tables - Tier1_Outcomes.csv'
 INTO TABLE  Tier1_Outcomes  
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-(Tier1_Outcomes_ID,Name, Knowledge_Unit)
+(Tier1_Outcomes_ID,Name, Knowledge_Unit, Learning_Aspects, Objective_Number)
 IGNORE 1 LINES;
 
 LOAD DATA LOCAL INFILE  
@@ -123,7 +115,7 @@ INTO TABLE  Tier2_Outcomes
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-(Tier2_Outcomes_ID,Name, Knowledge_Unit)
+(Tier2_Outcomes_ID,Name, Knowledge_Unit, Learning_Aspects, Objective_Number)
 IGNORE 1 LINES;
 
 LOAD DATA LOCAL INFILE  
@@ -132,5 +124,43 @@ INTO TABLE  Elective_Outcomes
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-(Elective_Outcomes_ID,Name, Knowledge_Unit)
+(Elective_Outcomes_ID,Name, Knowledge_Unit, Learning_Aspects, Objective_Number)
 IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE  
+'CSV/ACM Database Tables - User_Tier1_Hours.csv'
+INTO TABLE User_Tier1_Hours 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+(User_Tier1_Hours_ID, Course_Curriculum_ID  , Knowledge_Unit_ID, Hours);
+
+LOAD DATA LOCAL INFILE  
+'CSV/ACM Database Tables - User_Tier2_Hours.csv'
+INTO TABLE User_Tier2_Hours 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+(User_Tier2_Hours_ID, Course_Curriculum_ID  , Knowledge_Unit_ID, Hours);
+
+LOAD DATA LOCAL INFILE  
+'CSV/ACM Database Tables - User_Elective_Hours.csv'
+INTO TABLE User_Elective_Hours  
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+(User_Elective_Hours_ID , Course_Curriculum_ID  , Knowledge_Unit_ID, Hours);
+
+LOAD DATA LOCAL INFILE  
+'CSV/ACM Database Tables - User_Scores.csv'
+INTO TABLE User_Scores  
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+(User_Scores_ID , Institution_ID, Local_Average, National_Average,
+ Question_Number, Outline_Area ,Knowledge_Area, Knowledge_Area_ID,
+ Knowledge_Unit, Knowledge_Unit_ID, Objective_Number, Abet_Category);
