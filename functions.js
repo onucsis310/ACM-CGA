@@ -95,11 +95,6 @@ function updateRows(curNumRows){
 	trackNumRows = curNumRows + trackNumRows;
 }
 
-function createAccountSuccess(){
-	alert("Account Created! Window will redirect to login page.");
-	window.history.back();
-}
-
 function resetPasswordSuccess(){
 	alert("Password reset instructions sent. Window will redirect to login page.");
 	window.history.back();
@@ -116,5 +111,24 @@ function cleanUpInputs(obj){
 		{
 			n.value = '';
 		}
+	}
+}
+
+function passwordCheck(){
+	if (document.registration.password.value != document.registration.password_retype.value)
+	{
+		alert('Passwords do not match!');
+		return false;
+	}
+	else if (document.registration.password.value == "")
+	{
+		alert('Password must not be blank!');
+		return false;
+	}
+	else
+	{	
+		alert("Account Created! Window will redirect to login page.");			
+		document.registration.submit();
+		return true;
 	}
 }

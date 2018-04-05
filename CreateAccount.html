@@ -20,7 +20,9 @@
     			</optgroup> 
     		</select>
 		</p>
-			
+
+		<form name="registration" action="Login.html">
+		
 		<p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Email
     		<input name="email" required="required" type="username" id="username"></input></p>
  			
@@ -28,9 +30,9 @@
     		<input name="password" required="required" type="password" id="password"></input></p>
  			
 		<p>Retype Password
-    		<input name="password_retype" required="required" type="password" id="password_retype"
-                       oninput="check(this)"></input></p>	
+    		<input name="password_retype" required="required" type="password" id="password_retype"></input></p>	
 			
-		<button type="submit" onclick="createAccountSuccess()";>Create Account</button>
+		<button type="button" onclick="return passwordCheck()" value="submit">Create Account</button>
+		</form>
 	</body>
 </html>
