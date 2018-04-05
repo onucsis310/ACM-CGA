@@ -137,7 +137,6 @@ CREATE TABLE User_Scores (
     Objective_Number int(50),
     Abet_Category VARCHAR(50),
     PRIMARY KEY (User_Scores_ID));
-}
 
 
 CREATE TABLE System_User (
