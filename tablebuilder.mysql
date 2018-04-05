@@ -41,7 +41,9 @@ CREATE TABLE Tier1_Outcomes (
     Tier1_Outcomes_ID int(50) NOT NULL AUTO_INCREMENT,
     Name VARCHAR(500),
     Knowledge_Unit VARCHAR(100),
-    PRIMARY KEY (Tier1_Outcome_ID));
+    Learning_Aspect VARCHAR(50),
+    Objective_Number int(50),
+    PRIMARY KEY (Tier1_Outcomes_ID));
     
 CREATE TABLE Tier2_Topic (
     Tier2_Topic_ID int(50) NOT NULL AUTO_INCREMENT,
@@ -53,6 +55,8 @@ CREATE TABLE Tier2_Outcomes (
     Tier2_Outcomes_ID int(50) NOT NULL AUTO_INCREMENT,
     Name VARCHAR(500),
     Knowledge_Unit VARCHAR(100),
+    Learning_Aspect VARCHAR(50),
+    Objective_Number int(50),
     PRIMARY KEY (Tier2_Outcomes_ID));
     
 CREATE TABLE Elective_Topic (
@@ -65,16 +69,40 @@ CREATE TABLE Elective_Outcomes (
     Elective_Outcomes_ID int(50) NOT NULL AUTO_INCREMENT,
     Name VARCHAR(500),
     Knowledge_Unit VARCHAR(100),
+    Learning_Aspect VARCHAR(50),
+    Objective_Number int(50),
     PRIMARY KEY (Elective_Outcomes_ID));
 
 /* ADDED: Learning outcomes
 ** Divided by tier
 ** Handle the same as Topics
 */
+
+CREATE TABLE User_Tier1_Hours (
+    User_Tier1_Hours_ID int(50) NOT NULL AUTO_INCREMENT,
+    Course_Curriculum_ID int(50),
+    Knowledge_Unit_ID int(50),
+    Hours int(50),
+    PRIMARY KEY (User_Tier1_Hours_ID));
     
+CREATE TABLE User_Tier2_Hours (
+    User_Tier2_Hours_ID int(50) NOT NULL AUTO_INCREMENT,
+    Course_Curriculum_ID int(50),
+    Knowledge_Unit_ID int(50),
+    Hours int(50),
+    PRIMARY KEY (User_Tier2_Hours_ID));
+
+CREATE TABLE User_Elective_Hours (
+    User_Elective_Hours_ID int(50) NOT NULL AUTO_INCREMENT,
+    Course_Curriculum_ID int(50),
+    Knowledge_Unit_ID int(50),
+    Hours int(50),
+    PRIMARY KEY (User_Elective_Hours_ID));
+
 CREATE TABLE Course_Curriculum(
     Course_Curriculum_ID int(50) NOT NULL AUTO_INCREMENT,
     Name VARCHAR(100),
+    Curricula_ID int(50),
     PRIMARY KEY (Course_Curriculum_ID));
 
 
@@ -95,14 +123,22 @@ CREATE TABLE Institution (
     Contact_Information VARCHAR(500),
     PRIMARY KEY (Institution_ID));
 
-/*
-CREATE TABLE Scores (
-    Scores_ID int(50) not NULL AUTO_INCREMENT,
-    Institution VARCHAR(100),
-    System_User VARCHAR(100),
-    Test_Scores
-    )
-*/
+CREATE TABLE User_Scores (
+    User_Scores_ID int(50) not NULL AUTO_INCREMENT,
+    Institution_ID int(50),
+    Local_Average int(50),
+    National_Average int(50),
+    Question_Number int(50),
+    Exam_Outline VARCHAR(50),
+    Knowledge_Area VARCHAR(100),
+    Knowledge_Area_ID int(50),
+    Knowledge_Unit VARCHAR(100),
+    Knowledge_Unit_ID int(50),
+    Objective_Number int(50),
+    Abet_Category VARCHAR(50),
+    PRIMARY KEY (User_Scores_ID));
+}
+
 
 CREATE TABLE System_User (
     System_User_ID int(50) NOT NULL AUTO_INCREMENT,
