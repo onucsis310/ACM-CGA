@@ -126,8 +126,8 @@ CREATE TABLE Institution (
 CREATE TABLE User_Scores (
     User_Scores_ID int(50) not NULL AUTO_INCREMENT,
     Institution_ID int(50),
-    Local_Average int(50),
-    National_Average int(50),
+    Local_Average float(4,1),
+    National_Average float(4,1),
     Question_Number int(50),
     Exam_Outline VARCHAR(50),
     Knowledge_Area VARCHAR(100),

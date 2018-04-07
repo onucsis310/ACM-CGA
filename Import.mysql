@@ -1,4 +1,3 @@
-
 /* edited from suggestion at https://stackoverflow.com/questions/3635166/how-to-import-csv-file-to-mysql-table as answered by User: Fahad */
 
 LOAD DATA LOCAL INFILE  
@@ -106,7 +105,7 @@ INTO TABLE  Tier1_Outcomes
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-(Tier1_Outcomes_ID,Name, Knowledge_Unit, Learning_Aspects, Objective_Number)
+(Tier1_Outcomes_ID,Name, Knowledge_Unit, Learning_Aspect, Objective_Number)
 IGNORE 1 LINES;
 
 LOAD DATA LOCAL INFILE  
@@ -115,7 +114,7 @@ INTO TABLE  Tier2_Outcomes
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-(Tier2_Outcomes_ID,Name, Knowledge_Unit, Learning_Aspects, Objective_Number)
+(Tier2_Outcomes_ID,Name, Knowledge_Unit, Learning_Aspect, Objective_Number)
 IGNORE 1 LINES;
 
 LOAD DATA LOCAL INFILE  
@@ -124,7 +123,7 @@ INTO TABLE  Elective_Outcomes
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-(Elective_Outcomes_ID,Name, Knowledge_Unit, Learning_Aspects, Objective_Number)
+(Elective_Outcomes_ID,Name, Knowledge_Unit, Learning_Aspect, Objective_Number)
 IGNORE 1 LINES;
 
 LOAD DATA LOCAL INFILE  
@@ -163,4 +162,4 @@ LINES TERMINATED BY '\n'
 IGNORE 1 LINES
 (User_Scores_ID , Institution_ID, Local_Average, National_Average,
  Question_Number, Outline_Area ,Knowledge_Area, Knowledge_Area_ID,
- Knowledge_Unit, Knowledge_Unit_ID, Objective_Number, Abet_Category);
+Knowledge_Unit, Knowledge_Unit_ID, Objective_Number, Abet_Category);
