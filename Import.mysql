@@ -96,8 +96,8 @@ INTO TABLE  Access_Key
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-(Access_Key_ID,Access_Level)
-IGNORE 1 LINES;
+IGNORE 1 LINES
+(Access_Key_ID,Access_Level);
 
 LOAD DATA LOCAL INFILE  
 'CSV/ACM Database Tables - Tier1_Outcomes.csv'
@@ -105,8 +105,8 @@ INTO TABLE  Tier1_Outcomes
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-(Tier1_Outcomes_ID,Name, Knowledge_Unit, Learning_Aspect, Objective_Number)
-IGNORE 1 LINES;
+IGNORE 1 LINES
+(Tier1_Outcomes_ID,Name, Knowledge_Unit, Learning_Aspect, Objective_Number);
 
 LOAD DATA LOCAL INFILE  
 'CSV/ACM Database Tables - Tier2_Outcomes.csv'
@@ -114,8 +114,8 @@ INTO TABLE  Tier2_Outcomes
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-(Tier2_Outcomes_ID,Name, Knowledge_Unit, Learning_Aspect, Objective_Number)
-IGNORE 1 LINES;
+IGNORE 1 LINES
+(Tier2_Outcomes_ID,Name, Knowledge_Unit, Learning_Aspect, Objective_Number);
 
 LOAD DATA LOCAL INFILE  
 'CSV/ACM Database Tables - Elective_Outcomes.csv'
@@ -123,8 +123,8 @@ INTO TABLE  Elective_Outcomes
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-(Elective_Outcomes_ID,Name, Knowledge_Unit, Learning_Aspect, Objective_Number)
-IGNORE 1 LINES;
+IGNORE 1 LINES
+(Elective_Outcomes_ID,Name, Knowledge_Unit, Learning_Aspect, Objective_Number);
 
 LOAD DATA LOCAL INFILE  
 'CSV/ACM Database Tables - User_Tier1_Hours.csv'
@@ -161,5 +161,5 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
 (User_Scores_ID , Institution_ID, Local_Average, National_Average,
- Question_Number, Outline_Area ,Knowledge_Area, Knowledge_Area_ID,
+ Question_Number, Exam_Outline ,Knowledge_Area, Knowledge_Area_ID,
 Knowledge_Unit, Knowledge_Unit_ID, Objective_Number, Abet_Category);
