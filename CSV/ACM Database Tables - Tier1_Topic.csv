@@ -1,0 +1,226 @@
+Tier1_Topic_ID,Name,Knowledge_Unit
+,"Differences among best, expected, and worst case behaviors of an algorithm",AL/Basic Analysis
+,Asymptotic analysis of upper and expected complexity bounds,AL/Basic Analysis
+,Big O notation: formal definition,AL/Basic Analysis
+,"Complexity classes, such as constant, logarithmic, linear, quadratic, and exponential",AL/Basic Analysis
+,Empirical measurements of performance,AL/Basic Analysis
+,Time and space trade-offs in algorithms,AL/Basic Analysis
+,Brute-force algorithms,AL/Algorithmic Strategies
+,Greedy algorithms,AL/Algorithmic Strategies
+,Divide-and-conquer (cross-reference SDF/Algorithms and Design/Problem-solving strategies),AL/Algorithmic Strategies
+,Recursive backtracking,AL/Algorithmic Strategies
+,Dynamic Programming,AL/Algorithmic Strategies
+,"Simple numerical algorithms, such as computing the average of a list of numbers, finding the min, max, and mode in a list, approximating the square root of a number, or finding the greatest common divisor",AL/Fundamental Data Structures and Algorithms
+,Sequential and binary search algorithms,AL/Fundamental Data Structures and Algorithms
+,"Worst case quadratic sorting algorithms (selection, insertion)",AL/Fundamental Data Structures and Algorithms
+,"Worst or average case O(N log N) sorting algorithms (quicksort, heapsort, mergesort)",AL/Fundamental Data Structures and Algorithms
+,"Hash tables, including strategies for avoiding and resolving collisions",AL/Fundamental Data Structures and Algorithms
+,"Binary search trees o Common operations on binary search trees such as select min, max, insert, delete, iterate over tree",AL/Fundamental Data Structures and Algorithms
+,"Graphs and graph algorithms o Representations of graphs (e.g., adjacency list, adjacency matrix) o Depth- and breadth-first traversals",AL/Fundamental Data Structures and Algorithms
+,Finite-state machines,AL/Basic Automata Computability and Complexity
+,Regular expressions,AL/Basic Automata Computability and Complexity
+,The halting problem,AL/Basic Automata Computability and Complexity
+,Models as abstractions of situations,CN/Introduction to Modeling and Simulation
+,Simulations as dynamic modeling,CN/Introduction to Modeling and Simulation
+,"Simulation techniques and tools, such as physical simulations, human-in-the-loop guided simulations, and virtual reality",CN/Introduction to Modeling and Simulation
+,"Foundational approaches to validating models (e.g., comparing a simulation’s output to real data or the output of another model)",CN/Introduction to Modeling and Simulation
+,Presentation of results in a form relevant to the system being modeled,CN/Introduction to Modeling and Simulation
+,"Sets o Venn diagrams o Union, intersection, complement o Cartesian product o Power sets o Cardinality of finite sets","DS/Sets, Relations, and Functions"
+,"Relations o Reflexivity, symmetry, transitivity o Equivalence relations, partial orders","DS/Sets, Relations, and Functions"
+,"Functions o Surjections, injections, bijections o Inverses o Composition","DS/Sets, Relations, and Functions"
+,Propositional logic (cross-reference: Propositional logic is also reviewed in IS/Knowledge Based Reasoning),DS/Basic Logic
+,Logical connectives,DS/Basic Logic
+,Truth tables,DS/Basic Logic
+,Normal forms (conjunctive and disjunctive),DS/Basic Logic
+,Validity of well-formed formula,DS/Basic Logic
+,Propositional inference rules (concepts of modus ponens and modus tollens),DS/Basic Logic
+,Predicate logic o Universal and existential quantification,DS/Basic Logic
+,"Limitations of propositional and predicate logic (e.g., expressiveness issues)",DS/Basic Logic
+,"Notions of implication, equivalence, converse, inverse, contrapositive, negation, and contradiction",DS/Proof Techniques
+,The structure of mathematical proofs,DS/Proof Techniques
+,Direct proofs,DS/Proof Techniques
+,Disproving by counterexample,DS/Proof Techniques
+,Proof by contradiction,DS/Proof Techniques
+,Induction over natural numbers,DS/Proof Techniques
+,Structural induction,DS/Proof Techniques
+,"Weak and strong induction (i.e., First and Second Principle of Induction)",DS/Proof Techniques
+,Recursive mathematical definitions,DS/Proof Techniques
+,Counting arguments o Set cardinality and counting o Sum and product rule o Inclusion-exclusion principle o Arithmetic and geometric progressions,DS/Basics of Counting
+,The pigeonhole principle,DS/Basics of Counting
+,Permutations and combinations o Basic definitions o Pascal’s identity o The binomial theorem,DS/Basics of Counting
+,"Solving recurrence relations (cross-reference: AL/Basic Analysis) o An example of a simple recurrence relation, such as Fibonacci numbers o Other examples, showing a variety of solutions",DS/Basics of Counting
+,Basic modular arithmetic,DS/Basics of Counting
+,Trees o Properties o Traversal strategies,DS/Graphs and Trees
+,Undirected graphs,DS/Graphs and Trees
+,Directed graphs,DS/Graphs and Trees
+,Weighted graphs,DS/Graphs and Trees
+,"Finite probability space, events",DS/Discrete Probability
+,Axioms of probability and probability measures,DS/Discrete Probability
+,"Conditional probability, Bayes’ theorem",DS/Discrete Probability
+,Independence,DS/Discrete Probability
+,"Integer random variables (Bernoulli, binomial)",DS/Discrete Probability
+,"Expectation, including Linearity of Expectation",DS/Discrete Probability
+,"Media applications including user interfaces, audio and video editing, game engines, cad, visualization, virtual reality",GV/Fundamental Concepts
+,"Digitization of analog data, resolution, and the limits of human perception, e.g., pixels for visual display, dots for laser printers, and samples for audio (HCI/Foundations)",GV/Fundamental Concepts
+,Use of standard APIs for the construction of UIs and display of standard media formats (see HCI/GUI construction),GV/Fundamental Concepts
+,"Standard media formats, including lossless and lossy formats",GV/Fundamental Concepts
+,"Contexts for HCI (anything with a user interface, e.g., webpage, business applications, mobile applications, and games)",HCI/Foundations
+,"Processes for user-centered development, e.g., early focus on users, empirical testing, iterative design",HCI/Foundations
+,"Different measures for evaluation, e.g., utility, efficiency, learnability, user satisfaction",HCI/Foundations
+,Usability heuristics and the principles of usability testing,HCI/Foundations
+,"Physical capabilities that inform interaction design, e.g., color perception, ergonomics",HCI/Foundations
+,"Cognitive models that inform interaction design, e.g., attention, perception and recognition, movement, and memory; gulfs of expectation and execution",HCI/Foundations
+,"Social models that inform interaction design, e.g., culture, communication, networks and organizations",HCI/Foundations
+,Principles of good design and good designers; engineering tradeoffs,HCI/Foundations
+,"Accessibility, e.g., interfaces for differently-abled populations (e.g., blind, motion-impaired)",HCI/Foundations
+,"Interfaces for differently-aged population groups (e.g., children, 80+)",HCI/Foundations
+,"CIA (Confidentiality, Integrity, Availability)",IAS/Foundational Concepts in Security
+,"Concepts of risk, threats, vulnerabilities, and attack vectors (cros- reference SE/Software Project Management/Risk)",IAS/Foundational Concepts in Security
+,"Authentication and authorization, access control (mandatory vs. discretionary)",IAS/Foundational Concepts in Security
+,Concept of trust and trustworthiness,IAS/Foundational Concepts in Security
+,"Ethics (responsible disclosure). (cross-reference SP/Professional Ethics/Accountability, responsibility and liability)",IAS/Foundational Concepts in Security
+,Least privilege and isolation (cross-reference OS/Security and Protection/Policy/mechanism separation and SF/Virtualization and Isolation/Rationale for protection and predictable performance and PL/Language Translation and Execution/Memory management),IAS/Principles of Secure Design
+,"Fail-safe defaults (cross-reference SE/Software Construction/ Coding practices: techniques, idioms/patterns, mechanisms for building quality programs and SDF/Development Methods/Programming correctness)",IAS/Principles of Secure Design
+,"Open design (cross-reference SE/Software Evolution/ Software development in the context of large, preexisting code bases)",IAS/Principles of Secure Design
+,End-to-end security (cross-reference SF/Reliability through Redundancy/ How errors increase the longer the distance between the communicating entities; the end-to-end principle),IAS/Principles of Secure Design
+,"Defense in depth (e.g., defensive programming, layered defense)",IAS/Principles of Secure Design
+,Security by design (cross-reference SE/Software Design/System design principles),IAS/Principles of Secure Design
+,Tensions between security and other design goals,IAS/Principles of Secure Design
+,Input validation and data sanitization (cross-reference SDF/Development Methods/Program Correctness),IAS/Defensive Programming
+,Choice of programming language and type-safe languages,IAS/Defensive Programming
+,Examples of input validation and data sanitization errors (cross-reference SDF/Development Methods/Program Correctness and SE/Software Construction/Coding Practices) o Buffer overflows o Integer errors o SQL injection o XSS vulnerability,IAS/Defensive Programming
+,Race conditions (cross-reference SF/Parallelism/Parallel programming and PD/Parallel Architecture/Shared vs. distributed memory and PD/Communication and Coordination/Shared Memory and PD/Parallelism Fundamentals/Programming errors not found in sequential programming),IAS/Defensive Programming
+,Correct handling of exceptions and unexpected behaviors (cross-reference SDF/Development Methods/program correctness),IAS/Defensive Programming
+,Information systems as socio-technical systems,IM/Information Management Concepts
+,Basic information storage and retrieval (IS&R) concepts,IM/Information Management Concepts
+,Information capture and representation,IM/Information Management Concepts
+,"Supporting human needs: searching, retrieving, linking, browsing, navigating",IM/Information Management Concepts
+,"Organization of the Internet (Internet Service Providers, Content Providers, etc.)",NC/Introduction
+,"Switching techniques (e.g., circuit, packet)",NC/Introduction
+,"Physical pieces of a network, including hosts, routers, switches, ISPs, wireless, LAN, access point, and firewalls",NC/Introduction
+,"Layering principles (encapsulation, multiplexing)",NC/Introduction
+,"Roles of the different layers (application, transport, network, datalink, physical)",NC/Introduction
+,"Naming and address schemes (DNS, IP addresses, Uniform Resource Identifiers, etc.)",NC/Networked Applications
+,"Distributed applications (client/server, peer-to-peer, cloud, etc.)",NC/Networked Applications
+,HTTP as an application layer protocol,NC/Networked Applications
+,Multiplexing with TCP and UDP,NC/Networked Applications
+,Socket APIs,NC/Networked Applications
+,Role and purpose of the operating system,OS/Overview of Operating Systems
+,Functionality of a typical operating system,OS/Overview of Operating Systems
+,"Mechanisms to support client-server models, hand-held devices",OS/Overview of Operating Systems
+,"Design issues (efficiency, robustness, flexibility, portability, security, compatibility)",OS/Overview of Operating Systems
+,"Influences of security, networking, multimedia, windowing systems",OS/Overview of Operating Systems
+,"Structuring methods (monolithic, layered, modular, micro-kernel models)",OS/Operating System Principles
+,"Abstractions, processes, and resources",OS/Operating System Principles
+,Concepts of application program interfaces (APIs),OS/Operating System Principles
+,The evolution of hardware/software techniques and application needs,OS/Operating System Principles
+,Device organization,OS/Operating System Principles
+,Interrupts: methods and implementations,OS/Operating System Principles
+,"Concept of user/system state and protection, transition to kernel mode",OS/Operating System Principles
+,Multiple simultaneous computations,PD/Parallelism Fundamentals
+,"Goals of parallelism (e.g., throughput) versus concurrency (e.g., controlling access to shared resources)",PD/Parallelism Fundamentals
+,"Parallelism, communication, and coordination o Programming constructs for coordinating multiple simultaneous computations o Need for synchronization",PD/Parallelism Fundamentals
+,"Programming errors not found in sequential programming o Data races (simultaneous read/write or write/write of shared state) o Higher-level races (interleavings violating program intention, undesired non-determinism) o Lack of liveness/progress (deadlock, starvation)",PD/Parallelism Fundamentals
+,Need for communication and coordination/synchronization,PD/Parallel Decomposition
+,Independence and partitioning,PD/Parallel Decomposition
+,Shared Memory,PD/Communication and Coordination
+,"Consistency, and its role in programming language guarantees for data-race-free programs",PD/Communication and Coordination
+,Multicore processors,PD/Parallel Architecture
+,Shared vs. distributed memory,PD/Parallel Architecture
+,Object-oriented design o Decomposition into objects carrying state and having behavior o Class-hierarchy design for modeling,PL/Object-Oriented Programming
+,"Definition of classes: fields, methods, and constructors",PL/Object-Oriented Programming
+,"Subclasses, inheritance, and method overriding",PL/Object-Oriented Programming
+,Dynamic dispatch: definition of method-call,PL/Object-Oriented Programming
+,"Effect-free programming o Function calls have no side effects, facilitating compositional reasoning o Variables are immutable, preventing unexpected changes to program data by other code o Data can be freely aliased or copied without introducing unintended effects from mutation",PL/Functional Programming
+,"Processing structured data (e.g., trees) via functions with cases for each data variant o Associated language constructs such as discriminated unions and pattern-matching over them o Functions defined over compound data in terms of functions applied to the constituent pieces",PL/Functional Programming
+,"First-class functions (taking, returning, and storing functions)",PL/Functional Programming
+,"A type as a set of values together with a set of operations o Primitive types (e.g., numbers, Booleans) o Compound types built from other types (e.g., records, unions, arrays, lists, functions, references)",PL/Basic Type Systems
+,"Association of types to variables, arguments, results, and fields",PL/Basic Type Systems
+,Type safety and errors caused by using values inconsistently given their intended types,PL/Basic Type Systems
+,Goals and limitations of static typing o Eliminating some classes of errors without running the program o Undecidability means static analysis must conservatively approximate program behavior,PL/Basic Type Systems
+,"The concept and properties of algorithms o Informal comparison of algorithm efficiency (e.g., operation counts)",SDF/Algorithms and Design
+,The role of algorithms in the problem-solving process,SDF/Algorithms and Design
+,Problem-solving strategies o Iterative and recursive mathematical functions o Iterative and recursive traversal of data structures o Divide-and-conquer strategies,SDF/Algorithms and Design
+,Fundamental design concepts and principles o Abstraction o Program decomposition o Encapsulation and information hiding o Separation of behavior and implementation,SDF/Algorithms and Design
+,Basic syntax and semantics of a higher-level language,SDF/Fundamental Programming Concepts
+,"Variables and primitive data types (e.g., numbers, characters, Booleans)",SDF/Fundamental Programming Concepts
+,Expressions and assignments,SDF/Fundamental Programming Concepts
+,Simple I/O including file I/O,SDF/Fundamental Programming Concepts
+,Conditional and iterative control structures,SDF/Fundamental Programming Concepts
+,Functions and parameter passing,SDF/Fundamental Programming Concepts
+,The concept of recursion,SDF/Fundamental Programming Concepts
+,Arrays,SDF/Fundamental Data Structures
+,Records/structs (heterogeneous aggregates),SDF/Fundamental Data Structures
+,Strings and string processing,SDF/Fundamental Data Structures
+,Abstract data types and their implementation o Stacks o Queues o Priority queues o Sets o Maps,SDF/Fundamental Data Structures
+,References and aliasing,SDF/Fundamental Data Structures
+,Linked lists,SDF/Fundamental Data Structures
+,Strategies for choosing the appropriate data structure,SDF/Fundamental Data Structures
+,Program comprehension,SDF/Development Methods
+,"Program correctness o Types of errors (syntax, logic, run-time) o The concept of a specification o Defensive programming (e.g. secure coding, exception handling) o Code reviews o Testing fundamentals and test-case generation o The role and the use of contracts, including pre- and post-conditions o Unit testing",SDF/Development Methods
+,Simple refactoring,SDF/Development Methods
+,Modern programming environments o Code search o Programming using library components and their APIs,SDF/Development Methods
+,Debugging strategies,SDF/Development Methods
+,Documentation and program style,SDF/Development Methods
+,"Systems level considerations, i.e., the interaction of software with its intended environment (crossreference IAS/Secure Software Engineering)",SE/Software Processes
+,"Introduction to software process models (e.g., waterfall, incremental, agile) o Activities within software lifecycles",SE/Software Processes
+,Programming in the large vs. individual programming,SE/Software Processes
+,"Describing functional requirements using, for example, use cases or users stories",SE/Requirements Engineering
+,"Properties of requirements including consistency, validity, completeness, and feasibility",SE/Requirements Engineering
+,"System design principles: levels of abstraction (architectural design and detailed design), separation of concerns, information hiding, coupling and cohesion, re-use of standard structures",SE/Software Design
+,"Design Paradigms such as structured design (top-down functional decomposition), object-oriented analysis and design, event driven design, component-level design, data-structured centered, aspect oriented, function oriented, service oriented",SE/Software Design
+,Structural and behavioral models of software designs,SE/Software Design
+,Design patterns,SE/Software Design
+,"Basic building blocks and components of a computer (gates, flip-flops, registers, interconnections; Datapath + Control + Memory)",SF/Computational Paradigms
+,"Hardware as a computational paradigm: Fundamental logic building blocks; Logic expressions, minimization, sum of product forms",SF/Computational Paradigms
+,Application-level sequential processing: single thread,SF/Computational Paradigms
+,"Simple application-level parallel processing: request level (web services/client-server/distributed), single thread per server, multiple threads with multiple servers",SF/Computational Paradigms
+,"Basic concept of pipelining, overlapped processing stages",SF/Computational Paradigms
+,Basic concept of scaling: going faster vs. handling larger problems,SF/Computational Paradigms
+,"Programming abstractions, interfaces, use of libraries",SF/Cross-Layer Communications
+,"Distinction between Application and OS services, Remote Procedure Call",SF/Cross-Layer Communications
+,Application-Virtual Machine Interaction,SF/Cross-Layer Communications
+,Reliability,SF/Cross-Layer Communications
+,Digital vs. Analog/Discrete vs. Continuous Systems,SF/State and State Machines
+,"Simple logic gates, logical expressions, Boolean logic simplification",SF/State and State Machines
+,"Clocks, State, Sequencing",SF/State and State Machines
+,"Combinational Logic, Sequential Logic, Registers, Memories",SF/State and State Machines
+,Computers and Network Protocols as examples of state machines,SF/State and State Machines
+,Sequential vs. parallel processing,SF/Parallelism
+,Parallel programming vs. concurrent programming,SF/Parallelism
+,Request parallelism vs. Task parallelism,SF/Parallelism
+,"Client-Server/Web Services, Thread (Fork-Join), Pipelining",SF/Parallelism
+,Multicore architectures and hardware support for synchronization,SF/Parallelism
+,Performance figures of merit,SF/Evaluation
+,"Workloads and representative benchmarks, and methods of collecting and analyzing performance figures of merit",SF/Evaluation
+,"CPI (Cycles per Instruction) equation as tool for understanding tradeoffs in the design of instruction sets, processor pipelines, and memory system organizations.",SF/Evaluation
+,Amdahl’s Law: the part of the computation that cannot be sped up limits the effect of the parts that can,SF/Evaluation
+,Social implications of computing in a networked world (cross-reference HCI/Foundations/social models; IAS/Fundamental Concepts/social issues),SP/Social Context
+,"Impact of social media on individualism, collectivism and culture.",SP/Social Context
+,Ethical argumentation,SP/Analytical Tools
+,Ethical theories and decision-making,SP/Analytical Tools
+,Moral assumptions and values,SP/Analytical Tools
+,Community values and the laws by which we live,SP/Professional Ethics
+,"The nature of professionalism including care, attention and discipline, fiduciary responsibility, and mentoring",SP/Professional Ethics
+,"Keeping up-to-date as a computing professional in terms of familiarity, tools, skills, legal and professional framework as well as the ability to self-assess and progress in the computing field",SP/Professional Ethics
+,"Professional certification, codes of ethics, conduct, and practice, such as the ACM/IEEE-CS, SE, AITP, IFIP and international societies (cross-reference IAS/Fundamental Concepts/ethical issues)",SP/Professional Ethics
+,"Accountability, responsibility and liability (e.g. software correctness, reliability and safety, as well as ethical confidentiality of cybersecurity professionals)",SP/Professional Ethics
+,Philosophical foundations of intellectual property,SP/Intellectual Property
+,Intellectual property rights (cross-reference IM/Information Storage and Retrieval/intellectual property and protection),SP/Intellectual Property
+,Intangible digital intellectual property (IDIP),SP/Intellectual Property
+,Legal foundations for intellectual property protection,SP/Intellectual Property
+,Digital rights management,SP/Intellectual Property
+,"Copyrights, patents, trade secrets, trademarks",SP/Intellectual Property
+,Plagiarism,SP/Intellectual Property
+,Philosophical foundations of privacy rights (cross-reference IS/Fundamental Issues/philosophical issues),SP/Privacy and Civil Liberties
+,Legal foundations of privacy protection,SP/Privacy and Civil Liberties
+,"Privacy implications of widespread data collection for transactional databases, data warehouses, surveillance systems, and cloud computing (cross-reference IM/Database Systems/data independence; IM/Data Mining/data cleaning)",SP/Privacy and Civil Liberties
+,Ramifications of differential privacy,SP/Privacy and Civil Liberties
+,Technology-based solutions for privacy protection (cross-reference IAS/Threats and Attacks/attacks on privacy and anonymity),SP/Privacy and Civil Liberties
+,"Reading, understanding and summarizing technical material, including source code and documentation",SP/Professional Communication
+,Writing effective technical documentation and materials,SP/Professional Communication
+,"Dynamics of oral, written, and electronic team and group communication (cross-reference HCI/Collaboration and Communication/group communication; SE/Project Management/team participation)",SP/Professional Communication
+,Communicating professionally with stakeholders,SP/Professional Communication
+,Utilizing collaboration tools (cross-reference HCI/Collaboration and Communication/online communities; IS/Agents/collaborative agents),SP/Professional Communication
+,"Being a sustainable practitioner by taking into consideration cultural and environmental impacts of implementation decisions (e.g. organizational policies, economic viability, and resource consumption).",SP/Sustainability
+,Explore global social and environmental impacts of computer use and disposal (e-waste),SP/Sustainability

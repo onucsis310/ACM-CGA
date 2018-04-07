@@ -1,0 +1,556 @@
+Elective_Outcomes_ID,Name,Knowledge_Unit,Learning_Aspect,Objective_Number
+,"Define the classes P and NP. (Also appears in AL/Basic Automata, Computability, and Complexity).",AL/Advanced computational theory,[Familiarity],1
+,Define the P-space class and its relation to the EXP class.,AL/Advanced computational theory,[Familiarity],2
+,"Explain the significance of NP-completeness. (Also appears in AL/Basic Automata, Computability, and Complexity).",AL/Advanced computational theory,[Familiarity],3
+,Provide examples of classic NP-complete problems.,AL/Advanced computational theory,[Familiarity],4
+,Prove that a problem is NP-complete by reducing a classic known NP-complete problem to it.,AL/Advanced computational theory,[Usage],5
+,"Determine a language’s place in the Chomsky hierarchy (regular, context-free, recursively enumerable).","AL/advanced automata, computability and complexity",[Assessment],1
+,"Convert among equivalently powerful notations for a language, including among DFAs, NFAs, and regular expressions, and between PDAs and CFGs.","AL/advanced automata, computability and complexity",[Usage],2
+,Explain the Church-Turing thesis and its significance.,"AL/advanced automata, computability and complexity",[Familiarity],3
+,Explain Rice’s Theorem and its significance.,"AL/advanced automata, computability and complexity",[Familiarity],4
+,Provide examples of uncomputable functions.,"AL/advanced automata, computability and complexity",[Familiarity],5
+,Prove that a problem is uncomputable by reducing a classic known uncomputable problem to it.,"AL/advanced automata, computability and complexity",[Usage],6
+,"Understand the mapping of real-world problems to algorithmic solutions (e.g., as graph problems, linear programs, etc.).","AL/Advanced Data Structures, Algorithms, and Analysis",[Assessment],1
+,"Select and apply advanced algorithmic techniques (e.g., randomization, approximation) to solve real problems.","AL/Advanced Data Structures, Algorithms, and Analysis",[Assessment],2
+,"Select and apply advanced analysis techniques (e.g., amortized, probabilistic, etc.) to algorithms.","AL/Advanced Data Structures, Algorithms, and Analysis",[Assessment],3
+,Compare alternative implementation of datapaths.,AR/Functional Organization ,[Familiarity],1
+,Discuss the concept of control points and the generation of control signals using hardwired or microprogrammed implementations.,AR/Functional Organization ,[Familiarity],2
+,Explain basic instruction level parallelism using pipelining and the major hazards that may occur.,AR/Functional Organization ,[Familiarity],3
+,"Design and implement a complete processor, including datapath and control.",AR/Functional Organization ,[Usage],4
+,"Determine, for a given processor and memory system implementation, the average cycles per instruction.",AR/Functional Organization ,[Assessment],5
+,Discuss the concept of parallel processing beyond the classical von Neumann model.,AR/Multiprocessing and Alternative Architectures,[Familiarity],1
+,Describe alternative parallel architectures such as SIMD and MIMD.,AR/Multiprocessing and Alternative Architectures,[Familiarity],2
+,Explain the concept of interconnection networks and characterize different approaches.,AR/Multiprocessing and Alternative Architectures,[Familiarity],3
+,Discuss the special concerns that multiprocessing systems present with respect to memory management and describe how these are addressed.,AR/Multiprocessing and Alternative Architectures,[Familiarity],4
+,"Describe the differences between memory backplane, processor memory interconnect, and remote memory via networks, their implications for access latency and impact on program performance.",AR/Multiprocessing and Alternative Architectures,[Familiarity],5
+,Describe superscalar architectures and their advantages.,AR/Performance Enhancements,[Familiarity],1
+,Explain the concept of branch prediction and its utility.,AR/Performance Enhancements,[Familiarity],2
+,Characterize the costs and benefits of prefetching.,AR/Performance Enhancements,[Familiarity],3
+,Explain speculative execution and identify the conditions that justify it.,AR/Performance Enhancements,[Familiarity],4
+,Discuss the performance advantages that multithreading offered in an architecture along with the factors that make it difficult to derive maximum benefits from this approach.,AR/Performance Enhancements,[Familiarity],5
+,Describe the relevance of scalability to performance.,AR/Performance Enhancements,[Familiarity],6
+,Explain and give examples of the benefits of simulation and modeling in a range of important application areas.,CN/Modeling and Simulation,[Familiarity],1
+,Demonstrate the ability to apply the techniques of modeling and simulation to a range of problem areas.,CN/Modeling and Simulation,[Usage],2
+,Explain the constructs and concepts of a particular modeling approach.,CN/Modeling and Simulation,[Familiarity],3
+,"Explain the difference between validation and verification of a model; demonstrate the difference with specific examples (Verification means that the computations of the model are correct. If we claim to compute total time, for example, the computation actually does that. Validation asks whether the model matches the real situation.)",CN/Modeling and Simulation,[Assessment],4
+,Verify and validate the results of a simulation.,CN/Modeling and Simulation,[Assessment],5
+,"Evaluate a simulation, highlighting the benefits and the drawbacks.",CN/Modeling and Simulation,[Assessment],6
+,Choose an appropriate modeling approach for a given problem or situation.,CN/Modeling and Simulation,[Assessment],7
+,Compare results from different simulations of the same situation and explain any differences.,CN/Modeling and Simulation,[Assessment],8
+,Infer the behavior of a system from the results of a simulation of the system.,CN/Modeling and Simulation,[Assessment],9
+,Extend or adapt an existing model to a new situation.,CN/Modeling and Simulation,[Assessment],10
+,Explain the characteristics and defining properties of algorithms and how they relate to machine processing.,CN/Processing,[Familiarity],1
+,Analyze simple problem statements to identify relevant information and select appropriate processing to solve the problem.,CN/Processing,[Assessment],2
+,Identify or sketch a workflow for an existing computational process such as the creation of a graph based on experimental data.,CN/Processing,[Familiarity],3
+,Describe the process of converting an algorithm to machine-executable code.,CN/Processing,[Familiarity],4
+,Summarize the phases of software development and compare several common lifecycle models.,CN/Processing,[Familiarity],5
+,"Explain how data is represented in a machine. Compare representations of integers to floating point numbers. Describe underflow, overflow, round off, and truncation errors in data representations.",CN/Processing,[Familiarity],6
+,Apply standard numerical algorithms to solve ODEs and PDEs. Use computing systems to solve systems of equations.,CN/Processing,[Usage],7
+,"Describe the basic properties of bandwidth, latency, scalability and granularity.",CN/Processing,[Familiarity],8
+,"Describe the levels of parallelism including task, data, and event parallelism.",CN/Processing,[Familiarity],9
+,Compare and contrast parallel programming paradigms recognizing the strengths and weaknesses of each.,CN/Processing,[Assessment],10
+,Identify the issues impacting correctness and efficiency of a computation.,CN/Processing,[Familiarity],11
+,"Design, code, test and debug programs for a parallel computation.",CN/Processing,[Usage],12
+,"Compare common computer interface mechanisms with respect to ease-of-use, learnability, and cost.",CN/Interactive Visualization,[Assessment],1
+,"Use standard APIs and tools to create visual displays of data, including graphs, charts, tables, and histograms.",CN/Interactive Visualization,[Usage],2
+,Describe several approaches to using a computer as a means for interacting with and processing data.,CN/Interactive Visualization,[Familiarity],3
+,Extract useful information from a dataset.,CN/Interactive Visualization,[Assessment],4
+,Analyze and select visualization techniques for specific problems.,CN/Interactive Visualization,[Assessment],5
+,Describe issues related to scaling data analysis from small to large data sets.,CN/Interactive Visualization,[Familiarity],6
+,"Identify all of the data, information, and knowledge elements and related organizations, for a computational science application.","CN/Data, Information, and Knowledge",[Assessment],1
+,Describe how to represent data and information for processing.,"CN/Data, Information, and Knowledge",[Familiarity],2
+,"Describe typical user requirements regarding that data, information, and knowledge.","CN/Data, Information, and Knowledge",[Familiarity],3
+,"Select a suitable system or software implementation to manage data, information, and knowledge.","CN/Data, Information, and Knowledge",[Assessment],4
+,"List and describe the reports, transactions, and other processing needed for a computational science application.","CN/Data, Information, and Knowledge",[Familiarity],5
+,"Compare and contrast database management, information retrieval, and digital library systems with regard to handling typical computational science applications.","CN/Data, Information, and Knowledge",[Assessment],6
+,"Design a digital library for some computational science users/societies, with appropriate content and services.","CN/Data, Information, and Knowledge",[Usage],7
+,"Define error, stability, machine precision concepts and the inexactness of computational approximations.",CN/Numerical Analysis,[Familiarity],1
+,"Implement Taylor series, interpolation, extrapolation, and regression algorithms for approximating functions.",CN/Numerical Analysis,[Usage],2
+,Implement algorithms for differentiation and integration.,CN/Numerical Analysis,[Usage],3
+,Implement algorithms for solving differential equations.,CN/Numerical Analysis,[Usage],4
+,Describe the basic process of producing continuous motion from a sequence of discrete frames (sometimes called “flicker fusion”).,GV/Fundamental Concepts,[Familiarity],8
+,Describe how double-buffering can remove flicker from animation.,GV/Fundamental Concepts,[Familiarity],9
+,"Discuss the light transport problem and its relation to numerical integration i.e., light is emitted, scatters around the scene, and is measured by the eye.",GV/Basic Rendering,[Familiarity],1
+,Describe the basic graphics pipeline and how forward and backward rendering factor in this.,GV/Basic Rendering,[Familiarity],2
+,Create a program to display 3D models of simple graphics images.,GV/Basic Rendering,[Usage],3
+,"Derive linear perspective from similar triangles by converting points (x, y, z) to points (x/z, y/z, 1).",GV/Basic Rendering,[Usage],4
+,Obtain 2-dimensional and 3-dimensional points by applying affine transformations.,GV/Basic Rendering,[Usage],5
+,Apply 3-dimensional coordinate system and the changes required to extend 2D transformation operations to handle transformations in 3D.,GV/Basic Rendering,[Usage],6
+,Contrast forward and backward rendering.,GV/Basic Rendering,[Assessment],7
+,"Explain the concept and applications of texture mapping, sampling, and anti-aliasing.",GV/Basic Rendering,[Familiarity],8
+,Explain the ray tracing/rasterization duality for the visibility problem.,GV/Basic Rendering,[Familiarity],9
+,Implement simple procedures that perform transformation and clipping operations on simple 2-dimensional images.,GV/Basic Rendering,[Usage],10
+,"Implement a simple real-time renderer using a rasterization API (e.g., OpenGL) using vertex buffers and shaders.",GV/Basic Rendering,[Usage],11
+,Compare and contrast the different rendering techniques.,GV/Basic Rendering,[Assessment],12
+,Compute space requirements based on resolution and color coding.,GV/Basic Rendering,[Assessment],13
+,"Compute time requirements based on refresh rates, rasterization techniques.",GV/Basic Rendering,[Assessment],14
+,Represent curves and surfaces using both implicit and parametric forms.,GV/Geometric Modeling,[Usage],1
+,Create simple polyhedral models by surface tessellation.,GV/Geometric Modeling,[Usage],2
+,Generate a mesh representation from an implicit surface.,GV/Geometric Modeling,[Usage],3
+,Generate a fractal model or terrain using a procedural method.,GV/Geometric Modeling,[Usage],4
+,Generate a mesh from data points acquired with a laser scanner.,GV/Geometric Modeling,[Usage],5
+,"Construct CSG models from simple primitives, such as cubes and quadric surfaces.",GV/Geometric Modeling,[Usage],6
+,Contrast modeling approaches with respect to space and time complexity and quality of image.,GV/Geometric Modeling,[Assessment],7
+,Demonstrate how an algorithm estimates a solution to the rendering equation.,GV/Advanced Rendering,[Assessment],1
+,"Prove the properties of a rendering algorithm, e.g., complete, consistent, and unbiased.",GV/Advanced Rendering,[Assessment],2
+,Analyze the bandwidth and computation demands of a simple algorithm.,GV/Advanced Rendering,[Assessment],3
+,"Implement a non-trivial shading algorithm (e.g., toon shading, cascaded shadow maps) under a rasterization API.",GV/Advanced Rendering,[Usage],4
+,Discuss how a particular artistic technique might be implemented in a renderer.,GV/Advanced Rendering,[Familiarity],5
+,Explain how to recognize the graphics techniques used to create a particular image.,GV/Advanced Rendering,[Familiarity],6
+,Implement any of the specified graphics techniques using a primitive graphics system at the individual pixel level.,GV/Advanced Rendering,[Usage],7
+,"Implement a ray tracer for scenes using a simple (e.g., Phong model) BRDF plus reflection and refraction.",GV/Advanced Rendering,[Usage],8
+,Compute the location and orientation of model parts using a forward kinematic approach.,GV/Computer Animation,[Usage],1
+,Compute the orientation of articulated parts of a model from a location and orientation using an inverse kinematic approach.,GV/Computer Animation,[Usage],2
+,Describe the tradeoffs in different representations of rotations.,GV/Computer Animation,[Assessment],3
+,Implement the spline interpolation method for producing in-between positions and orientations.,GV/Computer Animation,[Usage],4
+,"Implement algorithms for physical modeling of particle dynamics using simple Newtonian mechanics, for example Witkin & Kass, snakes and worms, symplectic Euler, Stormer/Verlet, or midpoint Euler methods.",GV/Computer Animation,[Usage],5
+,"Discuss the basic ideas behind some methods for fluid dynamics for modeling ballistic trajectories, for example for splashes, dust, fire, or smoke.",GV/Computer Animation,[Familiarity],6
+,Use common animation software to construct simple organic forms using metaball and skeleton.,GV/Computer Animation,[Usage],7
+,Describe the basic algorithms for scalar and vector visualization.,GV/Visualization ,[Familiarity],1
+,Describe the tradeoffs of visualization algorithms in terms of accuracy and performance.,GV/Visualization ,[Assessment],2
+,Propose a suitable visualization design for a particular combination of data characteristics and application tasks.,GV/Visualization ,[Assessment],3
+,Analyze the effectiveness of a given visualization for a particular task.,GV/Visualization ,[Assessment],4
+,Design a process to evaluate the utility of a visualization algorithm or system.,GV/Visualization ,[Assessment],5
+,"Recognize a variety of applications of visualization including representations of scientific, medical, and mathematical data; flow visualization; and spatial analysis.",GV/Visualization ,[Familiarity],6
+,Explain the importance of Model-View controller to interface programming.,HCI/Programming Interactive Systems,[Familiarity],1
+,Create an application with a modern graphical user interface.,HCI/Programming Interactive Systems,[Usage],2
+,Identify commonalities and differences in UIs across different platforms.,HCI/Programming Interactive Systems,[Familiarity],3
+,"Explain and use GUI programming concepts: event handling, constraint-based layout management, etc.",HCI/Programming Interactive Systems,[Familiarity],4
+,Explain how user-centered design complements other software process models.,HCI/User-Centered Design and Testing,[Familiarity],1
+,"Use lo-fi (low fidelity) prototyping techniques to gather, and report, user responses.",HCI/User-Centered Design and Testing,[Usage],2
+,Choose appropriate methods to support the development of a specific UI.,HCI/User-Centered Design and Testing,[Assessment],3
+,Use a variety of techniques to evaluate a given UI.,HCI/User-Centered Design and Testing,[Assessment],4
+,Compare the constraints and benefits of different evaluative methods.,HCI/User-Centered Design and Testing,[Assessment],5
+,Describe when non-mouse interfaces are appropriate.,HCI/New Interactive Technologies,[Familiarity],1
+,Understand the interaction possibilities beyond mouse-and-pointer interfaces.,HCI/New Interactive Technologies,[Familiarity],2
+,Discuss the advantages (and disadvantages) of non-mouse interfaces.,HCI/New Interactive Technologies,[Assessment],3
+,Describe the difference between synchronous and asynchronous communication.,HCI/Collaboration and Communication,[Familiarity],1
+,Compare the HCI issues in individual interaction with group interaction.,HCI/Collaboration and Communication,[Assessment],2
+,Discuss several issues of social concern raised by collaborative software.,HCI/Collaboration and Communication,[Familiarity],3
+,Discuss the HCI issues in software that embodies human intention.,HCI/Collaboration and Communication,[Familiarity],4
+,Explain basic statistical concepts and their areas of application.,HCI/Statistical Methods for HCI,[Familiarity],1
+,Extract and articulate the statistical arguments used in papers that quantitatively report user studies.,HCI/Statistical Methods for HCI,[Usage],2
+,Design a user study that will yield quantitative results.,HCI/Statistical Methods for HCI,[Usage],3
+,Conduct and report on a study that utilizes both qualitative and quantitative evaluation.,HCI/Statistical Methods for HCI,[Usage],4
+,"ar phishing, and how to recognize them.",HCI/Human Factors and Security,[Familiarity],1
+,Describe the issues of trust in interface design with an example of a high and low trust system.,HCI/Human Factors and Security,[Assessment],2
+,Design a user interface for a security mechanism.,HCI/Human Factors and Security,[Assessment],3
+,Explain the concept of identity management and its importance.,HCI/Human Factors and Security,[Familiarity],4
+,"Analyze a security policy and/or procedures to show where they consider, or fail to consider, human factors.",HCI/Human Factors and Security,[Usage],5
+,Explain what is meant by “HCI is a design-oriented discipline”.,HCI/Design-Oriented HCI,[Familiarity],1
+,Detail the processes of design appropriate to specific design orientations.,HCI/Design-Oriented HCI,[Familiarity],2
+,Apply a variety of design methods to a given problem.,HCI/Design-Oriented HCI,[Usage],3
+,Describe the optical model realized by a computer graphics system to synthesize stereoscopic view.,"HCI/Mixed, Augmented and Virtual Reality",[Familiarity],1
+,Describe the principles of different viewer tracking technologies.,"HCI/Mixed, Augmented and Virtual Reality",[Familiarity],2
+,Describe the differences between geometry- and image-based virtual reality.,"HCI/Mixed, Augmented and Virtual Reality",[Familiarity],3
+,Describe the issues of user action synchronization and data consistency in a networked environment.,"HCI/Mixed, Augmented and Virtual Reality",[Familiarity],4
+,"Determine the basic requirements on interface, hardware, and software configurations of a VR system for a specified application.","HCI/Mixed, Augmented and Virtual Reality",[Usage],5
+,"Describe several possible uses for games engines, including their potential and their limitations.","HCI/Mixed, Augmented and Virtual Reality",[Familiarity],6
+,List examples of direct and indirect information flows.,IAS/Defensive Programming,[Familiarity],8
+,"Explain the role of random numbers in security, beyond just cryptography (e.g. password generation, randomized algorithms to avoid algorithmic denial of service attacks).",IAS/Defensive Programming,[Familiarity],9
+,Explain the different types of mechanisms for detecting and mitigating data sanitization errors.,IAS/Defensive Programming,[Familiarity],10
+,Demonstrate how programs are tested for input handling errors.,IAS/Defensive Programming,[Usage],11
+,Use static and dynamic tools to identify programming faults.,IAS/Defensive Programming,[Usage],12
+,Describe how memory architecture is used to protect runtime attacks.,IAS/Defensive Programming,[Familiarity],13
+,Describe risks to privacy and anonymity in commonly used applications.,IAS/Threats and Attacks,[Familiarity],5
+,Discuss the concepts of covert channels and other data leakage procedures.,IAS/Threats and Attacks,[Familiarity],6
+,Discuss security properties and limitations of other non-wired networks.,IAS/Network Security,[Familiarity],5
+,Identify the additional threats faced by non-wired networks.,IAS/Network Security,[Familiarity],6
+,Describe threats that can and cannot be protected against using secure communication channels.,IAS/Network Security,[Familiarity],7
+,Summarize defenses against network censorship.,IAS/Network Security,[Familiarity],8
+,Diagram a network for security.,IAS/Network Security,[Familiarity],9
+,Use cryptographic primitives and describe their basic properties.,IAS/Cryptography,[Usage],5
+,Illustrate how to measure entropy and how to generate cryptographic randomness.,IAS/Cryptography,[Usage],6
+,Use public-key primitives and their applications.,IAS/Cryptography,[Usage],7
+,Explain how key exchange protocols work and how they fail.,IAS/Cryptography,[Familiarity],8
+,Discuss cryptographic protocols and their properties.,IAS/Cryptography,[Familiarity],9
+,Describe real-world applications of cryptographic primitives and protocols.,IAS/Cryptography,[Familiarity],10
+,"Summarize security definitions related to attacks on cryptographic primitives, including attacker capabilities and goals.",IAS/Cryptography,[Familiarity],11
+,Apply appropriate known cryptographic techniques for a given scenario.,IAS/Cryptography,[Usage],12
+,Appreciate the dangers of inventing one’s own cryptographic methods.,IAS/Cryptography,[Familiarity],13
+,Describe quantum cryptography and the impact of quantum computing on cryptographic algorithms.,IAS/Cryptography,[Familiarity],14
+,Describe the browser security model including same-origin policy and threat models in web security.,IAS/Web Security,[Familiarity],1
+,"Discuss the concept of web sessions, secure communication channels such as TLS and importance of secure certificates, authentication including single sign-on such as OAuth and SAML.",IAS/Web Security,[Familiarity],2
+,"Describe common types of vulnerabilities and attacks in web applications, and defenses against them.",IAS/Web Security,[Familiarity],3
+,Use client-side security capabilities in an application.,IAS/Web Security,[Usage],4
+,Explain the concept of code integrity and code signing and the scope it applies to.,IAS/Platform Security,[Familiarity],1
+,Discuss the concept of root of trust and the process of secure boot and secure loading.,IAS/Platform Security,[Familiarity],2
+,Describe the mechanism of remote attestation of system integrity.,IAS/Platform Security,[Familiarity],3
+,Summarize the goals and key primitives of TPM.,IAS/Platform Security,[Familiarity],4
+,Identify the threats of plugging peripherals into a device.,IAS/Platform Security,[Familiarity],5
+,Identify physical attacks and countermeasures.,IAS/Platform Security,[Familiarity],6
+,Identify attacks on non-PC hardware platforms.,IAS/Platform Security,[Familiarity],7
+,Discuss the concept and importance of trusted path.,IAS/Platform Security,[Familiarity],8
+,"Describe the concept of privacy including personally private information, potential violations of privacy due to security mechanisms, and describe how privacy protection mechanisms run in conflict with security mechanisms.",IAS/Security Policy and Governance,[Familiarity],1
+,Describe how an attacker can infer a secret by interacting with a database.,IAS/Security Policy and Governance,[Familiarity],2
+,Explain how to set a data backup policy or password refresh policy.,IAS/Security Policy and Governance,[Familiarity],3
+,Discuss how to set a breach disclosure policy.,IAS/Security Policy and Governance,[Familiarity],4
+,Describe the consequences of data retention policies.,IAS/Security Policy and Governance,[Familiarity],5
+,Identify the risks of relying on outsourced manufacturing.,IAS/Security Policy and Governance,[Familiarity],6
+,Identify the risks and benefits of outsourcing to the cloud.,IAS/Security Policy and Governance,[Familiarity],7
+,"Describe what a digital investigation is, the sources of digital evidence, and the limitations of forensics.",IAS/Digital Forensics,[Familiarity],1
+,Explain how to design software to support forensics.,IAS/Digital Forensics,[Familiarity],2
+,Describe the legal requirements for use of seized data.,IAS/Digital Forensics,[Familiarity],3
+,Describe the process of evidence seizure from the time when the requirement was identified to the disposition of the data.,IAS/Digital Forensics,[Familiarity],4
+,Describe how data collection is accomplished and the proper storage of the original and forensics copy.,IAS/Digital Forensics,[Familiarity],5
+,Conduct data collection on a hard drive.,IAS/Digital Forensics,[Usage],6
+,Describe a person’s responsibility and liability while testifying as a forensics examiner.,IAS/Digital Forensics,[Familiarity],7
+,Recover data based on a given search term from an imaged system.,IAS/Digital Forensics,[Usage],8
+,Reconstruct application history from application artifacts.,IAS/Digital Forensics,[Usage],9
+,Reconstruct web browsing history from web artifacts.,IAS/Digital Forensics,[Usage],10
+,Capture and interpret network traffic.,IAS/Digital Forensics,[Usage],11
+,Discuss the challenges associated with mobile device forensics.,IAS/Digital Forensics,[Familiarity],12
+,"Inspect a system (network, computer, or application) for the presence of malware or malicious activity.",IAS/Digital Forensics,[Usage],13
+,Apply forensics tools to investigate security breaches.,IAS/Digital Forensics,[Usage],14
+,Identify anti-forensic methods.,IAS/Digital Forensics,[Familiarity],15
+,Describe the requirements for integrating security into the software development lifecycle.,IAS/Secure Software Engineering,[Familiarity],1
+,"Apply the concepts of the Design Principles for Protection Mechanisms, the Principles for Software Security [Viega, J. and McGraw, G. Building Secure Software: How to Avoid Security Problems the Right Way, Addison-Wesley, 2002.] and the Principles for Secure Design [Gasser, M. Building a Secure Computer System, Van Nostrand Reinhold, 1988.] on a software development project.",IAS/Secure Software Engineering,[Usage],2
+,Develop specifications for a software development effort that fully specify functional requirements and identifies the expected execution paths.,IAS/Secure Software Engineering,[Usage],3
+,Describe software development best practices for minimizing vulnerabilities in programming code.,IAS/Secure Software Engineering,[Familiarity],4
+,Conduct a security verification and assessment (static and dynamic) of a software application.,IAS/Secure Software Engineering,[Usage],5
+,Describe major approaches to storing and processing large volumes of data.,IM/Database Systems,[Familiarity],1
+,Generate an index file for a collection of resources.,IM/Indexing,[Usage],1
+,Explain the role of an inverted index in locating a document in a collection.,IM/Indexing,[Familiarity],2
+,Explain how stemming and stop words affect indexing.,IM/Indexing,[Familiarity],3
+,Identify appropriate indices for given relational schema and query set.,IM/Indexing,[Usage],4
+,"Estimate time to retrieve information, when indices are used compared to when they are not used.",IM/Indexing,[Usage],5
+,"Describe key challenges in web crawling, e.g., detecting duplicate documents, determining the crawling frontier.",IM/Indexing,[Familiarity],6
+,Prepare a relational schema from a conceptual model developed using the entity- relationship model.,IM/Relational Databases,[Usage],1
+,Explain and demonstrate the concepts of entity integrity constraint and referential integrity constraint (including definition of the concept of a foreign key).,IM/Relational Databases,[Usage],2
+,"Demonstrate use of the relational algebra operations from mathematical set theory (union, intersection, difference, and Cartesian product) and the relational algebra operations developed specifically for relational databases (select (restrict), project, join, and division).",IM/Relational Databases,[Usage],3
+,Write queries in the relational algebra.,IM/Relational Databases,[Usage],4
+,Write queries in the tuple relational calculus.,IM/Relational Databases,[Usage],5
+,Determine the functional dependency between two or more attributes that are a subset of a relation.,IM/Relational Databases,[Assessment],6
+,"Connect constraints expressed as primary key and foreign key, with functional dependencies.",IM/Relational Databases,[Usage],7
+,Compute the closure of a set of attributes under given functional dependencies.,IM/Relational Databases,[Usage],8
+,Determine whether a set of attributes form a superkey and/or candidate key for a relation with given functional dependencies.,IM/Relational Databases,[Assessment],9
+,"Evaluate a proposed decomposition, to say whether it has lossless-join and dependency-preservation.",IM/Relational Databases,[Assessment],10
+,"Describe the properties of BCNF, PJNF, 5NF.",IM/Relational Databases,[Familiarity],11
+,Explain the impact of normalization on the efficiency of database operations especially query optimization.,IM/Relational Databases,[Familiarity],12
+,Describe what is a multi-valued dependency and what type of constraints it specifies.,IM/Relational Databases,[Familiarity],13
+,"Create a relational database schema in SQL that incorporates key, entity integrity, and referential integrity constraints.",IM/Query Languages,[Usage],1
+,Use SQL to create tables and retrieve (SELECT) information from a database.,IM/Query Languages,[Usage],2
+,Evaluate a set of query processing strategies and select the optimal strategy.,IM/Query Languages,[Assessment],3
+,Create a non-procedural query by filling in templates of relations to construct an example of the desired query result.,IM/Query Languages,[Usage],4
+,"Embed object-oriented queries into a stand-alone language such as C++ or Java (e.g., SELECT Col.Method() FROM Object).",IM/Query Languages,[Usage],5
+,"Write a stored procedure that deals with parameters and has some control flow, to provide a given functionality.",IM/Query Languages,[Usage],6
+,Create a transaction by embedding SQL into an application program.,IM/Transaction Processing,[Usage],1
+,Explain the concept of implicit commits.,IM/Transaction Processing,[Familiarity],2
+,Describe the issues specific to efficient transaction execution.,IM/Transaction Processing,[Familiarity],3
+,Explain when and why rollback is needed and how logging assures proper rollback.,IM/Transaction Processing,[Assessment],4
+,Explain the effect of different isolation levels on the concurrency control mechanisms.,IM/Transaction Processing,[Assessment],5
+,Choose the proper isolation level for implementing a specified transaction protocol.,IM/Transaction Processing,[Assessment],6
+,Identify appropriate transaction boundaries in application programs.,IM/Transaction Processing,[Assessment],7
+,"Explain the techniques used for data fragmentation, replication, and allocation during the distributed database design process.",IM/Distributed Databases,[Familiarity],1
+,Evaluate simple strategies for executing a distributed query to select the strategy that minimizes the amount of data transfer.,IM/Distributed Databases,[Assessment],2
+,Explain how the two-phase commit protocol is used to deal with committing a transaction that accesses databases stored on multiple nodes.,IM/Distributed Databases,[Familiarity],3
+,Describe distributed concurrency control based on the distinguished copy techniques and the voting method.,IM/Distributed Databases,[Familiarity],4
+,Describe the three levels of software in the client-server model.,IM/Distributed Databases,[Familiarity],5
+,"Explain the concepts of records, record types, and files, as well as the different techniques for placing file records on disk.",IM/Physical Database Design,[Familiarity],1
+,"Give examples of the application of primary, secondary, and clustering indexes.",IM/Physical Database Design,[Familiarity],2
+,Distinguish between a non-dense index and a dense index.,IM/Physical Database Design,[Assessment],3
+,Implement dynamic multilevel indexes using B-trees.,IM/Physical Database Design,[Usage],4
+,Explain the theory and application of internal and external hashing techniques.,IM/Physical Database Design,[Familiarity],5
+,Use hashing to facilitate dynamic file expansion.,IM/Physical Database Design,[Usage],6
+,"Describe the relationships among hashing, compression, and efficient database searches.",IM/Physical Database Design,[Familiarity],7
+,Evaluate costs and benefits of various hashing schemes.,IM/Physical Database Design,[Assessment],8
+,Explain how physical database design affects database transaction efficiency.,IM/Physical Database Design,[Familiarity],9
+,Compare and contrast different uses of data mining as evidenced in both research and application.,IM/Data Mining,[Assessment],1
+,Explain the value of finding associations in market basket data.,IM/Data Mining,[Familiarity],2
+,Characterize the kinds of patterns that can be discovered by association rule mining.,IM/Data Mining,[Assessment],3
+,Describe how to extend a relational system to find patterns using association rules.,IM/Data Mining,[Familiarity],4
+,Evaluate different methodologies for effective application of data mining.,IM/Data Mining,[Assessment],5
+,"Identify and characterize sources of noise, redundancy, and outliers in presented data.",IM/Data Mining,[Assessment],6
+,"Identify mechanisms (on-line aggregation, anytime behavior, interactive visualization) to close the loop in the data mining process.",IM/Data Mining,[Familiarity],7
+,Describe why the various close-the-loop processes improve the effectiveness of data mining.,IM/Data Mining,[Familiarity],8
+,Explain basic information storage and retrieval concepts.,IM/Information Storage and Retrieval,[Familiarity],1
+,Describe what issues are specific to efficient information retrieval.,IM/Information Storage and Retrieval,[Familiarity],2
+,Give applications of alternative search strategies and explain why the particular search strategy is appropriate for the application.,IM/Information Storage and Retrieval,[Assessment],3
+,"Design and implement a small to medium size information storage and retrieval system, or digital library.",IM/Information Storage and Retrieval,[Usage],4
+,Describe some of the technical solutions to the problems related to archiving and preserving information in a digital library.,IM/Information Storage and Retrieval,[Familiarity],5
+,Describe the media and supporting devices commonly associated with multimedia information and systems.,IM/Multimedia Systems,[Familiarity],1
+,Demonstrate the use of content-based information analysis in a multimedia information system.,IM/Multimedia Systems,[Usage],2
+,"Critique multimedia presentations in terms of their appropriate use of audio, video, graphics, color, and other information presentation concepts.",IM/Multimedia Systems,[Assessment],3
+,Implement a multimedia application using an authoring system.,IM/Multimedia Systems,[Usage],4
+,"For each of several media or multimedia standards, describe in non-technical language what the standard calls for, and explain how aspects of human perception might be sensitive to the limitations of that standard.",IM/Multimedia Systems,[Familiarity],5
+,Describe the characteristics of a computer system (including identification of support tools and appropriate standards) that has to host the implementation of one of a range of possible multimedia applications.,IM/Multimedia Systems,[Familiarity],6
+,Design and implement a genetic algorithm solution to a problem.,IS/Advanced Search,[Usage],1
+,Design and implement a simulated annealing schedule to avoid local minima in a problem.,IS/Advanced Search,[Usage],2
+,Design and implement A*/beam search to solve a problem.,IS/Advanced Search,[Usage],3
+,Apply minimax search with alpha-beta pruning to prune search space in a two-player game.,IS/Advanced Search,[Usage],4
+,Compare and contrast genetic algorithms with classic search techniques.,IS/Advanced Search,[Assessment],5
+,Compare and contrast various heuristic searches vis-a-vis applicability to a given problem.,IS/Advanced Search,[Assessment],6
+,"Compare and contrast the most common models used for structured knowledge representation, highlighting their strengths and weaknesses.",IS/Advanced Representation and Reasoning,[Assessment],1
+,Identify the components of non-monotonic reasoning and its usefulness as a representational mechanism for belief systems.,IS/Advanced Representation and Reasoning,[Familiarity],2
+,Compare and contrast the basic techniques for representing uncertainty.,IS/Advanced Representation and Reasoning,[Assessment],3
+,Compare and contrast the basic techniques for qualitative representation.,IS/Advanced Representation and Reasoning,[Assessment],4
+,Apply situation and event calculus to problems of action and change.,IS/Advanced Representation and Reasoning,[Usage],5
+,"Explain the distinction between temporal and spatial reasoning, and how they interrelate.",IS/Advanced Representation and Reasoning,[Familiarity],6
+,"Explain the difference between rule-based, case-based and model-based reasoning techniques.",IS/Advanced Representation and Reasoning,[Familiarity],7
+,Define the concept of a planning system and how it differs from classical search techniques.,IS/Advanced Representation and Reasoning,[Familiarity],8
+,"Describe the differences between planning as search, operator-based planning, and propositional planning, providing examples of domains where each is most applicable.",IS/Advanced Representation and Reasoning,[Familiarity],9
+,Explain the distinction between monotonic and non-monotonic inference.,IS/Advanced Representation and Reasoning,[Familiarity],10
+,Apply Bayes’ rule to determine the probability of a hypothesis given evidence.,IS/Reasoning Under Uncertainty,[Usage],1
+,Explain how conditional independence assertions allow for greater efficiency of probabilistic systems.,IS/Reasoning Under Uncertainty,[Assessment],2
+,Identify examples of knowledge representations for reasoning under uncertainty.,IS/Reasoning Under Uncertainty,[Familiarity],3
+,State the complexity of exact inference. Identify methods for approximate inference.,IS/Reasoning Under Uncertainty,[Familiarity],4
+,Design and implement at least one knowledge representation for reasoning under uncertainty.,IS/Reasoning Under Uncertainty,[Usage],5
+,Describe the complexities of temporal probabilistic reasoning.,IS/Reasoning Under Uncertainty,[Familiarity],6
+,Design and implement an HMM as one example of a temporal probabilistic system.,IS/Reasoning Under Uncertainty,[Usage],7
+,Describe the relationship between preferences and utility functions.,IS/Reasoning Under Uncertainty,[Familiarity],8
+,Explain how utility functions and probabilistic reasoning can be combined to make rational decisions.,IS/Reasoning Under Uncertainty,[Assessment],9
+,List the defining characteristics of an intelligent agent.,IS/Agents,[Familiarity],1
+,Characterize and contrast the standard agent architectures.,IS/Agents,[Assessment],2
+,"Describe the applications of agent theory to domains such as software agents, personal assistants, and believable agents.",IS/Agents,[Familiarity],3
+,Describe the primary paradigms used by learning agents.,IS/Agents,[Familiarity],4
+,Demonstrate using appropriate examples how multi-agent systems support agent interaction.,IS/Agents,[Usage],5
+,"Define and contrast deterministic and stochastic grammars, providing examples to show the adequacy of each.",IS/Natural Language Processing,[Assessment],1
+,"Simulate, apply, or implement classic and stochastic algorithms for parsing natural language.",IS/Natural Language Processing,[Usage],2
+,Identify the challenges of representing meaning.,IS/Natural Language Processing,[Familiarity],3
+,List the advantages of using standard corpora. Identify examples of current corpora for a variety of NLP tasks.,IS/Natural Language Processing,[Familiarity],4
+,"Identify techniques for information retrieval, language translation, and text classification.",IS/Natural Language Processing,[Familiarity],5
+,"Explain the differences among the three main styles of learning: supervised, reinforcement, and unsupervised.",IS/Advanced Machine Learning,[Familiarity],1
+,"Implement simple algorithms for supervised learning, reinforcement learning, and unsupervised learning.",IS/Advanced Machine Learning,[Usage],2
+,Determine which of the three learning styles is appropriate to a particular problem domain.,IS/Advanced Machine Learning,[Usage],3
+,"Compare and contrast each of the following techniques, providing examples of when each strategy is superior: decision trees, neural networks, and belief networks.",IS/Advanced Machine Learning,[Assessment],4
+,Evaluate the performance of a simple learning system on a real-world dataset.,IS/Advanced Machine Learning,[Assessment],5
+,"Characterize the state of the art in learning theory, including its achievements and its shortcomings.",IS/Advanced Machine Learning,[Familiarity],6
+,"Explain the problem of overfitting, along with techniques for detecting and managing the problem.",IS/Advanced Machine Learning,[Usage],7
+,"List capabilities and limitations of today's state-of-the-art robot systems, including their sensors and the crucial sensor processing that informs those systems.",IS/Robotics,[Familiarity],1
+,"Integrate sensors, actuators, and software into a robot designed to undertake some task.",IS/Robotics,[Usage],2
+,"Program a robot to accomplish simple tasks using deliberative, reactive, and/or hybrid control architectures.",IS/Robotics,[Usage],3
+,Implement fundamental motion planning algorithms within a robot configuration space.,IS/Robotics,[Usage],4
+,Characterize the uncertainties associated with common robot sensors and actuators; articulate strategies for mitigating these uncertainties.,IS/Robotics,[Familiarity],5
+,"List the differences among robots' representations of their external environment, including their strengths and shortcomings.",IS/Robotics,[Familiarity],6
+,"Compare and contrast at least three strategies for robot navigation within known and/or unknown environments, including their strengths and shortcomings.",IS/Robotics,[Assessment],7
+,Describe at least one approach for coordinating the actions and sensing of several robots to accomplish a single task.,IS/Robotics,[Familiarity],8
+,Summarize the importance of image and object recognition in AI and indicate several significant applications of this technology.,IS/Perception and Computer Vision,[Familiarity],1
+,"List at least three image-segmentation approaches, such as thresholding, edge-based and region-based algorithms, along with their defining characteristics, strengths, and weaknesses.",IS/Perception and Computer Vision,[Familiarity],2
+,Implement 2d object recognition based on contour- and/or region-based shape representations.,IS/Perception and Computer Vision,[Usage],3
+,"Distinguish the goals of sound-recognition, speech-recognition, and speaker-recognition and identify how the raw audio signal will be handled differently in each of these cases.",IS/Perception and Computer Vision,[Familiarity],4
+,"Provide at least two examples of a transformation of a data source from one sensory domain to another, e.g., tactile data interpreted as single-band 2d images.",IS/Perception and Computer Vision,[Familiarity],5
+,"Implement a feature-extraction algorithm on real data, e.g., an edge or corner detector for images or vectors of Fourier coefficients describing a short slice of audio signal.",IS/Perception and Computer Vision,[Usage],6
+,"Implement an algorithm combining features into higher-level percepts, e.g., a contour or polygon from visual primitives or phoneme hypotheses from an audio signal.",IS/Perception and Computer Vision,[Usage],7
+,Implement a classification algorithm that segments input percepts into output categories and quantitatively evaluates the resulting classification.,IS/Perception and Computer Vision,[Usage],8
+,"Evaluate the performance of the underlying feature-extraction, relative to at least one alternative possible approach (whether implemented or not) in its contribution to the classification task (8), above.",IS/Perception and Computer Vision,[Assessment],9
+,"Describe at least three classification approaches, their prerequisites for applicability, their strengths, and their shortcomings.",IS/Perception and Computer Vision,[Familiarity],10
+,"Discuss the key principles (such as membership, trust) of social networking.",NC/Social Networking,[Familiarity],1
+,Describe how existing social networks operate.,NC/Social Networking,[Familiarity],2
+,Construct a social network graph from network data.,NC/Social Networking,[Usage],3
+,Analyze a social network to determine who the key people are.,NC/Social Networking,[Usage],4
+,Evaluate a given interpretation of a social network question with associated data.,NC/Social Networking,[Assessment],5
+,Explain the concept of virtual memory and how it is realized in hardware and software.,OS/Virtual Machines,[Familiarity],1
+,Differentiate emulation and isolation.,OS/Virtual Machines,[Familiarity],2
+,Evaluate virtualization trade-offs.,OS/Virtual Machines,[Assessment],3
+,Discuss hypervisors and the need for them in conjunction with different types of hypervisors.,OS/Virtual Machines,[Usage],4
+,Explain the key difference between serial and parallel devices and identify the conditions in which each is appropriate.,OS/Device Management,[Familiarity],1
+,Identify the relationship between the physical hardware and the virtual devices maintained by the operating system.,OS/Device Management,[Usage],2
+,Explain buffering and describe strategies for implementing it.,OS/Device Management,[Familiarity],3
+,"Differentiate the mechanisms used in interfacing a range of devices (including hand-held devices, networks, multimedia) to a computer and explain the implications of these for the design of an operating system.",OS/Device Management,[Usage],4
+,Describe the advantages and disadvantages of direct memory access and discuss the circumstances in which its use is warranted.,OS/Device Management,[Usage],5
+,Identify the requirements for failure recovery.,OS/Device Management,[Familiarity],6
+,Implement a simple device driver for a range of possible devices.,OS/Device Management,[Usage],7
+,Describe the choices to be made in designing file systems.,OS/File Systems,[Familiarity],1
+,"Compare and contrast different approaches to file organization, recognizing the strengths and weaknesses of each.",OS/File Systems,[Usage],2
+,Summarize how hardware developments have led to changes in the priorities for the design and the management of file systems.,OS/File Systems,[Familiarity],3
+,Summarize the use of journaling and how log-structured file systems enhance fault tolerance.,OS/File Systems,[Familiarity],4
+,Describe what makes a system a real-time system.,OS/Real Time and Embedded Systems,[Familiarity],1
+,Explain the presence of and describe the characteristics of latency in real-time systems.,OS/Real Time and Embedded Systems,[Familiarity],2
+,"Summarize special concerns that real-time systems present, including risk, and how these concerns are addressed.",OS/Real Time and Embedded Systems,[Familiarity],3
+,"Explain the relevance of the terms fault tolerance, reliability, and availability.",OS/Fault Tolerance,[Familiarity],1
+,Outline the range of methods for implementing fault tolerance in an operating system.,OS/Fault Tolerance,[Familiarity],2
+,Explain how an operating system can continue functioning after a fault occurs.,OS/Fault Tolerance,[Familiarity],3
+,Describe the performance measurements used to determine how a system performs.,OS/System Performance Evaluation,[Familiarity],1
+,Explain the main evaluation models used to evaluate a system.,OS/System Performance Evaluation,[Familiarity],2
+,Describe how platform-based development differs from general purpose programming.,PBD/Introduction,[Familiarity],1
+,List characteristics of platform languages.,PBD/Introduction,[Familiarity],2
+,Write and execute a simple platform-based program.,PBD/Introduction,[Usage],3
+,List the advantages and disadvantages of programming with platform constraints.,PBD/Introduction,[Familiarity],4
+,Design and Implement a simple web application.,PBD/Web Platforms,[Usage],1
+,Describe the constraints that the web puts on developers.,PBD/Web Platforms,[Familiarity],2
+,Compare and contrast web programming with general purpose programming.,PBD/Web Platforms,[Assessment],3
+,Describe the differences between Software-as-a-Service and traditional software products.,PBD/Web Platforms,[Familiarity],4
+,Discuss how web standards impact software development.,PBD/Web Platforms,[Familiarity],5
+,Review an existing web application against a current web standard.,PBD/Web Platforms,[Assessment],6
+,Design and implement a mobile application for a given mobile platform.,PBD/Mobile Platforms,[Usage],1
+,Discuss the constraints that mobile platforms put on developers.,PBD/Mobile Platforms,[Familiarity],2
+,Discuss the performance vs. power tradeoff.,PBD/Mobile Platforms,[Familiarity],3
+,Compare and contrast mobile programming with general purpose programming.,PBD/Mobile Platforms,[Assessment],4
+,"Design and implement an industrial application on a given platform (e.g., using Lego Mindstorms or Matlab).",PBD/Industrial Platforms,[Usage],1
+,Compare and contrast domain specific languages with general purpose programming languages.,PBD/Industrial Platforms,[Assessment],2
+,Discuss the constraints that a given industrial platforms impose on developers.,PBD/Industrial Platforms,[Familiarity],3
+,Design and implement a simple application on a game platform.,PBD/Game Platforms,[Usage],1
+,Describe the constraints that game platforms impose on developers.,PBD/Game Platforms,[Familiarity],2
+,Compare and contrast game programming with general purpose programming.,PBD/Game Platforms,[Assessment],3
+,Use semaphores or condition variables to block threads until a necessary precondition holds.,PD/Communication and Coordination,[Usage],12
+,Provide an example of a problem that fits the producer-consumer paradigm.,"PD/Parallel Algorithms, Analysis, and Programming",[Familiarity],8
+,Give examples of problems where pipelining would be an effective means of parallelization.,"PD/Parallel Algorithms, Analysis, and Programming",[Familiarity],9
+,Implement a parallel matrix algorithm.,"PD/Parallel Algorithms, Analysis, and Programming",[Usage],10
+,Identify issues that arise in producer-consumer algorithms and mechanisms that may be used for addressing them.,"PD/Parallel Algorithms, Analysis, and Programming",[Familiarity],11
+,Describe the advantages and limitations of GPUs vs. CPUs.,PD/Parallel Architecture,[Familiarity],4
+,Explain the features of each classification in Flynn’s taxonomy.,PD/Parallel Architecture,[Familiarity],5
+,Describe assembly-level support for atomic operations.,PD/Parallel Architecture,[Familiarity],6
+,Describe the challenges in maintaining cache coherence.,PD/Parallel Architecture,[Familiarity],7
+,Describe the key performance challenges in different memory and distributed system topologies.,PD/Parallel Architecture,[Familiarity],8
+,Detect and correct a load imbalance.,PD/Parallel Performance,[Usage],1
+,Calculate the implications of Amdahl’s law for a particular parallel algorithm (cross-reference SF/Evaluation for Amdahl’s Law).,PD/Parallel Performance,[Usage],2
+,Describe how data distribution/layout can affect an algorithm’s communication costs.,PD/Parallel Performance,[Familiarity],3
+,Detect and correct an instance of false sharing.,PD/Parallel Performance,[Usage],4
+,Explain the impact of scheduling on parallel performance.,PD/Parallel Performance,[Familiarity],5
+,Explain performance impacts of data locality.,PD/Parallel Performance,[Familiarity],6
+,Explain the impact and trade-off related to power usage on parallel performance.,PD/Parallel Performance,[Familiarity],7
+,Distinguish network faults from other kinds of failures.,PD/Distributed Systems,[Familiarity],1
+,Explain why synchronization constructs such as simple locks are not useful in the presence of distributed faults.,PD/Distributed Systems,[Familiarity],2
+,"Write a program that performs any required marshaling and conversion into message units, such as packets, to communicate interesting data between two hosts.",PD/Distributed Systems,[Usage],3
+,Measure the observed throughput and response latency across hosts in a given network.,PD/Distributed Systems,[Usage],4
+,"Explain why no distributed system can be simultaneously consistent, available, and partition tolerant.",PD/Distributed Systems,[Familiarity],5
+,"Implement a simple server -- for example, a spell-checking service.",PD/Distributed Systems,[Usage],6
+,"Explain the tradeoffs among overhead, scalability, and fault tolerance when choosing a stateful v. stateless design for a given service.",PD/Distributed Systems,[Familiarity],7
+,"Describe the scalability challenges associated with a service growing to accommodate many clients, as well as those associated with a service only transiently having many clients.",PD/Distributed Systems,[Familiarity],8
+,Give examples of problems for which consensus algorithms such as leader election are required.,PD/Distributed Systems,[Usage],9
+,Discuss the importance of elasticity and resource management in cloud computing.,PD/Cloud Computing,[Familiarity],1
+,Explain strategies to synchronize a common view of shared data across a collection of devices.,PD/Cloud Computing,[Familiarity],2
+,Explain the advantages and disadvantages of using virtualized infrastructure.,PD/Cloud Computing,[Familiarity],3
+,Deploy an application that uses cloud infrastructure for computing and/or data resources.,PD/Cloud Computing,[Usage],4
+,Appropriately partition an application between a client and resources.,PD/Cloud Computing,[Usage],5
+,"Model a concurrent process using a formal model, such as pi-calculus.",PD/Formal Models and Semantics,[Usage],1
+,Explain the characteristics of a particular formal parallel model.,PD/Formal Models and Semantics,[Familiarity],2
+,Formally model a shared memory system to show if it is consistent.,PD/Formal Models and Semantics,[Usage],3
+,Use a model to show progress guarantees in a parallel algorithm.,PD/Formal Models and Semantics,[Usage],4
+,Use formal techniques to show that a parallel algorithm is correct with respect to a safety or liveness property.,PD/Formal Models and Semantics,[Usage],5
+,Decide if a specific execution is linearizable or not.,PD/Formal Models and Semantics,[Usage],6
+,Use formal grammars to specify the syntax of languages.,PL/Syntax Analysis,[Usage],1
+,Use declarative tools to generate parsers and scanners.,PL/Syntax Analysis,[Usage],2
+,"Identify key issues in syntax definitions: ambiguity, associativity, precedence.",PL/Syntax Analysis,[Familiarity],3
+,"Implement context-sensitive, source-level static analyses such as type-checkers or resolving identifiers to identify their binding occurrences.",PL/Compiler Semantic Analysis,[Usage],1
+,Describe semantic analyses using an attribute grammar.,PL/Compiler Semantic Analysis,[Usage],2
+,Identify all essential steps for automatically converting source code into assembly or other low-level languages.,PL/Code Generation,[Familiarity],1
+,Generate the low-level code for calling functions/methods in modern languages.,PL/Code Generation,[Usage],2
+,Discuss why separate compilation requires uniform calling conventions.,PL/Code Generation,[Familiarity],3
+,Discuss why separate compilation limits optimization because of unknown effects of calls.,PL/Code Generation,[Familiarity],4
+,"Discuss opportunities for optimization introduced by naive translation and approaches for achieving optimization, such as instruction selection, instruction scheduling, register allocation, and peephole optimization.",PL/Code Generation,[Familiarity],5
+,"Compare the benefits of different memory-management schemes, using concepts such as fragmentation, locality, and memory overhead.",PL/Runtime Systems,[Familiarity],1
+,Discuss benefits and limitations of automatic memory management.,PL/Runtime Systems,[Familiarity],2
+,"Explain the use of metadata in run-time representations of objects and activation records, such as class pointers, array lengths, return addresses, and frame pointers.",PL/Runtime Systems,[Familiarity],3
+,"Discuss advantages, disadvantages, and difficulties of just-in-time and dynamic recompilation.",PL/Runtime Systems,[Familiarity],4
+,Identify the services provided by modern language run-time systems.,PL/Runtime Systems,[Familiarity],5
+,Define useful static analyses in terms of a conceptual framework such as dataflow analysis.,PL/Static Analysis,[Usage],1
+,Explain why non-trivial sound static analyses must be approximate.,PL/Static Analysis,[Familiarity],2
+,Communicate why an analysis is correct (sound and terminating).,PL/Static Analysis,[Usage],3
+,Distinguish “may” and “must” analyses.,PL/Static Analysis,[Familiarity],4
+,Explain why potential aliasing limits sound program analysis and how alias analysis can help.,PL/Static Analysis,[Familiarity],5
+,Use the results of a static analysis for program optimization and/or partial program correctness.,PL/Static Analysis,[Usage],6
+,Use various advanced programming constructs and idioms correctly.,PL/Advanced Programming Constructs,[Usage],1
+,"Discuss how various advanced programming constructs aim to improve program structure, software quality, and programmer productivity.",PL/Advanced Programming Constructs,[Familiarity],2
+,Discuss how various advanced programming constructs interact with the definition and implementation of other language features.,PL/Advanced Programming Constructs,[Familiarity],3
+,"Write correct concurrent programs using multiple programming models, such as shared memory, actors, futures, and data-parallelism primitives.",PL/Concurrency and Parallelism,[Usage],1
+,Use a message-passing model to analyze a communication protocol.,PL/Concurrency and Parallelism,[Usage],2
+,Explain why programming languages do not guarantee sequential consistency in the presence of data races and what programmers must do as a result.,PL/Concurrency and Parallelism,[Familiarity],3
+,Define a type system precisely and compositionally.,PL/Type Systems,[Usage],1
+,"For various foundational type constructors, identify the values they describe and the invariants they enforce.",PL/Type Systems,[Familiarity],2
+,Precisely specify the invariants preserved by a sound type system.,PL/Type Systems,[Familiarity],3
+,Prove type safety for a simple language in terms of preservation and progress theorems.,PL/Type Systems,[Usage],4
+,Implement a unification-based type-inference algorithm for a simple language.,PL/Type Systems,[Usage],5
+,Explain how static overloading and associated resolution algorithms influence the dynamic behavior of programs.,PL/Type Systems,[Familiarity],6
+,Give a formal semantics for a small language.,PL/Formal Semantics,[Usage],1
+,Write a lambda-calculus program and show its evaluation to a normal form.,PL/Formal Semantics,[Usage],2
+,"Discuss the different approaches of operational, denotational, and axiomatic semantics.",PL/Formal Semantics,[Familiarity],3
+,Use induction to prove properties of all programs in a language.,PL/Formal Semantics,[Usage],4
+,Use induction to prove properties of all programs in a language that are well-typed according to a formally defined type system.,PL/Formal Semantics,[Usage],5
+,Use parametricity to establish the behavior of code given only its type.,PL/Formal Semantics,[Usage],6
+,Use formal semantics to build a formal model of a software system other than a programming language.,PL/Formal Semantics,[Usage],7
+,Discuss the role of concepts such as orthogonality and well-chosen defaults in language design.,PL/Language Pragmatics,[Familiarity],1
+,Use crisp and objective criteria for evaluating language-design decisions.,PL/Language Pragmatics,[Usage],2
+,"Give an example program whose result can differ under different rules for evaluation order, precedence, or associativity.",PL/Language Pragmatics,[Usage],3
+,"Show uses of delayed evaluation, such as user-defined control abstractions.",PL/Language Pragmatics,[Familiarity],4
+,Discuss the need for allowing calls to external calls and system libraries and the consequences for language implementation.,PL/Language Pragmatics,[Familiarity],5
+,Use a logic language to implement a conventional algorithm.,PL/Logic Programming,[Usage],1
+,"Use a logic language to implement an algorithm employing implicit search using clauses, relations, and cuts.",PL/Logic Programming,[Usage],2
+,Define software quality and describe the role of quality assurance activities in the software process.,SE/Software Processes,[Familiarity],8
+,Describe the intent and fundamental similarities among process improvement approaches.,SE/Software Processes,[Familiarity],9
+,"Compare several process improvement models such as CMM, CMMI, CQI, Plan-Do-Check-Act, or ISO9000.",SE/Software Processes,[Assessment],10
+,Assess a development effort and recommend potential changes by participating in process improvement (using a model such as PSP) or engaging in a project retrospective.,SE/Software Processes,[Usage],11
+,Explain the role of process maturity models in process improvement.,SE/Software Processes,[Familiarity],12
+,Describe several process metrics for assessing and controlling a project.,SE/Software Processes,[Familiarity],13
+,Use project metrics to describe the current state of a project.,SE/Software Processes,[Usage],14
+,Demonstrate through involvement in a team project the central elements of team building and team management.,SE/Software Project Management,[Usage],10
+,Describe how the choice of process model affects team organizational structures and decision-making processes.,SE/Software Project Management,[Familiarity],11
+,Create a team by identifying appropriate roles and assigning roles to team members.,SE/Software Project Management,[Usage],12
+,Assess and provide feedback to teams and individuals on their performance in a team setting.,SE/Software Project Management,[Usage],13
+,"Using a particular software process, describe the aspects of a project that need to be planned and monitored, (e.g., estimates of size and effort, a schedule, resource allocation, configuration control, change management, and project risk identification and management).",SE/Software Project Management,[Familiarity],14
+,Track the progress of some stage in a project using appropriate project metrics.,SE/Software Project Management,[Usage],15
+,Compare simple software size and cost estimation techniques.,SE/Software Project Management,[Usage],16
+,Use a project management tool to assist in the assignment and tracking of tasks in a software development project.,SE/Software Project Management,[Usage],17
+,Describe the impact of risk tolerance on the software development process.,SE/Software Project Management,[Assessment],18
+,"Identify risks and describe approaches to managing risk (avoidance, acceptance, transference, mitigation), and characterize the strengths and shortcomings of each.",SE/Software Project Management,[Familiarity],19
+,Explain how risk affects decisions in the software development process.,SE/Software Project Management,[Usage],20
+,Identify security risks for a software system.,SE/Software Project Management,[Usage],21
+,Demonstrate a systematic approach to the task of identifying hazards and risks in a particular situation.,SE/Software Project Management,[Usage],22
+,Apply the basic principles of risk management in a variety of simple scenarios including a security situation.,SE/Software Project Management,[Usage],23
+,Conduct a cost/benefit analysis for a risk mitigation approach.,SE/Software Project Management,[Usage],24
+,Identify and analyze some of the risks for an entire system that arise from aspects other than the software.,SE/Software Project Management,[Usage],25
+,Apply key elements and common methods for elicitation and analysis to produce a set of software requirements for a medium-sized software system.,SE/Requirements Engineering,[Usage],8
+,Compare the plan-driven and agile approaches to requirements specification and validation and describe the benefits and risks associated with each.,SE/Requirements Engineering,[Familiarity],9
+,"Use a common, non-formal method to model and specify the requirements for a medium-size software system.",SE/Requirements Engineering,[Usage],10
+,"Translate into natural language a software requirements specification (e.g., a software component contract) written in a formal specification language.",SE/Requirements Engineering,[Usage],11
+,Create a prototype of a software system to mitigate risk in requirements.,SE/Requirements Engineering,[Usage],12
+,Differentiate between forward and backward tracing and explain their roles in the requirements validation process.,SE/Requirements Engineering,[Familiarity],13
+,Discuss and select appropriate software architecture for a simple system suitable for a given scenario.,SE/Software Design,[Usage],16
+,Apply models for internal and external qualities in designing software components to achieve an acceptable tradeoff between conflicting quality aspects.,SE/Software Design,[Usage],17
+,Analyze a software design from the perspective of a significant internal quality attribute.,SE/Software Design,[Assessment],18
+,Analyze a software design from the perspective of a significant external quality attribute.,SE/Software Design,[Assessment],19
+,Explain the role of objects in middleware systems and the relationship with components.,SE/Software Design,[Familiarity],20
+,"Apply component-oriented approaches to the design of a range of software, such as using components for concurrency and transactions, for reliable communication services, for database interaction including services for remote query and database management, or for secure communication and access.",SE/Software Design,[Usage],21
+,Refactor an existing software implementation to improve some aspect of its design.,SE/Software Design,[Usage],22
+,State and apply the principles of least privilege and fail-safe defaults.,SE/Software Design,[Familiarity],23
+,"Rewrite a simple program to remove common vulnerabilities, such as buffer overflows, integer overflows and race conditions.",SE/Software Construction,[Usage],8
+,Write a software component that performs some non-trivial task and is resilient to input and run-time errors.,SE/Software Construction,[Usage],9
+,Evaluate a test suite for a medium-size code segment.,SE/Software Verification and Validation,[Usage],10
+,Compare static and dynamic approaches to verification.,SE/Software Verification and Validation,[Familiarity],11
+,Identify the fundamental principles of test-driven development methods and explain the role of automated testing in these methods.,SE/Software Verification and Validation,[Familiarity],12
+,Discuss the issues involving the testing of object-oriented software.,SE/Software Verification and Validation,[Usage],13
+,Describe techniques for the verification and validation of non-code artifacts.,SE/Software Verification and Validation,[Familiarity],14
+,Describe approaches for fault estimation.,SE/Software Verification and Validation,[Familiarity],15
+,Estimate the number of faults in a small software application based on fault density and fault seeding.,SE/Software Verification and Validation,[Usage],16
+,Conduct an inspection or review of software source code for a small or medium sized software project.,SE/Software Verification and Validation,[Usage],17
+,Compare the characteristics of three different reliability modeling approaches.,SE/Software Reliability,[Familiarity],4
+,Demonstrate the ability to apply multiple methods to develop reliability estimates for a software system.,SE/Software Reliability,[Usage],5
+,Identify methods that will lead to the realization of a software architecture that achieves a specified level of reliability.,SE/Software Reliability,[Usage],6
+,Identify ways to apply redundancy to achieve fault tolerance for a medium-sized application.,SE/Software Reliability,[Usage],7
+,Describe the role formal specification and analysis techniques can play in the development of complex software and compare their use as validation and verification techniques with testing.,SE/Formal Methods,[Familiarity],1
+,Apply formal specification and analysis techniques to software designs and programs with low complexity.,SE/Formal Methods,[Usage],2
+,Explain the potential benefits and drawbacks of using formal specification languages.,SE/Formal Methods,[Familiarity],3
+,Create and evaluate program assertions for a variety of behaviors ranging from simple through complex.,SE/Formal Methods,[Usage],4
+,"Using a common formal specification language, formulate the specification of a simple software system and derive examples of test cases from the specification.",SE/Formal Methods,[Usage],5
+,Explain the circumstances in which a given figure of system performance metric is useful.,SF/Quantitative Evaluation,[Familiarity],1
+,Explain the inadequacies of benchmarks as a measure of system performance.,SF/Quantitative Evaluation,[Familiarity],2
+,Use limit studies or simple calculations to produce order-of-magnitude estimates for a given performance metric in a given context.,SF/Quantitative Evaluation,[Usage],3
+,Conduct a performance experiment on a layered system to determine the effect of a system parameter on figure of system performance.,SF/Quantitative Evaluation,[Assessment],4
+,Identify the goals of the open source movement.,SP/Intellectual Property,[Familiarity],11
+,Identify the global nature of software piracy.,SP/Intellectual Property,[Familiarity],12
+,"Critique the intent, potential value and implementation of various forms of privacy legislation.",SP/Privacy and Civil Liberties,[Assessment],6
+,Identify strategies to enable appropriate freedom of expression.,SP/Privacy and Civil Liberties,[Familiarity],7
+,Discuss ways to influence performance and results in cross-cultural teams.,SP/Professional Communication,[Familiarity],8
+,"Examine the tradeoffs and common sources of risk in software projects regarding technology, structure/process, quality, people, market and financial.",SP/Professional Communication,[Usage],9
+,Evaluate personal strengths and weaknesses to work remotely as part of a multinational team.,SP/Professional Communication,[Assessment],10
+,Identify guidelines for sustainable IT design or deployment.,SP/Sustainability,[Familiarity],5
+,List the sustainable effects of telecommuting or web shopping.,SP/Sustainability,[Familiarity],6
+,"Investigate pervasive computing in areas such as smart energy systems, social networking, transportation, agriculture, supply-chain systems, environmental monitoring and citizen activism.",SP/Sustainability,[Usage],7
+,"Develop applications of computing and assess through research areas pertaining to environmental issues (e.g. energy, pollution, resource usage, recycling and reuse, food management, farming).",SP/Sustainability,[Assessment],8
+,Identify significant continuing trends in the history of the computing field.,SP/History,[Familiarity],1
+,Identify the contributions of several pioneers in the computing field.,SP/History,[Familiarity],2
+,Discuss the historical context for several programming language paradigms.,SP/History,[Familiarity],3
+,Compare daily life before and after the advent of personal computers and the Internet.,SP/History,[Assessment],4
+,Summarize the rationale for antimonopoly efforts.,SP/Economies of Computing,[Familiarity],1
+,Identify several ways in which the information technology industry is affected by shortages in the labor supply.,SP/Economies of Computing,[Familiarity],2
+,Identify the evolution of pricing strategies for computing goods and services.,SP/Economies of Computing,[Familiarity],3
+,"Discuss the benefits, the drawbacks and the implications of off-shoring and outsourcing.",SP/Economies of Computing,[Familiarity],4
+,Investigate and defend ways to address limitations on access to computing.,SP/Economies of Computing,[Usage],5
+,Describe the economic benefits of network effects.,SP/Economies of Computing,[Familiarity],6
+,List classic examples of computer crimes and social engineering incidents with societal impact.,"SP/Security Policies, Laws and Computer Crimes",[Familiarity],1
+,Identify laws that apply to computer crimes.,"SP/Security Policies, Laws and Computer Crimes",[Familiarity],2
+,Describe the motivation and ramifications of cyber terrorism and criminal hacking.,"SP/Security Policies, Laws and Computer Crimes",[Familiarity],3
+,Examine the ethical and legal issues surrounding the misuse of access and various breaches in security.,"SP/Security Policies, Laws and Computer Crimes",[Usage],4
+,Discuss the professional's role in security and the trade-offs involved.,"SP/Security Policies, Laws and Computer Crimes",[Familiarity],5
+,Investigate measures that can be taken by both individuals and organizations including governments to prevent or mitigate the undesirable effects of computer crimes and identity theft.,"SP/Security Policies, Laws and Computer Crimes",[Usage],6
+,"Write a company-wide security policy, which includes procedures for managing passwords and employee monitoring.","SP/Security Policies, Laws and Computer Crimes",[Usage],7

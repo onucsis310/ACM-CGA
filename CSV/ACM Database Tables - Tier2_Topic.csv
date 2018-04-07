@@ -1,0 +1,265 @@
+Tier2_Topic_ID,Name,Knowledge_Unit
+,Big O notation: use,AL/Basic Analysis
+,"Little o, big omega and big theta notation",AL/Basic Analysis
+,Recurrence relations,AL/Basic Analysis
+,Analysis of iterative and recursive algorithms,AL/Basic Analysis
+,Some version of a Master Theorem,AL/Basic Analysis
+,Branch-and-bound,AL/Algorithmic Strategies
+,Heuristics,AL/Algorithmic Strategies
+,Reduction: transform-and-conquer,AL/Algorithmic Strategies
+,Heaps,AL/Fundamental Data Structures and Algorithms
+,Graphs and graph algorithms o Shortest-path algorithms (Dijkstra’s and Floyd’s algorithms) o Minimum spanning tree (Prim’s and Kruskal’s algorithms),AL/Fundamental Data Structures and Algorithms
+,"Pattern matching and string/text algorithms (e.g., substring matching, regular expression matching, longest common subsequence algorithms)",AL/Fundamental Data Structures and Algorithms
+,Context-free grammars (cross-reference PL/Syntax Analysis),AL/Basic Automata Computability and Complexity
+,Introduction to the P and NP classes and the P vs. NP problem,AL/Basic Automata Computability and Complexity
+,"Introduction to the NP-complete class and exemplary NP-complete problems (e.g., SAT, Knapsack)",AL/Basic Automata Computability and Complexity
+,Overview and history of computer architecture,AR/Digital Logic and Digital Systems
+,Combinational vs. sequential logic/Field programmable gate arrays as a fundamental combinational + sequential logic building block,AR/Digital Logic and Digital Systems
+,Multiple representations/layers of interpretation (hardware is just another layer),AR/Digital Logic and Digital Systems
+,Computer-aided design tools that process hardware and architectural representations,AR/Digital Logic and Digital Systems
+,Register transfer notation/Hardware Description Language (Verilog/VHDL),AR/Digital Logic and Digital Systems
+,"Physical constraints (gate delays, fan-in, fan-out, energy/power)",AR/Digital Logic and Digital Systems
+,"Bits, bytes, and word",AR/Machine Level Representation of Data
+,Numeric data representation and number bases,AR/Machine Level Representation of Data
+,Fixed- and floating-point systems,AR/Machine Level Representation of Data
+,Signed and twos-complement representations,AR/Machine Level Representation of Data
+,"Representation of non-numeric data (character codes, graphical data)",AR/Machine Level Representation of Data
+,Representation of records and arrays,AR/Machine Level Representation of Data
+,Basic organization of the von Neumann machine,AR/Assembly Level Machine Organization
+,"Control unit; instruction fetch, decode, and execution",AR/Assembly Level Machine Organization
+,"Instruction sets and types (data manipulation, control, I/O)",AR/Assembly Level Machine Organization
+,Assembly/machine language programming,AR/Assembly Level Machine Organization
+,Instruction formats,AR/Assembly Level Machine Organization
+,Addressing modes,AR/Assembly Level Machine Organization
+,Subroutine call and return mechanisms (cross-reference PL/Language Translation and Execution),AR/Assembly Level Machine Organization
+,I/O and interrupts,AR/Assembly Level Machine Organization
+,Heap vs. Static vs. Stack vs. Code segments,AR/Assembly Level Machine Organization
+,Shared memory multiprocessors/multicore organization,AR/Assembly Level Machine Organization
+,Introduction to SIMD vs. MIMD and the Flynn Taxonomy,AR/Assembly Level Machine Organization
+,Storage systems and their technology,AR/Memory System Organization and Architecture
+,Memory hierarchy: importance of temporal and spatial locality,AR/Memory System Organization and Architecture
+,Main memory organization and operations,AR/Memory System Organization and Architecture
+,"Latency, cycle time, bandwidth, and interleaving",AR/Memory System Organization and Architecture
+,"Cache memories (address mapping, block size, replacement and store policy)",AR/Memory System Organization and Architecture
+,Multiprocessor cache consistency/Using the memory system for inter-core synchronization/atomic memory operations,AR/Memory System Organization and Architecture
+,"Virtual memory (page table, TLB)",AR/Memory System Organization and Architecture
+,Fault handling and reliability,AR/Memory System Organization and Architecture
+,"Error coding, data compression, and data integrity (cross-reference SF/Reliability through Redundancy)",AR/Memory System Organization and Architecture
+,"I/O fundamentals: handshaking, buffering, programmed I/O, interrupt-driven I/O",AR/Interfacing and Communication
+,"Interrupt structures: vectored and prioritized, interrupt acknowledgment",AR/Interfacing and Communication
+,"External storage, physical organization, and drives",AR/Interfacing and Communication
+,"Buses: bus protocols, arbitration, direct-memory access (DMA)",AR/Interfacing and Communication
+,Introduction to networks: communications networks as another layer of remote access,AR/Interfacing and Communication
+,Multimedia support,AR/Interfacing and Communication
+,RAID architectures,AR/Interfacing and Communication
+,Well orderings,DS/Proof Techniques
+,Spanning trees/forests,DS/Graphs and Trees
+,Graph isomorphism,DS/Graphs and Trees
+,Variance,DS/Discrete Probability
+,Conditional Independence,DS/Discrete Probability
+,Additive and subtractive color models (CMYK and RGB) and why these provide a range of colors,GV/Fundamental Concepts
+,Tradeoffs between storing data and re-computing data as embodied by vector and raster representations of images,GV/Fundamental Concepts
+,Animation as a sequence of still images,GV/Fundamental Concepts
+,Principles of graphical user interfaces (GUIs),HCI/Designing Interaction
+,"Elements of visual design (layout, color, fonts, labeling)",HCI/Designing Interaction
+,"Task analysis, including qualitative aspects of generating task analytic models",HCI/Designing Interaction
+,Low-fidelity (paper) prototyping,HCI/Designing Interaction
+,"Quantitative evaluation techniques, e.g., keystroke-level evaluation",HCI/Designing Interaction
+,Help and documentation,HCI/Designing Interaction
+,Handling human/system failure,HCI/Designing Interaction
+,User interface standards,HCI/Designing Interaction
+,Complete mediation,IAS/Principles of Secure Design
+,Use of vetted security components,IAS/Principles of Secure Design
+,"Economy of mechanism (reducing trusted computing base, minimize attack surface) (cross-reference SE/Software Design/System design principles and SE/Software Construction/Development context: “green field” vs. existing code base)",IAS/Principles of Secure Design
+,Usable security (cross-reference HCI/Foundations/Cognitive models that inform interaction design),IAS/Principles of Secure Design
+,Security composability,IAS/Principles of Secure Design
+,"Prevention, detection, and deterrence (cross-reference SF/Reliability through Redundancy/Distinction between bugs and faults and NC/Reliable Data Delivery/Error control and NC/Reliable Data Delivery/Flow control)",IAS/Principles of Secure Design
+,Correct usage of third-party components (cross-reference SDF/Development Methods/program correctness and Operating System Principles/Concepts of application program interfaces (APIs),IAS/Defensive Programming
+,Effectively deploying security updates (cross-reference OS/Security and Protection/Security methods and devices),IAS/Defensive Programming
+,"Attacker goals, capabilities, and motivations (such as underground economy, digital espionage, cyberwarfare, insider threats, hacktivism, advanced persistent threats)",IAS/Threats and Attacks
+,"Examples of malware (e.g., viruses, worms, spyware, botnets, Trojan horses or rootkits)",IAS/Threats and Attacks
+,Denial of Service (DoS) and Distributed Denial of Service (DDoS),IAS/Threats and Attacks
+,"Social engineering (e.g., phishing) (cross-reference SP/Social Context/Social implications of computing in a networked world and HCI/Designing Interaction/Handling human/system failure)",IAS/Threats and Attacks
+,"Network specific threats and attack types (e.g., denial of service, spoofing, sniffing and traffic redirection, man-in-the-middle, message integrity attacks, routing attacks, and traffic analysis)",IAS/Network Security
+,Use of cryptography for data and network security,IAS/Network Security
+,"Architectures for secure networks (e.g., secure channels, secure routing protocols, secure DNS, VPNs, anonymous communication protocols, isolation)",IAS/Network Security
+,"Defense mechanisms and countermeasures (e.g., network monitoring, intrusion detection, firewalls, spoofing and DoS protection, honeypots, tracebacks)",IAS/Network Security
+,"Basic Cryptography Terminology covering notions pertaining to the different (communication) partners, secure/unsecure channel, attackers and their capabilities, encryption, decryption, keys and their characteristics, signatures",IAS/Cryptography
+,"Cipher types (e.g., Caesar cipher, affine cipher) together with typical attack methods such as frequency analysis",IAS/Cryptography
+,Public Key Infrastructure support for digital signature and encryption and its challenges,IAS/Cryptography
+,Information management applications,IM/Information Management Concepts
+,"Declarative and navigational queries, use of links",IM/Information Management Concepts
+,Analysis and indexing,IM/Information Management Concepts
+,"Quality issues: reliability, scalability, efficiency, and effectiveness",IM/Information Management Concepts
+,Approaches to and evolution of database systems,IM/Database Systems
+,Components of database systems,IM/Database Systems
+,"Design of core DBMS functions (e.g., query mechanisms, transaction management, buffer management, access methods)",IM/Database Systems
+,Database architecture and data independence,IM/Database Systems
+,Use of a declarative query language,IM/Database Systems
+,Systems supporting structured and/or stream content,IM/Database Systems
+,Data modeling,IM/Data Modeling
+,"Conceptual models (e.g., entity-relationship, UML diagrams)",IM/Data Modeling
+,Spreadsheet models,IM/Data Modeling
+,Relational data models,IM/Data Modeling
+,Object-oriented models (cross-reference PL/Object-Oriented Programming),IM/Data Modeling
+,"Semi-structured data model (expressed using DTD or XML Schema, for example)",IM/Data Modeling
+,"Overview of AI problems, examples of successful recent AI applications",IS/Fundamental Issues
+,What is intelligent behavior? o The Turing test o Rational versus non-rational reasoning,IS/Fundamental Issues
+,Problem characteristics o Fully versus partially observable o Single versus multi-agent o Deterministic versus stochastic o Static versus dynamic o Discrete versus continuous,IS/Fundamental Issues
+,"Nature of agents o Autonomous versus semi-autonomous o Reflexive, goal-based, and utility-based o The importance of perception and environmental interactions",IS/Fundamental Issues
+,Philosophical and ethical issues. [elective],IS/Fundamental Issues
+,"Problem spaces (states, goals and operators), problem solving by search",IS/Basic Search Strategies
+,Factored representation (factoring state into variables),IS/Basic Search Strategies
+,"Uninformed search (breadth-first, depth-first, depth-first with iterative deepening)",IS/Basic Search Strategies
+,"Heuristics and informed search (hill-climbing, generic best-first, A*)",IS/Basic Search Strategies
+,Space and time efficiency of search,IS/Basic Search Strategies
+,Two-player games (introduction to minimax search),IS/Basic Search Strategies
+,Constraint satisfaction (backtracking and local search methods),IS/Basic Search Strategies
+,Review of propositional and predicate logic (cross-reference DS/Basic Logic),IS/Basic Knowledge Representation and Reasoning
+,Resolution and theorem proving (propositional logic only),IS/Basic Knowledge Representation and Reasoning
+,"Forward chaining, backward chaining",IS/Basic Knowledge Representation and Reasoning
+,"Review of probabilistic reasoning, Bayes theorem (cross-reference with DS/Discrete Probability)",IS/Basic Knowledge Representation and Reasoning
+,"Definition and examples of broad variety of machine learning tasks, including classification",IS/Basic Machine Learning
+,Inductive learning,IS/Basic Machine Learning
+,"Simple statistical-based learning, such as Naive Bayesian Classifier, decision trees",IS/Basic Machine Learning
+,The over-fitting problem,IS/Basic Machine Learning
+,Measuring classifier accuracy,IS/Basic Machine Learning
+,"Error control (retransmission techniques, timers)",NC/Reliable Data Delivery
+,"Flow control (acknowledgements, sliding window)",NC/Reliable Data Delivery
+,Performance issues (pipelining),NC/Reliable Data Delivery
+,TCP,NC/Reliable Data Delivery
+,Routing versus forwarding,NC/Routing and Forwarding
+,Static routing,NC/Routing and Forwarding
+,Internet Protocol (IP),NC/Routing and Forwarding
+,Scalability issues (hierarchical addressing),NC/Routing and Forwarding
+,Multiple Access Problem,NC/Local Area Networks
+,"Common approaches to multiple access (exponential-backoff, time division multiplexing, etc)",NC/Local Area Networks
+,Local Area Networks,NC/Local Area Networks
+,Ethernet,NC/Local Area Networks
+,Switching,NC/Local Area Networks
+,Need for resource allocation,NC/Resource Allocation
+,"Fixed allocation (TDM, FDM, WDM) versus dynamic allocation",NC/Resource Allocation
+,End-to-end versus network assisted approaches,NC/Resource Allocation
+,Fairness,NC/Resource Allocation
+,Principles of congestion control,NC/Resource Allocation
+,"Approaches to Congestion (e.g., Content Distribution Networks)",NC/Resource Allocation
+,Principles of cellular networks,NC/Mobility
+,802.11 networks,NC/Mobility
+,Issues in supporting mobile nodes (home agents),NC/Mobility
+,States and state diagrams (cross-reference SF/State and State Machines),OS/Concurrency
+,"Structures (ready list, process control blocks, and so forth)",OS/Concurrency
+,Dispatching and context switching,OS/Concurrency
+,The role of interrupts,OS/Concurrency
+,Managing atomic access to OS objects,OS/Concurrency
+,Implementing synchronization primitives,OS/Concurrency
+,"Multiprocessor issues (spin-locks, reentrancy) (cross-reference SF/Parallelism)",OS/Concurrency
+,"Preemptive and non-preemptive scheduling (cross-reference SF/Resource Allocation and Scheduling, PD/Parallel Performance)",OS/Scheduling and Dispatch
+,"Schedulers and policies (cross-reference SF/Resource Allocation and Scheduling, PD/Parallel Performance)",OS/Scheduling and Dispatch
+,Processes and threads (cross-reference SF/Computational paradigms),OS/Scheduling and Dispatch
+,Deadlines and real-time issues,OS/Scheduling and Dispatch
+,Review of physical memory and memory management hardware,OS/Memory Management
+,Working sets and thrashing,OS/Memory Management
+,Caching (cross-reference AR/Memory System Organization and Architecture),OS/Memory Management
+,Overview of system security,OS/Security and Protection
+,Policy/mechanism separation,OS/Security and Protection
+,Security methods and devices,OS/Security and Protection
+,"Protection, access control, and authentication",OS/Security and Protection
+,Backups,OS/Security and Protection
+,Basic knowledge of parallel decomposition concepts (cross-reference SF/System Support for Parallelism),PD/Parallel Decomposition
+,Task-based decomposition o Implementation strategies such as threads,PD/Parallel Decomposition
+,Data-parallel decomposition o Strategies such as SIMD and MapReduce,PD/Parallel Decomposition
+,"Actors and reactive processes (e.g., request handlers)",PD/Parallel Decomposition
+,Message passing o Point-to-point versus multicast (or event-based) messages o Blocking versus non-blocking styles for sending and receiving messages o Message buffering (cross-reference PF/Fundamental Data Structures/Queues),PD/Communication and Coordination
+,"Atomicity o Specifying and testing atomicity and safety requirements o Granularity of atomic accesses and updates, and the use of constructs such as critical sections or transactions to describe them o Mutual Exclusion using locks, semaphores, monitors, or related constructs  Potential for liveness failures and deadlock (causes, conditions, prevention) o Composition  Composing larger granularity atomic actions using synchronization  Transactions, including optimistic and conservative approaches",PD/Communication and Coordination
+,"Critical paths, work and span, and the relation to Amdahl’s law (cross-reference SF/Performance)","PD/Parallel Algorithms, Analysis, and Programming"
+,Speed-up and scalability,"PD/Parallel Algorithms, Analysis, and Programming"
+,Naturally (embarrassingly) parallel algorithms,"PD/Parallel Algorithms, Analysis, and Programming"
+,"Parallel algorithmic patterns (divide-and-conquer, map and reduce, master-workers, others) o Specific algorithms (e.g., parallel MergeSort)","PD/Parallel Algorithms, Analysis, and Programming"
+,Symmetric multiprocessing (SMP),PD/Parallel Architecture
+,"SIMD, vector processing",PD/Parallel Architecture
+,Subtyping (cross-reference PL/Type Systems) o Subtype polymorphism; implicit upcasts in typed languages o Notion of behavioral replacement: subtypes acting like supertypes o Relationship between subtyping and inheritance,PL/Object-Oriented Programming
+,Object-oriented idioms for encapsulation o Privacy and visibility of class members o Interfaces revealing only method signatures o Abstract base classes,PL/Object-Oriented Programming
+,"Using collection classes, iterators, and other common library components",PL/Object-Oriented Programming
+,"Function closures (functions using variables in the enclosing lexical environment) o Basic meaning and definition -- creating closures at run-time by capturing the environment o Canonical idioms: call-backs, arguments to iterators, reusable code via function arguments o Using a closure to encapsulate data in its environment o Currying and partial application",PL/Functional Programming
+,"Defining higher-order operations on aggregates, especially map, reduce/fold, and filter",PL/Functional Programming
+,Events and event handlers,PL/Event-Driven and Reactive Programming
+,"Canonical uses such as GUIs, mobile devices, robots, servers",PL/Event-Driven and Reactive Programming
+,Using a reactive framework o Defining event handlers/listeners o Main event loop not under event-handler-writer’s control,PL/Event-Driven and Reactive Programming
+,Externally-generated events and program-generated events,PL/Event-Driven and Reactive Programming
+,"Separation of model, view, and controller",PL/Event-Driven and Reactive Programming
+,Generic types (parametric polymorphism) o Definition o Use for generic libraries such as collections o Comparison with ad hoc polymorphism (overloading) and subtype polymorphism,PL/Basic Type Systems
+,Complementary benefits of static and dynamic typing o Errors early vs. errors late/avoided - 160 - o Enforce invariants during code development and code maintenance vs. postpone typing decisions while prototyping and conveniently allow flexible coding patterns such as heterogeneous collections o Avoid misuse of code vs. allow more code reuse o Detect incomplete programs vs. allow incomplete programs to run,PL/Basic Type Systems
+,"Programs that take (other) programs as input such as interpreters, compilers, type-checkers, documentation generators",PL/Program Representation
+,Abstract syntax trees; contrast with concrete syntax,PL/Program Representation
+,"Data structures to represent code for execution, translation, or transmission",PL/Program Representation
+,Interpretation vs. compilation to native code vs. compilation to portable intermediate representation,PL/Language Translation and Execution
+,"Language translation pipeline: parsing, optional type-checking, translation, linking, execution o Execution as native code or within a virtual machine o Alternatives like dynamic loading and dynamic (or “just-in-time”) code generation",PL/Language Translation and Execution
+,Run-time representation of core language constructs such as objects (method tables) and first-class functions (closures),PL/Language Translation and Execution
+,"Run-time layout of memory: call-stack, heap, static data o Implementing loops, recursion, and tail calls",PL/Language Translation and Execution
+,"Memory management o Manual memory management: allocating, de-allocating, and reusing heap memory o Automated memory management: garbage collection as an automated technique using the notion of reachability",PL/Language Translation and Execution
+,Evaluation of software process models,SE/Software Processes
+,"Team participation o Team processes including responsibilities for tasks, meeting structure, and work schedule o Roles and responsibilities in a software team o Team conflict resolution o Risks associated with virtual teams (communication, perception, structure)",SE/Software Project Management
+,Effort Estimation (at the personal level),SE/Software Project Management
+,"Risk (cross reference IAS/Secure Software Engineering) o The role of risk in the lifecycle o Risk categories including security, safety, market, financial, technology, people, quality, structure and process",SE/Software Project Management
+,Software configuration management and version control,SE/Tools and Environments
+,Release management,SE/Tools and Environments
+,Requirements analysis and design modeling tools,SE/Tools and Environments
+,Testing tools including static and dynamic analysis tools,SE/Tools and Environments
+,"Programming environments that automate parts of program construction processes (e.g., automated builds) o Continuous integration",SE/Tools and Environments
+,Tool integration concepts and mechanisms,SE/Tools and Environments
+,Software requirements elicitation,SE/Requirements Engineering
+,"Describing system data using, for example, class diagrams or entity-relationship diagrams",SE/Requirements Engineering
+,Non-functional requirements and their relationship to software quality (cross-reference IAS/Secure Software Engineering),SE/Requirements Engineering
+,Evaluation and use of requirements specifications,SE/Requirements Engineering
+,"Relationships between requirements and designs: transformation of models, design of contracts, invariants",SE/Software Design
+,"Software architecture concepts and standard architectures (e.g. client-server, n-layer, transform centered, pipes-and-filters)",SE/Software Design
+,Refactoring designs using design patterns,SE/Software Design
+,"The use of components in design: component selection, design, adaptation and assembly of components, components and patterns, components and objects (for example, building a GUI using a standard widget set)",SE/Software Design
+,"Coding practices: techniques, idioms/patterns, mechanisms for building quality programs (cross-reference IAS/Defensive Programming; SDF/Development Methods) o Defensive coding practices o Secure coding practices o Using exception handling mechanisms to make programs more robust, fault-tolerant",SE/Software Construction
+,Coding standards,SE/Software Construction
+,Integration strategies,SE/Software Construction
+,Development context: “green field” vs. existing code base o Change impact analysis o Change actualization,SE/Software Construction
+,Verification and validation concepts,SE/Software Verification and Validation
+,"Inspections, reviews, audits",SE/Software Verification and Validation
+,"Testing types, including human computer interface, usability, reliability, security, conformance to specification (cross-reference IAS/Secure Software Engineering)",SE/Software Verification and Validation
+,"Testing fundamentals (cross-reference SDF/Development Methods) o Unit, integration, validation, and system testing o Test plan creation and test case generation o Black-box and white-box testing techniques o Regression testing and test automation",SE/Software Verification and Validation
+,Defect tracking,SE/Software Verification and Validation
+,"Limitations of testing in particular domains, such as parallel or safety-critical systems",SE/Software Verification and Validation
+,"Software development in the context of large, pre-existing code bases o Software change o Concerns and concern location o Refactoring",SE/Software Evolution
+,Software evolution,SE/Software Evolution
+,Characteristics of maintainable software,SE/Software Evolution
+,Reengineering systems,SE/Software Evolution
+,Software reuse - 184 - o Code segments o Libraries and frameworks o Components o Product lines,SE/Software Evolution
+,Software reliability engineering concepts,SE/Software Reliability
+,"Software reliability, system reliability and failure behavior (cross-reference SF/Reliability Through Redundancy)",SE/Software Reliability
+,Fault lifecycle concepts and techniques,SE/Software Reliability
+,"Kinds of resources (e.g., processor share, memory, disk, net bandwidth)",SF/Resource Allocation and Scheduling
+,"Kinds of scheduling (e.g., first-come, priority)",SF/Resource Allocation and Scheduling
+,"Advantages of fair scheduling, preemptive scheduling",SF/Resource Allocation and Scheduling
+,Speed of light and computers (one foot per nanosecond vs. one GHz clocks),SF/Proximity
+,Latencies in computer systems: memory vs. disk latencies vs. across the network memory,SF/Proximity
+,Caches and the effects of spatial and temporal locality on performance in processors and systems,SF/Proximity
+,"Caches and cache coherency in databases, operating systems, distributed systems, and computer architecture",SF/Proximity
+,Introduction into the processor memory hierarchy and the formula for average memory access time,SF/Proximity
+,Rationale for protection and predictable performance,SF/Virtualization and Isolation
+,"Levels of indirection, illustrated by virtual memory for managing physical memory resources",SF/Virtualization and Isolation
+,Methods for implementing virtual memory and virtual machines,SF/Virtualization and Isolation
+,Distinction between bugs and faults,SF/Reliability through Redundancy
+,Redundancy through check and retry,SF/Reliability through Redundancy
+,"Redundancy through redundant encoding (error correcting codes, CRC, FEC)",SF/Reliability through Redundancy
+,Duplication/mirroring/replicas,SF/Reliability through Redundancy
+,Other approaches to fault tolerance and availability,SF/Reliability through Redundancy
+,Growth and control of the Internet (cross-reference NC/Introduction/organization of the Internet),SP/Social Context
+,"Often referred to as the digital divide, differences in access to digital technology resources and its resulting ramifications for gender, class, ethnicity, geography, and/or underdeveloped countries.",SP/Social Context
+,"Accessibility issues, including legal requirements",SP/Social Context
+,Context-aware computing (cross-reference HCI/Design for non-mouse interfaces/ ubiquitous and contextaware),SP/Social Context
+,The role of the computing professional in public policy,SP/Professional Ethics
+,Maintaining awareness of consequences,SP/Professional Ethics
+,Ethical dissent and whistle-blowing,SP/Professional Ethics
+,The relationship between regional culture and ethical dilemmas,SP/Professional Ethics
+,Dealing with harassment and discrimination,SP/Professional Ethics
+,Forms of professional credentialing,SP/Professional Ethics
+,Acceptable use policies for computing in the workplace,SP/Professional Ethics
+,Ergonomics and healthy computing environments,SP/Professional Ethics
+,Time to market and cost considerations versus quality professional standards,SP/Professional Ethics
+,"Environmental impacts of design choices in specific areas such as algorithms, operating systems, networks, databases, or human-computer interaction (cross-reference SE/Software Evaluation/software evolution; HCI/Design-Oriented HCI/sustainability)",SP/Sustainability

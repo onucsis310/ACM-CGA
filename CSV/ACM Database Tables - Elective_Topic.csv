@@ -1,0 +1,867 @@
+Elective_Topic_ID,Name,Knowledge_Unit
+,Review of the classes P and NP; introduce P-space and EXP,AL/Advanced computational theory
+,Polynomial hierarchy,AL/Advanced computational theory
+,NP-completeness (Cook’s theorem),AL/Advanced computational theory
+,Classic NP-complete problems,AL/Advanced computational theory
+,Reduction Techniques,AL/Advanced computational theory
+,Regular languages,"AL/advanced automata, computability and complexity"
+,Review of deterministic finite automata (DFAs),"AL/advanced automata, computability and complexity"
+,Nondeterministic finite automata (NFAs),"AL/advanced automata, computability and complexity"
+,Equivalence of DFAs and NFAs,"AL/advanced automata, computability and complexity"
+,Review of regular expressions; their equivalence to finite automata,"AL/advanced automata, computability and complexity"
+,Closure properties,"AL/advanced automata, computability and complexity"
+,"Proving languages non-regular, via the pumping lemma or alternative means","AL/advanced automata, computability and complexity"
+,Context-free languages,"AL/advanced automata, computability and complexity"
+,Push-down automata (PDAs),"AL/advanced automata, computability and complexity"
+,Relationship of PDAs and context-free grammars,"AL/advanced automata, computability and complexity"
+,Properties of context-free languages,"AL/advanced automata, computability and complexity"
+,"Turing machines, or an equivalent formal model of universal computation","AL/advanced automata, computability and complexity"
+,Nondeterministic Turing machines,"AL/advanced automata, computability and complexity"
+,Chomsky hierarchy,"AL/advanced automata, computability and complexity"
+,The Church-Turing thesis,"AL/advanced automata, computability and complexity"
+,Computability,"AL/advanced automata, computability and complexity"
+,Rice’s Theorem,"AL/advanced automata, computability and complexity"
+,Examples of uncomputable functions,"AL/advanced automata, computability and complexity"
+,Implications of uncomputability,"AL/advanced automata, computability and complexity"
+,"Balanced trees (e.g., AVL trees, red-black trees, splay trees, treaps)","AL/Advanced Data Structures, Algorithms, and Analysis"
+,"Graphs (e.g., topological sort, finding strongly connected components, matching)","AL/Advanced Data Structures, Algorithms, and Analysis"
+,"Advanced data structures (e.g., B-trees, Fibonacci heaps)","AL/Advanced Data Structures, Algorithms, and Analysis"
+,"String-based data structures and algorithms (e.g., suffix arrays, suffix trees, tries)","AL/Advanced Data Structures, Algorithms, and Analysis"
+,"Network flows (e.g., max flow [Ford-Fulkerson algorithm], max flow – min cut, maximum bipartite matching)","AL/Advanced Data Structures, Algorithms, and Analysis"
+,"Linear Programming (e.g., duality, simplex method, interior point algorithms)","AL/Advanced Data Structures, Algorithms, and Analysis"
+,"Number-theoretic algorithms (e.g., modular arithmetic, primality testing, integer factorization)","AL/Advanced Data Structures, Algorithms, and Analysis"
+,"Geometric algorithms (e.g., points, line segments, polygons. [properties, intersections], finding convex hull, spatial decomposition, collision detection, geometric search/proximity)","AL/Advanced Data Structures, Algorithms, and Analysis"
+,Randomized algorithms,"AL/Advanced Data Structures, Algorithms, and Analysis"
+,Stochastic algorithms,"AL/Advanced Data Structures, Algorithms, and Analysis"
+,Approximation algorithms,"AL/Advanced Data Structures, Algorithms, and Analysis"
+,Amortized analysis,"AL/Advanced Data Structures, Algorithms, and Analysis"
+,Probabilistic analysis,"AL/Advanced Data Structures, Algorithms, and Analysis"
+,Online algorithms and competitive analysis,"AL/Advanced Data Structures, Algorithms, and Analysis"
+,"Implementation of simple datapaths, including instruction pipelining, hazard detection and resolution",AR/Functional Organization
+,Control unit: hardwired realization vs. microprogrammed realization,AR/Functional Organization
+,Instruction pipelining,AR/Functional Organization
+,Introduction to instruction-level parallelism (ILP),AR/Functional Organization
+,Power Law,AR/Multiprocessing and Alternative Architectures
+,Example SIMD and MIMD instruction sets and architectures,AR/Multiprocessing and Alternative Architectures
+,"Interconnection networks (hypercube, shuffle-exchange, mesh, crossbar)",AR/Multiprocessing and Alternative Architectures
+,Shared multiprocessor memory systems and memory consistency,AR/Multiprocessing and Alternative Architectures
+,Multiprocessor cache coherence,AR/Multiprocessing and Alternative Architectures
+,Superscalar architecture,AR/Performance Enhancements
+,"Branch prediction, Speculative execution, Out-of-order execution",AR/Performance Enhancements
+,Prefetching,AR/Performance Enhancements
+,Vector processors and GPUs,AR/Performance Enhancements
+,Hardware support for multithreading,AR/Performance Enhancements
+,Scalability,AR/Performance Enhancements
+,"Alternative architectures, such as VLIW/EPIC, and Accelerators and other kinds of Special-Purpose Processors",AR/Performance Enhancements
+,"Purpose of modeling and simulation including optimization; supporting decision making, forecasting, safety considerations; for training and education",CN/Modeling and Simulation
+,"Tradeoffs including performance, accuracy, validity, and complexity",CN/Modeling and Simulation
+,"The simulation process; identification of key characteristics or behaviors, simplifying assumptions; validation of outcomes",CN/Modeling and Simulation
+,"Model building: use of mathematical formulas or equations, graphs, constraints; methodologies and techniques; use of time stepping for dynamic systems",CN/Modeling and Simulation
+,Formal models and modeling techniques: mathematical descriptions involving simplifying assumptions and avoiding detail. Examples of techniques include:,CN/Modeling and Simulation
+,Monte Carlo methods,CN/Modeling and Simulation
+,Stochastic processes,CN/Modeling and Simulation
+,Queuing theory,CN/Modeling and Simulation
+,Petri nets and colored Petri nets,CN/Modeling and Simulation
+,"Graph structures such as directed graphs, trees, networks",CN/Modeling and Simulation
+,"Games, game theory, the modeling of things using game theory",CN/Modeling and Simulation
+,Linear programming and its extensions,CN/Modeling and Simulation
+,Dynamic programming,CN/Modeling and Simulation
+,"Differential equations: ODE, PDE",CN/Modeling and Simulation
+,Non-linear techniques,CN/Modeling and Simulation
+,State spaces and transitions,CN/Modeling and Simulation
+,Assessing and evaluating models and simulations in a variety of contexts; verification and validation of models and simulations,CN/Modeling and Simulation
+,"Important application areas including health care and diagnostics, economics and finance, city and urban planning, science, and engineering",CN/Modeling and Simulation
+,"Software in support of simulation and modeling; packages, languages",CN/Modeling and Simulation
+,Fundamental programming concepts:,CN/Processing
+,"The concept of an algorithm consisting of a finite number of well-defined steps, each of which completes in a finite amount of time, as does the entire process.",CN/Processing
+,Examples of well-known algorithms such as sorting and searching.,CN/Processing
+,"The concept of analysis as understanding what the problem is really asking, how a problem can be approached using an algorithm, and how information is represented so that a machine can process it.",CN/Processing
+,The development or identification of a workflow.,CN/Processing
+,The process of converting an algorithm to machine-executable code.,CN/Processing
+,"Software processes including lifecycle models, requirements, design, implementation, verification and maintenance.",CN/Processing
+,Machine representation of data computer arithmetic.,CN/Processing
+,Numerical methods,CN/Processing
+,"Algorithms for numerically fitting data (e.g., Newton’s method)",CN/Processing
+,"Architectures for numerical computation, including parallel architectures",CN/Processing
+,Fundamental properties of parallel and distributed computation:,CN/Processing
+,Bandwidth.,CN/Processing
+,Latency.,CN/Processing
+,Scalability.,CN/Processing
+,Granularity.,CN/Processing
+,"Parallelism including task, data, and event parallelism.",CN/Processing
+,"Parallel architectures including processor architectures, memory and caching.",CN/Processing
+,"Parallel programming paradigms including threading, message passing, event driven techniques, parallel software architectures, and MapReduce.",CN/Processing
+,Grid computing.,CN/Processing
+,The impact of architecture on computational time.,CN/Processing
+,Total time to science curve for parallelism: continuum of things.,CN/Processing
+,"Computing costs, e.g., the cost of re-computing a value vs. the cost of storing and lookup.",CN/Processing
+,Principles of data visualization,CN/Interactive Visualization
+,Graphing and visualization algorithms,CN/Interactive Visualization
+,Image processing techniques,CN/Interactive Visualization
+,Scalability concerns,CN/Interactive Visualization
+,"Content management models, frameworks, systems, design methods (as in IM. Information Management)","CN/Data, Information, and Knowledge"
+,"Digital representations of content including numbers, text, images (e.g., raster and vector), video (e.g., QuickTime, MPEG2, MPEG4), audio (e.g., written score, MIDI, sampled digitized sound track) and animations; complex/composite/aggregate objects; FRBR","CN/Data, Information, and Knowledge"
+,"Digital content creation/capture and preservation, including digitization, sampling, compression, conversion, transformation/translation, migration/emulation, crawling, harvesting","CN/Data, Information, and Knowledge"
+,"Content structure / management, including digital libraries and static/dynamic/stream aspects for:","CN/Data, Information, and Knowledge"
+,"Data: data structures, databases","CN/Data, Information, and Knowledge"
+,"Information: document collections, multimedia pools, hyperbases (hypertext, hypermedia),","CN/Data, Information, and Knowledge"
+,"catalogs, repositories","CN/Data, Information, and Knowledge"
+,"Knowledge: ontologies, triple stores, semantic networks, rules","CN/Data, Information, and Knowledge"
+,"Processing and pattern recognition, including indexing, searching (including: queries and query languages; central / federated / P2P), retrieving, clustering, classifying/categorizing, analyzing/mining/extracting, rendering, reporting, handling transactions","CN/Data, Information, and Knowledge"
+,"User / society support for presentation and interaction, including browse, search, filter, route, visualize, share, collaborate, rate, annotate, personalize, recommend","CN/Data, Information, and Knowledge"
+,"Modeling, design, logical and physical implementation, using relevant systems/software","CN/Data, Information, and Knowledge"
+,"Error, stability, convergence, including truncation and round-off",CN/Numerical Analysis
+,"Function approximation including Taylor’s series, interpolation, extrapolation, and regression",CN/Numerical Analysis
+,"Numerical differentiation and integration (Simpson’s Rule, explicit and implicit methods)",CN/Numerical Analysis
+,"Differential equations (Euler’s Method, finite differences)",CN/Numerical Analysis
+,Double buffering,GV/Fundamental Concepts
+,"Rendering in nature, e.g., the emission and scattering of light and its relation to numerical integration",GV/Basic Rendering
+,"Forward and backward rendering (i.e., ray-casting and rasterization)",GV/Basic Rendering
+,Polygonal representation,GV/Basic Rendering
+,"Basic radiometry, similar triangles, and projection model",GV/Basic Rendering
+,Affine and coordinate system transformations,GV/Basic Rendering
+,Ray tracing,GV/Basic Rendering
+,"Visibility and occlusion, including solutions to this problem such as depth buffering, Painter’s algorithm, and ray tracing",GV/Basic Rendering
+,The forward and backward rendering equation,GV/Basic Rendering
+,Simple triangle rasterization,GV/Basic Rendering
+,Rendering with a shader-based API,GV/Basic Rendering
+,"Texture mapping, including minification and magnification (e.g., trilinear MIP-mapping)",GV/Basic Rendering
+,Application of spatial data structures to rendering,GV/Basic Rendering
+,Sampling and anti-aliasing,GV/Basic Rendering
+,Scene graphs and the graphics pipeline,GV/Basic Rendering
+,Basic geometric operations such as intersection calculation and proximity tests,GV/Geometric Modeling
+,"Volumes, voxels, and point-based representations",GV/Geometric Modeling
+,Parametric polynomial curves and surfaces,GV/Geometric Modeling
+,Implicit representation of curves and surfaces,GV/Geometric Modeling
+,"Approximation techniques such as polynomial curves, Bezier curves, spline curves and surfaces, and nonuniform rational basis (NURB) spines, and level set method",GV/Geometric Modeling
+,"Surface representation techniques including tessellation, mesh representation, mesh fairing, and mesh generation techniques such as Delaunay triangulation, marching cubes",GV/Geometric Modeling
+,Spatial subdivision techniques,GV/Geometric Modeling
+,"Procedural models such as fractals, generative modeling, and L-systems",GV/Geometric Modeling
+,"Graftals, cross referenced with programming languages (grammars to generated pictures)",GV/Geometric Modeling
+,Elastically deformable and freeform deformable models,GV/Geometric Modeling
+,Subdivision surfaces,GV/Geometric Modeling
+,Multiresolution modeling,GV/Geometric Modeling
+,Reconstruction,GV/Geometric Modeling
+,Constructive Solid Geometry (CSG) representation,GV/Geometric Modeling
+,"Solutions and approximations to the rendering equation, for example:",GV/Advanced Rendering
+,Distribution ray tracing and path tracing,GV/Advanced Rendering
+,Photon mapping,GV/Advanced Rendering
+,Bidirectional path tracing,GV/Advanced Rendering
+,Reyes (micropolygon) rendering,GV/Advanced Rendering
+,Metropolis light transport,GV/Advanced Rendering
+,"Time (motion blur), lens position (focus), and continuous frequency (color) and their impact on rendering",GV/Advanced Rendering
+,Shadow mapping,GV/Advanced Rendering
+,Occlusion culling,GV/Advanced Rendering
+,Bidirectional Scattering Distribution function (BSDF) theory and microfacets,GV/Advanced Rendering
+,Subsurface scattering,GV/Advanced Rendering
+,Area light sources,GV/Advanced Rendering
+,Hierarchical depth buffering,GV/Advanced Rendering
+,"The Light Field, image-based rendering",GV/Advanced Rendering
+,Non-photorealistic rendering,GV/Advanced Rendering
+,GPU architecture,GV/Advanced Rendering
+,"Human visual systems including adaptation to light, sensitivity to noise, and flicker fusion",GV/Advanced Rendering
+,Forward and inverse kinematics,GV/Computer Animation
+,Collision detection and response,GV/Computer Animation
+,"Procedural animation using noise, rules (boids/crowds), and particle systems",GV/Computer Animation
+,Skinning algorithms,GV/Computer Animation
+,"Physics based motions including rigid body dynamics, physical particle systems, mass-spring networks for",GV/Computer Animation
+,cloth and flesh and hair,GV/Computer Animation
+,Key-frame animation,GV/Computer Animation
+,Splines,GV/Computer Animation
+,"Data structures for rotations, such as quaternions",GV/Computer Animation
+,Camera animation,GV/Computer Animation
+,Motion capture,GV/Computer Animation
+,"Visualization of 2D/3D scalar fields: color mapping, isosurfaces",GV/Visualization
+,"Direct volume data rendering: ray-casting, transfer functions, segmentation",GV/Visualization
+,Visualization of:,GV/Visualization
+,Vector fields and flow data,GV/Visualization
+,Time-varying data,GV/Visualization
+,"High-dimensional data: dimension reduction, parallel coordinates,",GV/Visualization
+,"Non-spatial data: multi-variate, tree/graph structured, text",GV/Visualization
+,Perceptual and cognitive foundations that drive visual abstractions,GV/Visualization
+,Visualization design,GV/Visualization
+,Evaluation of visualization methods,GV/Visualization
+,Applications of visualization,GV/Visualization
+,"Software Architecture Patterns, e.g., Model-View controller; command objects, online, offline (cross reference PL/Event Driven and Reactive Programming, where MVC is used in the context of event-driven programming)",HCI/Programming Interactive Systems
+,"Interaction Design Patterns: visual hierarchy, navigational distance",HCI/Programming Interactive Systems
+,Event management and user interaction,HCI/Programming Interactive Systems
+,Geometry management (cross-reference GV/Geometric Modelling),HCI/Programming Interactive Systems
+,Choosing interaction styles and interaction techniques,HCI/Programming Interactive Systems
+,"Presenting information: navigation, representation, manipulation",HCI/Programming Interactive Systems
+,"Interface animation techniques (e.g., scene graphs)",HCI/Programming Interactive Systems
+,Widget classes and libraries,HCI/Programming Interactive Systems
+,"Modern GUI libraries (e.g. iOS, Android, JavaFX) GUI builders and UI programming environments (crossreference PBD/Mobile Platforms)",HCI/Programming Interactive Systems
+,"Approaches to, and characteristics of, the design process",HCI/User-Centered Design and Testing
+,Functionality and usability requirements (cross-reference to SE/Requirements Engineering),HCI/User-Centered Design and Testing
+,"Techniques for gathering requirements, e.g., interviews, surveys, ethnographic and contextual enquiry",HCI/User-Centered Design and Testing
+,"Techniques and tools for the analysis and presentation of requirements, e.g., reports, personas",HCI/User-Centered Design and Testing
+,"Prototyping techniques and tools, e.g., sketching, storyboards, low-fidelity prototyping, wireframes",HCI/User-Centered Design and Testing
+,"Evaluation without users, using both qualitative and quantitative techniques, e.g., walkthroughs, GOMS, expert-based analysis, heuristics, guidelines, and standards",HCI/User-Centered Design and Testing
+,"Evaluation with users, e.g., observation, think-aloud, interview, survey, experiment",HCI/User-Centered Design and Testing
+,"Challenges to effective evaluation, e.g., sampling, generalization",HCI/User-Centered Design and Testing
+,Reporting the results of evaluations,HCI/User-Centered Design and Testing
+,"Internationalization, designing for users from other cultures, cross-cultural",HCI/User-Centered Design and Testing
+,Choosing interaction styles and interaction techniques,HCI/New Interactive Technologies
+,"Representing information to users: navigation, representation, manipulation",HCI/New Interactive Technologies
+,"Approaches to design, implementation and evaluation of non-mouse interaction",HCI/New Interactive Technologies
+,Touch and multi-touch interfaces,HCI/New Interactive Technologies
+,"Shared, embodied, and large interfaces",HCI/New Interactive Technologies
+,New input modalities (such as sensor and location data),HCI/New Interactive Technologies
+,"New Windows, e.g., iPhone, Android",HCI/New Interactive Technologies
+,Speech recognition and natural language processing (cross reference IS/Natural Language Processing),HCI/New Interactive Technologies
+,Wearable and tangible interfaces,HCI/New Interactive Technologies
+,Persuasive interaction and emotion,HCI/New Interactive Technologies
+,Ubiquitous and context-aware interaction technologies (Ubicomp),HCI/New Interactive Technologies
+,"Bayesian inference (e.g. predictive text, guided pointing)",HCI/New Interactive Technologies
+,Ambient/peripheral display and interaction,HCI/New Interactive Technologies
+,"Asynchronous group communication, e.g., e-mail, forums, social networks",HCI/Collaboration and Communication
+,"Synchronous group communication, e.g., chat rooms, conferencing, online games",HCI/Collaboration and Communication
+,"Social media, social computing, and social network analysis",HCI/Collaboration and Communication
+,"Online collaboration, 'smart' spaces, and social coordination aspects of workflow technologies",HCI/Collaboration and Communication
+,Online communities,HCI/Collaboration and Communication
+,"Software characters and intelligent agents, virtual worlds and avatars (cross-reference IS/Agents)",HCI/Collaboration and Communication
+,Social psychology,HCI/Collaboration and Communication
+,t-tests,HCI/Statistical Methods for HCI
+,ANOVA,HCI/Statistical Methods for HCI
+,"Randomization (non-parametric) testing, within vs. between-subjects design",HCI/Statistical Methods for HCI
+,Calculating effect size,HCI/Statistical Methods for HCI
+,Exploratory data analysis,HCI/Statistical Methods for HCI
+,Presenting statistical data,HCI/Statistical Methods for HCI
+,Combining qualitative and quantitative results,HCI/Statistical Methods for HCI
+,Applied psychology and security policies,HCI/Human Factors and Security
+,Security economics,HCI/Human Factors and Security
+,"Regulatory environments – responsibility, liability and self-determination",HCI/Human Factors and Security
+,Organizational vulnerabilities and threats,HCI/Human Factors and Security
+,Usability design and security,HCI/Human Factors and Security
+,"Pretext, impersonation and fraud, e.g., phishing and spear phishing (cross-reference IAS/Threats and Attacks)",HCI/Human Factors and Security
+,"Trust, privacy and deception",HCI/Human Factors and Security
+,"Biometric authentication (camera, voice)",HCI/Human Factors and Security
+,Identity management,HCI/Human Factors and Security
+,Intellectual styles and perspectives to technology and its interfaces,HCI/Design-Oriented HCI
+,Consideration of HCI as a design discipline,HCI/Design-Oriented HCI
+,Sketching,HCI/Design-Oriented HCI
+,Participatory design,HCI/Design-Oriented HCI
+,Critically reflective HCI,HCI/Design-Oriented HCI
+,Critical technical practice,HCI/Design-Oriented HCI
+,Technologies for political activism,HCI/Design-Oriented HCI
+,Philosophy of user experience,HCI/Design-Oriented HCI
+,Ethnography and ethnomethodology,HCI/Design-Oriented HCI
+,Indicative domains of application,HCI/Design-Oriented HCI
+,Sustainability,HCI/Design-Oriented HCI
+,Arts-informed computing,HCI/Design-Oriented HCI
+,Output,"HCI/Mixed, Augmented and Virtual Reality"
+,Sound,"HCI/Mixed, Augmented and Virtual Reality"
+,Stereoscopic display,"HCI/Mixed, Augmented and Virtual Reality"
+,"Force feedback simulation, haptic devices","HCI/Mixed, Augmented and Virtual Reality"
+,User input,"HCI/Mixed, Augmented and Virtual Reality"
+,Viewer and object tracking,"HCI/Mixed, Augmented and Virtual Reality"
+,Pose and gesture recognition,"HCI/Mixed, Augmented and Virtual Reality"
+,Accelerometers,"HCI/Mixed, Augmented and Virtual Reality"
+,Fiducial markers,"HCI/Mixed, Augmented and Virtual Reality"
+,User interface issues,"HCI/Mixed, Augmented and Virtual Reality"
+,Physical modelling and rendering,"HCI/Mixed, Augmented and Virtual Reality"
+,"Physical simulation: collision detection & response, animation","HCI/Mixed, Augmented and Virtual Reality"
+,Visibility computation,"HCI/Mixed, Augmented and Virtual Reality"
+,"Time-critical rendering, multiple levels of details (LOD)","HCI/Mixed, Augmented and Virtual Reality"
+,System architectures,"HCI/Mixed, Augmented and Virtual Reality"
+,Game engines,"HCI/Mixed, Augmented and Virtual Reality"
+,Mobile augmented reality,"HCI/Mixed, Augmented and Virtual Reality"
+,Flight simulators,"HCI/Mixed, Augmented and Virtual Reality"
+,CAVEs,"HCI/Mixed, Augmented and Virtual Reality"
+,Medical imaging,"HCI/Mixed, Augmented and Virtual Reality"
+,Networking,"HCI/Mixed, Augmented and Virtual Reality"
+,"p2p, client-server, dead reckoning, encryption, synchronization","HCI/Mixed, Augmented and Virtual Reality"
+,Distributed collaboration,"HCI/Mixed, Augmented and Virtual Reality"
+,Information flow control,IAS/Defensive Programming
+,Correctly generating randomness for security purposes,IAS/Defensive Programming
+,Mechanisms for detecting and mitigating input and data sanitization errors,IAS/Defensive Programming
+,Fuzzing,IAS/Defensive Programming
+,Static analysis and dynamic analysis,IAS/Defensive Programming
+,Program verification,IAS/Defensive Programming
+,"Operating system support (e.g., address space randomization, canaries)",IAS/Defensive Programming
+,"Hardware support (e.g., DEP, TPM)",IAS/Defensive Programming
+,"Attacks on privacy and anonymity (cross-reference HCI/Foundations/Social models that inform interaction design: culture, communication, networks and organizations (cross-reference SP/Privacy and Civil Liberties/technology-based solutions for privacy protection)",IAS/Threats and Attacks
+,Malware/unwanted communication such as covert channels and steganography,IAS/Threats and Attacks
+,"Security for wireless, cellular networks (cross-reference NC/Mobility/Principles of cellular networks; cross-reference NC/Mobility/802.11)",IAS/Network Security
+,"Other non-wired networks (e.g., ad hoc, sensor, and vehicular networks)",IAS/Network Security
+,Censorship resistance,IAS/Network Security
+,"Operational network security management (e.g., configure network access control)",IAS/Network Security
+,"Mathematical Preliminaries essential for cryptography, including topics in linear algebra, number theory, probability theory, and statistics",IAS/Cryptography
+,Cryptographic primitives:,IAS/Cryptography
+,pseudo-random generators and stream ciphers,IAS/Cryptography
+,"block ciphers (pseudo-random permutations), e.g., AES",IAS/Cryptography
+,pseudo-random functions,IAS/Cryptography
+,"hash functions, e.g., SHA2, collision resistance",IAS/Cryptography
+,message authentication codes,IAS/Cryptography
+,key derivations functions,IAS/Cryptography
+,Symmetric key cryptography,IAS/Cryptography
+,Perfect secrecy and the one time pad,IAS/Cryptography
+,"Modes of operation for semantic security and authenticated encryption (e.g., encrypt-then-MAC, OCB, GCM)",IAS/Cryptography
+,"Message integrity (e.g., CMAC, HMAC)",IAS/Cryptography
+,Public key cryptography:,IAS/Cryptography
+,"Trapdoor permutation, e.g., RSA",IAS/Cryptography
+,"Public key encryption, e.g., RSA encryption, EI Gamal encryption",IAS/Cryptography
+,Digital signatures,IAS/Cryptography
+,Public-key infrastructure (PKI) and certificates,IAS/Cryptography
+,"Hardness assumptions, e.g., Diffie-Hellman, integer factoring",IAS/Cryptography
+,"Authenticated key exchange protocols, e.g., TLS",IAS/Cryptography
+,"Cryptographic protocols: challenge-response authentication, zero-knowledge protocols, commitment, oblivious transfer, secure 2-party or multi-party computation, secret sharing, and applications",IAS/Cryptography
+,"Motivate concepts using real-world applications, e.g., electronic cash, secure channels between clients and servers, secure electronic mail, entity authentication, device pairing, voting systems.",IAS/Cryptography
+,Security definitions and attacks on cryptographic primitives:,IAS/Cryptography
+,"Goals: indistinguishability, unforgeability, collision-resistance",IAS/Cryptography
+,"Attacker capabilities: chosen-message attack (for signatures), birthday attacks, side channel attacks, fault injection attacks.",IAS/Cryptography
+,Cryptographic standards and references implementations,IAS/Cryptography
+,Quantum cryptography,IAS/Cryptography
+,Web security model,IAS/Web Security
+,Browser security model including same-origin policy,IAS/Web Security
+,"Client-server trust boundaries, e.g., cannot rely on secure execution in the client",IAS/Web Security
+,"Session management, authentication",IAS/Web Security
+,Single sign-on,IAS/Web Security
+,HTTPS and certificates,IAS/Web Security
+,Application vulnerabilities and defenses,IAS/Web Security
+,SQL injection,IAS/Web Security
+,XSS,IAS/Web Security
+,CSRF,IAS/Web Security
+,Client-side security,IAS/Web Security
+,Cookies security policy,IAS/Web Security
+,"HTTP security extensions, e.g. HSTS",IAS/Web Security
+,"Plugins, extensions, and web apps",IAS/Web Security
+,Web user tracking,IAS/Web Security
+,"Server-side security tools, e.g. Web Application Firewalls (WAFs) and fuzzers",IAS/Web Security
+,Code integrity and code signing,IAS/Platform Security
+,"Secure boot, measured boot, and root of trust",IAS/Platform Security
+,Attestation,IAS/Platform Security
+,TPM and secure co-processors,IAS/Platform Security
+,"Security threats from peripherals, e.g., DMA, IOMMU",IAS/Platform Security
+,"Physical attacks: hardware Trojans, memory probes, cold boot attacks",IAS/Platform Security
+,"Security of embedded devices, e.g., medical devices, cars",IAS/Platform Security
+,Trusted path,IAS/Platform Security
+,"Privacy policy (cross-reference SP/Social Context/Social implications of computing in a networked world; cross-reference SP/Professional Ethics/Accountability, responsibility and liability; cross-reference SP/Privacy and Civil Liberties/Legal foundations of privacy protection)",IAS/Security Policy and Governance
+,Inference controls/statistical disclosure limitation,IAS/Security Policy and Governance
+,"Backup policy, password refresh policy",IAS/Security Policy and Governance
+,Breach disclosure policy,IAS/Security Policy and Governance
+,Data collection and retention policies,IAS/Security Policy and Governance
+,Supply chain policy,IAS/Security Policy and Governance
+,Cloud security tradeoffs,IAS/Security Policy and Governance
+,Basic Principles and methodologies for digital forensics,IAS/Digital Forensics
+,Design systems with forensic needs in mind,IAS/Digital Forensics
+,Rules of Evidence – general concepts and differences between jurisdictions and Chain of Custody,IAS/Digital Forensics
+,Search and Seizure of evidence: legal and procedural requirements,IAS/Digital Forensics
+,Digital Evidence methods and standards,IAS/Digital Forensics
+,Techniques and standards for Preservation of Data,IAS/Digital Forensics
+,Legal and Reporting Issues including working as an expert witness,IAS/Digital Forensics
+,OS/File System Forensics,IAS/Digital Forensics
+,Application Forensics,IAS/Digital Forensics
+,Web Forensics,IAS/Digital Forensics
+,Network Forensics,IAS/Digital Forensics
+,Mobile Device Forensics,IAS/Digital Forensics
+,Computer/network/system attacks,IAS/Digital Forensics
+,Attack detection and investigation,IAS/Digital Forensics
+,Anti-forensics,IAS/Digital Forensics
+,Building security into the software development lifecycle (cross-reference SE/Software Processes),IAS/Secure Software Engineering
+,Secure design principles and patterns,IAS/Secure Software Engineering
+,Secure software specifications and requirements,IAS/Secure Software Engineering
+,Secure software development practices (cross-reference SE/Software Construction),IAS/Secure Software Engineering
+,Secure testing - the process of testing that security requirements are met (including static and dynamic analysis).,IAS/Secure Software Engineering
+,Software quality assurance and benchmarking measurements,IAS/Secure Software Engineering
+,"Approaches for managing large volumes of data (e.g., noSQL database systems, use of MapReduce).",IM/Database Systems
+,The impact of indices on query performance,IM/Indexing
+,The basic structure of an index,IM/Indexing
+,Keeping a buffer of data in memory,IM/Indexing
+,Creating indexes with SQL,IM/Indexing
+,Indexing text,IM/Indexing
+,"Indexing the web (e.g., web crawling)",IM/Indexing
+,Mapping conceptual schema to a relational schema,IM/Relational Databases
+,Entity and referential integrity,IM/Relational Databases
+,Relational algebra and relational calculus,IM/Relational Databases
+,Relational Database design,IM/Relational Databases
+,Functional dependency,IM/Relational Databases
+,Decomposition of a schema; lossless-join and dependency-preservation properties of a decomposition,IM/Relational Databases
+,"Candidate keys, superkeys, and closure of a set of attributes",IM/Relational Databases
+,Normal forms (BCNF),IM/Relational Databases
+,Multi-valued dependency (4NF),IM/Relational Databases
+,"Join dependency (PJNF, 5NF)",IM/Relational Databases
+,Representation theory,IM/Relational Databases
+,Overview of database languages,IM/Query Languages
+,"SQL (data definition, query formulation, update sublanguage, constraints, integrity)",IM/Query Languages
+,Selections,IM/Query Languages
+,Projections,IM/Query Languages
+,Select-project-join,IM/Query Languages
+,Aggregates and group-by,IM/Query Languages
+,Subqueries,IM/Query Languages
+,QBE and 4th-generation environments,IM/Query Languages
+,Different ways to invoke non-procedural queries in conventional languages,IM/Query Languages
+,"Introduction to other major query languages (e.g., XPATH, SPARQL)",IM/Query Languages
+,Stored procedures,IM/Query Languages
+,Transactions,IM/Transaction Processing
+,Failure and recovery,IM/Transaction Processing
+,Concurrency control,IM/Transaction Processing
+,"Interaction of transaction management with storage, especially buffering",IM/Transaction Processing
+,Distributed DBMS,IM/Distributed Databases
+,Distributed data storage,IM/Distributed Databases
+,Distributed query processing,IM/Distributed Databases
+,Distributed transaction model,IM/Distributed Databases
+,Homogeneous and heterogeneous solutions,IM/Distributed Databases
+,Client-server distributed databases (cross-reference SF/Computational Paradigms),IM/Distributed Databases
+,Parallel DBMS,IM/Distributed Databases
+,"Parallel DBMS architectures: shared memory, shared disk, shared nothing;",IM/Distributed Databases
+,"Speedup and scale-up, e.g., use of the MapReduce processing model (cross-reference CN/Processing, PD/Parallel Decomposition)",IM/Distributed Databases
+,Data replication and weak consistency models,IM/Distributed Databases
+,Storage and file structure,IM/Physical Database Design
+,Indexed files,IM/Physical Database Design
+,Hashed files,IM/Physical Database Design
+,Signature files,IM/Physical Database Design
+,B-trees,IM/Physical Database Design
+,Files with dense index,IM/Physical Database Design
+,Files with variable length records,IM/Physical Database Design
+,Database efficiency and tuning,IM/Physical Database Design
+,Uses of data mining,IM/Data Mining
+,Data mining algorithms,IM/Data Mining
+,Associative and sequential patterns,IM/Data Mining
+,Data clustering,IM/Data Mining
+,Market basket analysis,IM/Data Mining
+,Data cleaning,IM/Data Mining
+,Data visualization (cross-reference GV/Visualization and CN/Interactive Visualization),IM/Data Mining
+,"Documents, electronic publishing, markup, and markup languages",IM/Information Storage and Retrieval
+,"Tries, inverted files, PAT trees, signature files, indexing",IM/Information Storage and Retrieval
+,"Morphological analysis, stemming, phrases, stop lists",IM/Information Storage and Retrieval
+,"Term frequency distributions, uncertainty, fuzziness, weighting",IM/Information Storage and Retrieval
+,"Vector space, probabilistic, logical, and advanced models",IM/Information Storage and Retrieval
+,"Information needs, relevance, evaluation, effectiveness",IM/Information Storage and Retrieval
+,"Thesauri, ontologies, classification and categorization, metadata",IM/Information Storage and Retrieval
+,"Bibliographic information, bibliometrics, citations",IM/Information Storage and Retrieval
+,Routing and (community) filtering,IM/Information Storage and Retrieval
+,"Multimedia search, information seeking behavior, user modeling, feedback",IM/Information Storage and Retrieval
+,Information summarization and visualization,IM/Information Storage and Retrieval
+,"Faceted search (e.g., using citations, keywords, classification schemes)",IM/Information Storage and Retrieval
+,Digital libraries,IM/Information Storage and Retrieval
+,"Digitization, storage, interchange, digital objects, composites, and packages",IM/Information Storage and Retrieval
+,Metadata and cataloging,IM/Information Storage and Retrieval
+,"Naming, repositories, archives",IM/Information Storage and Retrieval
+,"Archiving and preservation, integrity",IM/Information Storage and Retrieval
+,"Spaces (conceptual, geographical, 2/3D, VR)",IM/Information Storage and Retrieval
+,"Architectures (agents, buses, wrappers/mediators), interoperability",IM/Information Storage and Retrieval
+,"Services (searching, linking, browsing, and so forth)",IM/Information Storage and Retrieval
+,"Intellectual property rights management, privacy, and protection (watermarking)",IM/Information Storage and Retrieval
+,"Input and output devices, device drivers, control signals and protocols, DSPs",IM/Multimedia Systems
+,"Standards (e.g., audio, graphics, video)",IM/Multimedia Systems
+,"Applications, media editors, authoring systems, and authoring",IM/Multimedia Systems
+,"Streams/structures, capture/represent/transform, spaces/domains, compression/coding",IM/Multimedia Systems
+,"Content-based analysis, indexing, and retrieval of audio, images, animation, and video",IM/Multimedia Systems
+,"Presentation, rendering, synchronization, multi-modal integration/interfaces",IM/Multimedia Systems
+,"Real-time delivery, quality of service (including performance), capacity planning, audio/video conferencing, video-on-demand",IM/Multimedia Systems
+,Philosophical and ethical issues,IS/Fundamental Issues
+,"Constructing search trees, dynamic search space, combinatorial explosion ofsearch space",IS/Advanced Search
+,Stochastic search,IS/Advanced Search
+,Simulated annealing,IS/Advanced Search
+,Genetic algorithms,IS/Advanced Search
+,Monte-Carlo tree search,IS/Advanced Search
+,"Implementation of A* search, beam search",IS/Advanced Search
+,"Minimax search, alpha-beta pruning",IS/Advanced Search
+,Expectimax search (MDP-solving) and chance nodes,IS/Advanced Search
+,Knowledge representation issues,IS/Advanced Representation and Reasoning
+,Description logics,IS/Advanced Representation and Reasoning
+,Ontology engineering,IS/Advanced Representation and Reasoning
+,"Non-monotonic reasoning (e.g., non-classical logics, default reasoning)",IS/Advanced Representation and Reasoning
+,Argumentation,IS/Advanced Representation and Reasoning
+,"Reasoning about action and change (e.g., situation and event calculus)",IS/Advanced Representation and Reasoning
+,Temporal and spatial reasoning,IS/Advanced Representation and Reasoning
+,Rule-based Expert Systems,IS/Advanced Representation and Reasoning
+,Semantic networks,IS/Advanced Representation and Reasoning
+,Model-based and Case-based reasoning,IS/Advanced Representation and Reasoning
+,Planning:,IS/Advanced Representation and Reasoning
+,Partial and totally ordered planning,IS/Advanced Representation and Reasoning
+,Plan graphs,IS/Advanced Representation and Reasoning
+,Hierarchical planning,IS/Advanced Representation and Reasoning
+,Planning and execution including conditional planning and continuous planning,IS/Advanced Representation and Reasoning
+,Mobile agent/Multi-agent planning,IS/Advanced Representation and Reasoning
+,Review of basic probability (cross-reference DS/Discrete Probability),IS/Reasoning Under Uncertainty
+,Random variables and probability distributions,IS/Reasoning Under Uncertainty
+,Axioms of probability,IS/Reasoning Under Uncertainty
+,Probabilistic inference,IS/Reasoning Under Uncertainty
+,Bayes’ Rule,IS/Reasoning Under Uncertainty
+,Conditional Independence,IS/Reasoning Under Uncertainty
+,Knowledge representations,IS/Reasoning Under Uncertainty
+,Bayesian Networks,IS/Reasoning Under Uncertainty
+,Exact inference and its complexity,IS/Reasoning Under Uncertainty
+,Randomized sampling (Monte Carlo) methods (e.g. Gibbs sampling),IS/Reasoning Under Uncertainty
+,Markov Networks,IS/Reasoning Under Uncertainty
+,Relational probability models,IS/Reasoning Under Uncertainty
+,Hidden Markov Models,IS/Reasoning Under Uncertainty
+,Decision Theory,IS/Reasoning Under Uncertainty
+,Preferences and utility functions,IS/Reasoning Under Uncertainty
+,Maximizing expected utility,IS/Reasoning Under Uncertainty
+,Definitions of agents,IS/Agents
+,"Agent architectures (e.g., reactive, layered, cognitive)",IS/Agents
+,Agent theory,IS/Agents
+,"Rationality, game theory",IS/Agents
+,Decision-theoretic agents,IS/Agents
+,Markov decision processes (MDP),IS/Agents
+,"Software agents, personal assistants, and information access",IS/Agents
+,Collaborative agents,IS/Agents
+,Information-gathering agents,IS/Agents
+,"Believable agents (synthetic characters, modeling emotions in agents)",IS/Agents
+,Learning agents,IS/Agents
+,Multi-agent systems,IS/Agents
+,Collaborating agents,IS/Agents
+,Agent teams,IS/Agents
+,"Competitive agents (e.g., auctions, voting)",IS/Agents
+,Swarm systems and biologically inspired models,IS/Agents
+,Deterministic and stochastic grammars,IS/Natural Language Processing
+,Parsing algorithms,IS/Natural Language Processing
+,CFGs and chart parsers (e.g. CYK),IS/Natural Language Processing
+,Probabilistic CFGs and weighted CYK,IS/Natural Language Processing
+,Representing meaning / Semantics,IS/Natural Language Processing
+,Logic-based knowledge representations,IS/Natural Language Processing
+,Semantic roles,IS/Natural Language Processing
+,Temporal representations,IS/Natural Language Processing
+,"Beliefs, desires, and intentions",IS/Natural Language Processing
+,Corpus-based methods,IS/Natural Language Processing
+,N-grams and HMMs,IS/Natural Language Processing
+,Smoothing and backoff,IS/Natural Language Processing
+,Examples of use: POS tagging and morphology,IS/Natural Language Processing
+,Information retrieval (Cross-reference IM/Information Storage and Retrieval),IS/Natural Language Processing
+,Vector space model,IS/Natural Language Processing
+,TF & IDF,IS/Natural Language Processing
+,Precision and recall,IS/Natural Language Processing
+,Information extraction,IS/Natural Language Processing
+,Language translation,IS/Natural Language Processing
+,"Text classification, categorization",IS/Natural Language Processing
+,Bag of words model,IS/Natural Language Processing
+,Definition and examples of broad variety of machine learning tasks,IS/Advanced Machine Learning
+,"General statistical-based learning, parameter estimation (maximum likelihood)",IS/Advanced Machine Learning
+,Inductive logic programming (ILP),IS/Advanced Machine Learning
+,Supervised learning,IS/Advanced Machine Learning
+,Learning decision trees,IS/Advanced Machine Learning
+,Learning neural networks,IS/Advanced Machine Learning
+,Support vector machines (SVMs),IS/Advanced Machine Learning
+,Ensembles,IS/Advanced Machine Learning
+,Nearest-neighbor algorithms,IS/Advanced Machine Learning
+,Unsupervised Learning and clustering,IS/Advanced Machine Learning
+,EM,IS/Advanced Machine Learning
+,K-means,IS/Advanced Machine Learning
+,Self-organizing maps,IS/Advanced Machine Learning
+,Semi-supervised learning,IS/Advanced Machine Learning
+,Learning graphical models (Cross-reference IS/Reasoning under Uncertainty),IS/Advanced Machine Learning
+,"Performance evaluation (such as cross-validation, area under ROC curve)",IS/Advanced Machine Learning
+,Learning theory,IS/Advanced Machine Learning
+,"The problem of overfitting, the curse of dimensionality",IS/Advanced Machine Learning
+,Reinforcement learning,IS/Advanced Machine Learning
+,Exploration vs. exploitation trade-off,IS/Advanced Machine Learning
+,Markov decision processes,IS/Advanced Machine Learning
+,Value and policy iteration,IS/Advanced Machine Learning
+,Application of Machine Learning algorithms to Data Mining (cross-reference IM/Data Mining),IS/Advanced Machine Learning
+,Overview: problems and progress,IS/Robotics
+,"State-of-the-art robot systems, including their sensors and an overview of their sensor processing",IS/Robotics
+,"Robot control architectures, e.g., deliberative vs. reactive control and Braitenberg vehicles",IS/Robotics
+,World modeling and world models,IS/Robotics
+,Inherent uncertainty in sensing and in control,IS/Robotics
+,Configuration space and environmental maps,IS/Robotics
+,Interpreting uncertain sensor data,IS/Robotics
+,Localizing and mapping,IS/Robotics
+,Navigation and control,IS/Robotics
+,Motion planning,IS/Robotics
+,Multiple-robot coordination,IS/Robotics
+,Computer vision,IS/Perception and Computer Vision
+,"Image acquisition, representation, processing and properties",IS/Perception and Computer Vision
+,"Shape representation, object recognition and segmentation",IS/Perception and Computer Vision
+,Motion analysis,IS/Perception and Computer Vision
+,Audio and speech recognition,IS/Perception and Computer Vision
+,Modularity in recognition,IS/Perception and Computer Vision
+,Approaches to pattern recognition (cross-reference IS/Advanced Machine Learning),IS/Perception and Computer Vision
+,Classification algorithms and measures of classification quality,IS/Perception and Computer Vision
+,Statistical techniques,IS/Perception and Computer Vision
+,Social networks overview,NC/Social Networking
+,Example social network platforms,NC/Social Networking
+,Structure of social network graphs,NC/Social Networking
+,Social network analysis,NC/Social Networking
+,"Types of virtualization (including Hardware/Software, OS, Server, Service, Network)",OS/Virtual Machines
+,Paging and virtual memory,OS/Virtual Machines
+,Virtual file systems,OS/Virtual Machines
+,Hypervisors,OS/Virtual Machines
+,Portable virtualization; emulation vs. isolation,OS/Virtual Machines
+,Cost of virtualization,OS/Virtual Machines
+,Characteristics of serial and parallel devices,OS/Device Management
+,Abstracting device differences,OS/Device Management
+,Buffering strategies,OS/Device Management
+,Direct memory access,OS/Device Management
+,Recovery from failures,OS/Device Management
+,"Files: data, metadata, operations, organization, buffering, sequential, nonsequential",OS/File Systems
+,Directories: contents and structure,OS/File Systems
+,"File systems: partitioning, mount/unmount, virtual file systems",OS/File Systems
+,Standard implementation techniques,OS/File Systems
+,Memory-mapped files,OS/File Systems
+,Special-purpose file systems,OS/File Systems
+,"Naming, searching, access, backups",OS/File Systems
+,Journaling and log-structured file systems,OS/File Systems
+,Process and task scheduling,OS/Real Time and Embedded Systems
+,Memory/disk management requirements in a real-time environment,OS/Real Time and Embedded Systems
+,"Failures, risks, and recovery",OS/Real Time and Embedded Systems
+,Special concerns in real-time systems,OS/Real Time and Embedded Systems
+,Fundamental concepts: reliable and available systems (cross-reference SF/Reliability through Redundancy),OS/Fault Tolerance
+,Spatial and temporal redundancy (cross-reference SF/Reliability through Redundancy),OS/Fault Tolerance
+,Methods used to implement fault tolerance,OS/Fault Tolerance
+,"Examples of OS mechanisms for detection, recovery, restart to implement fault tolerance, use of these techniques for the OS’s own services",OS/Fault Tolerance
+,Why system performance needs to be evaluated (cross-reference SF/Performance/Figures of performance merit),OS/System Performance Evaluation
+,What is to be evaluated (cross-reference SF/Performance/Figures of performance merit),OS/System Performance Evaluation
+,"Systems performance policies, e.g., caching, paging, scheduling, memory management, and security evaluation models: deterministic, analytic, simulation, or implementation-specific how to collect evaluation data (profiling and tracing mechanisms)",OS/System Performance Evaluation
+,"Overview of platforms (e.g., Web, Mobile, Game, Industrial)",PBD/Introduction
+,Programming via platform-specific APIs,PBD/Introduction
+,"Overview of Platform Languages (e.g., Objective C, HTML5)",PBD/Introduction
+,Programming under platform constraints,PBD/Introduction
+,"Web programming languages (e.g., HTML5, Java Script, PHP, CSS)",PBD/Web Platforms
+,Web platform constraints,PBD/Web Platforms
+,Software as a Service (SaaS),PBD/Web Platforms
+,Web standards,PBD/Web Platforms
+,Mobile programming languages,PBD/Mobile Platforms
+,Challenges with mobility and wireless communication,PBD/Mobile Platforms
+,Location-aware applications,PBD/Mobile Platforms
+,Performance / power tradeoffs,PBD/Mobile Platforms
+,Mobile platform constraints,PBD/Mobile Platforms
+,Emerging technologies,PBD/Mobile Platforms
+,"Types of Industrial Platforms (e.g., Mathematic, Robotic, Industrial Control)",PBD/Industrial Platforms
+,Robotic software and its architecture,PBD/Industrial Platforms
+,Domain-specific languages,PBD/Industrial Platforms
+,Industrial platform constraints,PBD/Industrial Platforms
+,"Types of game platforms (e.g., XBox, Wii, PlayStation)",PBD/Game Platforms
+,"Game platform languages (e.g., C++, Java, Lua, Python)",PBD/Game Platforms
+,Game platform constraints,PBD/Game Platforms
+,Consensus,PD/Communication and Coordination
+,"(Cyclic) barriers, counters, or related constructs",PD/Communication and Coordination
+,Conditional actions,PD/Communication and Coordination
+,"Conditional waiting (e.g., using condition variables)",PD/Communication and Coordination
+,"Parallel graph algorithms (e.g., parallel shortest path, parallel spanning tree) (cross-reference AL/Algorithmic Strategies/Divide-and-conquer)","PD/Parallel Algorithms, Analysis, and Programming"
+,Parallel matrix computations,"PD/Parallel Algorithms, Analysis, and Programming"
+,Producer-consumer and pipelined algorithms,"PD/Parallel Algorithms, Analysis, and Programming"
+,Examples of non-scalable parallel algorithms,"PD/Parallel Algorithms, Analysis, and Programming"
+,"GPU, co-processing",PD/Parallel Architecture
+,Flynn’s taxonomy,PD/Parallel Architecture
+,Instruction level support for parallel programming,PD/Parallel Architecture
+,Atomic instructions such as Compare and Set,PD/Parallel Architecture
+,Memory issues,PD/Parallel Architecture
+,Multiprocessor caches and cache coherence,PD/Parallel Architecture
+,Non-uniform memory access (NUMA),PD/Parallel Architecture
+,Topologies,PD/Parallel Architecture
+,Interconnects,PD/Parallel Architecture
+,Clusters,PD/Parallel Architecture
+,"Resource sharing (e.g., buses and interconnects)",PD/Parallel Architecture
+,Load balancing,PD/Parallel Performance
+,Performance measurement,PD/Parallel Performance
+,Scheduling and contention (cross-reference OS/Scheduling and Dispatch),PD/Parallel Performance
+,Evaluating communication overhead,PD/Parallel Performance
+,Data management,PD/Parallel Performance
+,Non-uniform communication costs due to proximity (cross-reference SF/Proximity),PD/Parallel Performance
+,"Cache effects (e.g., false sharing)",PD/Parallel Performance
+,Maintaining spatial locality,PD/Parallel Performance
+,Power usage and management,PD/Parallel Performance
+,Faults (cross-reference OS/Fault Tolerance),PD/Distributed Systems
+,Network-based (including partitions) and node-based failures,PD/Distributed Systems
+,"Impact on system-wide guarantees (e.g., availability)",PD/Distributed Systems
+,Distributed message sending,PD/Distributed Systems
+,Data conversion and transmission,PD/Distributed Systems
+,Sockets,PD/Distributed Systems
+,Message sequencing,PD/Distributed Systems
+,"Buffering, retrying, and dropping messages",PD/Distributed Systems
+,Distributed system design tradeoffs,PD/Distributed Systems
+,Latency versus throughput,PD/Distributed Systems
+,"Consistency, availability, partition tolerance",PD/Distributed Systems
+,Distributed service design,PD/Distributed Systems
+,Stateful versus stateless protocols and services,PD/Distributed Systems
+,Session (connection-based) designs,PD/Distributed Systems
+,Reactive (IO-triggered) and multithreaded designs,PD/Distributed Systems
+,Core distributed algorithms,PD/Distributed Systems
+,"Election, discovery",PD/Distributed Systems
+,Internet-Scale computing,PD/Cloud Computing
+,"Task partitioning (cross-reference PD/Parallel Algorithms, Analysis, and Programming)",PD/Cloud Computing
+,Data access,PD/Cloud Computing
+,"Clusters, grids, and meshes",PD/Cloud Computing
+,Cloud services,PD/Cloud Computing
+,Infrastructure as a service,PD/Cloud Computing
+,Elasticity of resources,PD/Cloud Computing
+,Platform APIs,PD/Cloud Computing
+,Software as a service,PD/Cloud Computing
+,Security,PD/Cloud Computing
+,Cost management,PD/Cloud Computing
+,Virtualization (cross-reference SF/Virtualization and Isolation and OS/Virtual Machines),PD/Cloud Computing
+,Shared resource management,PD/Cloud Computing
+,Migration of processes,PD/Cloud Computing
+,Cloud-based data storage,PD/Cloud Computing
+,Shared access to weakly consistent data stores,PD/Cloud Computing
+,Data synchronization,PD/Cloud Computing
+,Data partitioning,PD/Cloud Computing
+,Distributed file systems (cross-reference IM/Distributed Databases),PD/Cloud Computing
+,Replication,PD/Cloud Computing
+,"Formal models of processes and message passing, including algebras such as Communicating Sequential",PD/Formal Models and Semantics
+,Processes (CSP) and pi-calculus,PD/Formal Models and Semantics
+,"Formal models of parallel computation, including the Parallel Random-Access Machine (PRAM) and alternatives such as Bulk Synchronous Parallel (BSP)",PD/Formal Models and Semantics
+,Formal models of computational dependencies,PD/Formal Models and Semantics
+,Models of (relaxed) shared memory consistency and their relation to programming language specifications,PD/Formal Models and Semantics
+,Algorithmic correctness criteria including linearizability,PD/Formal Models and Semantics
+,"Models of algorithmic progress, including non-blocking guarantees and fairness",PD/Formal Models and Semantics
+,Techniques for specifying and checking correctness properties such as atomicity and freedom from data races,PD/Formal Models and Semantics
+,Scanning (lexical analysis) using regular expressions,PL/Syntax Analysis
+,"Parsing strategies including top-down (e.g., recursive descent, Earley parsing, or LL) and bottom-up (e.g., backtracking or LR) techniques; role of context-free grammars",PL/Syntax Analysis
+,Generating scanners and parsers from declarative specifications,PL/Syntax Analysis
+,High-level program representations such as abstract syntax trees,PL/Compiler Semantic Analysis
+,Scope and binding resolution,PL/Compiler Semantic Analysis
+,Type checking,PL/Compiler Semantic Analysis
+,Declarative specifications such as attribute grammars,PL/Compiler Semantic Analysis
+,Procedure calls and method dispatching,PL/Code Generation
+,Separate compilation; linking,PL/Code Generation
+,Instruction selection,PL/Code Generation
+,Instruction scheduling,PL/Code Generation
+,Register allocation,PL/Code Generation
+,Peephole optimization,PL/Code Generation
+,"Dynamic memory management approaches and techniques: malloc/free, garbage collection (mark-sweep, copying, reference counting), regions (also known as arenas or zones)",PL/Runtime Systems
+,Data layout for objects and activation records,PL/Runtime Systems
+,Just-in-time compilation and dynamic recompilation,PL/Runtime Systems
+,"Other common features of virtual machines, such as class loading, threads, and security.",PL/Runtime Systems
+,"Relevant program representations, such as basic blocks, control-flow graphs, def-use chains, and static single assignment",PL/Static Analysis
+,Undecidability and consequences for program analysis,PL/Static Analysis
+,"Flow-insensitive analyses, such as type-checking and scalable pointer and alias analyses",PL/Static Analysis
+,"Flow-sensitive analyses, such as forward and backward dataflow analyses",PL/Static Analysis
+,"Path-sensitive analyses, such as software model checking",PL/Static Analysis
+,Tools and frameworks for defining analyses,PL/Static Analysis
+,Role of static analysis in program optimization,PL/Static Analysis
+,Role of static analysis in (partial) verification and bug-finding,PL/Static Analysis
+,Lazy evaluation and infinite streams,PL/Advanced Programming Constructs
+,"Control Abstractions: Exception Handling, Continuations, Monads",PL/Advanced Programming Constructs
+,"Object-oriented abstractions: Multiple inheritance, Mixins, Traits, Multimethods",PL/Advanced Programming Constructs
+,"Metaprogramming: Macros, Generative programming, Model-based development",PL/Advanced Programming Constructs
+,Module systems,PL/Advanced Programming Constructs
+,String manipulation via pattern-matching (regular expressions),PL/Advanced Programming Constructs
+,Dynamic code evaluation (“eval”),PL/Advanced Programming Constructs
+,"Language support for checking assertions, invariants, and pre/post-conditions",PL/Advanced Programming Constructs
+,Constructs for thread-shared variables and shared-memory synchronization,PL/Concurrency and Parallelism
+,Actor models,PL/Concurrency and Parallelism
+,Futures,PL/Concurrency and Parallelism
+,Language support for data parallelism,PL/Concurrency and Parallelism
+,Models for passing messages between sequential processes,PL/Concurrency and Parallelism
+,Effect of memory-consistency models on language semantics and correct code generation,PL/Concurrency and Parallelism
+,"Compositional type constructors, such as product types (for aggregates), sum types (for unions), function types, quantified types, and recursive types",PL/Type Systems
+,Type checking,PL/Type Systems
+,Type safety as preservation plus progress,PL/Type Systems
+,Type inference,PL/Type Systems
+,Static overloading,PL/Type Systems
+,Syntax vs. semantics,PL/Formal Semantics
+,Lambda Calculus,PL/Formal Semantics
+,"Approaches to semantics: Operational, Denotational, Axiomatic",PL/Formal Semantics
+,Proofs by induction over language semantics,PL/Formal Semantics
+,Formal definitions and proofs for type systems (cross-reference PL/Type Systems),PL/Formal Semantics
+,Parametricity (cross-reference PL/Type Systems),PL/Formal Semantics
+,Using formal semantics for systems modeling,PL/Formal Semantics
+,Principles of language design such as orthogonality,PL/Language Pragmatics
+,"Evaluation order, precedence, and associativity",PL/Language Pragmatics
+,Eager vs. delayed evaluation,PL/Language Pragmatics
+,Defining control and iteration constructs,PL/Language Pragmatics
+,External calls and system libraries,PL/Language Pragmatics
+,Clausal representation of data structures and algorithms,PL/Logic Programming
+,Unification,PL/Logic Programming
+,Backtracking and search,PL/Logic Programming
+,Cuts,PL/Logic Programming
+,Software quality concepts,SE/Software Processes
+,Process improvement,SE/Software Processes
+,Software process capability maturity models,SE/Software Processes
+,Software process measurements,SE/Software Processes
+,Team management,SE/Software Project Management
+,Team organization and decision-making,SE/Software Project Management
+,Role identification and assignment,SE/Software Project Management
+,Individual and team performance assessment,SE/Software Project Management
+,Project management,SE/Software Project Management
+,Scheduling and tracking,SE/Software Project Management
+,Project management tools,SE/Software Project Management
+,Cost/benefit analysis,SE/Software Project Management
+,Software measurement and estimation techniques,SE/Software Project Management
+,Software quality assurance and the role of measurements,SE/Software Project Management
+,Risk,SE/Software Project Management
+,Risk identification and management,SE/Software Project Management
+,Risk analysis and evaluation,SE/Software Project Management
+,"Risk tolerance (e.g., risk-adverse, risk-neutral, risk-seeking)",SE/Software Project Management
+,Risk planning,SE/Software Project Management
+,System-wide approach to risk including hazards associated with tools,SE/Software Project Management
+,Requirements analysis modeling techniques,SE/Requirements Engineering
+,Acceptability of certainty / uncertainty considerations regarding software / system behavior,SE/Requirements Engineering
+,Prototyping,SE/Requirements Engineering
+,Basic concepts of formal requirements specification,SE/Requirements Engineering
+,Requirements specification,SE/Requirements Engineering
+,Requirements validation,SE/Requirements Engineering
+,Requirements tracing,SE/Requirements Engineering
+,"Internal design qualities, and models for them: efficiency and performance, redundancy and fault",SE/Software Design
+,"tolerance, traceability of requirements",SE/Software Design
+,"External design qualities, and models for them: functionality, reliability, performance and efficiency,",SE/Software Design
+,"usability, maintainability, portability",SE/Software Design
+,Measurement and analysis of design quality,SE/Software Design
+,Tradeoffs between different aspects of quality,SE/Software Design
+,Application frameworks,SE/Software Design
+,"Middleware: the object-oriented paradigm within middleware, object request brokers and marshalling,",SE/Software Design
+,"transaction processing monitors, workflow systems",SE/Software Design
+,Principles of secure design and coding (cross-reference IAS/Principles of Secure Design),SE/Software Design
+,Principle of least privilege,SE/Software Design
+,Principle of fail-safe defaults,SE/Software Design
+,Principle of psychological acceptability,SE/Software Design
+,Potential security problems in programs,SE/Software Construction
+,Buffer and other types of overflows,SE/Software Construction
+,Race conditions,SE/Software Construction
+,"Improper initialization, including choice of privileges",SE/Software Construction
+,Checking input,SE/Software Construction
+,Assuming success and correctness,SE/Software Construction
+,Validating assumptions,SE/Software Construction
+,Static approaches and dynamic approaches to verification,SE/Software Verification and Validation
+,Test-driven development,SE/Software Verification and Validation
+,Validation planning; documentation for validation,SE/Software Verification and Validation
+,Object-oriented testing; systems testing,SE/Software Verification and Validation
+,"Verification and validation of non-code artifacts (documentation, help files, training materials)",SE/Software Verification and Validation
+,"Fault logging, fault tracking and technical support for such activities",SE/Software Verification and Validation
+,Fault estimation and testing termination including defect seeding,SE/Software Verification and Validation
+,Software reliability models,SE/Software Reliability
+,Software fault tolerance techniques and models,SE/Software Reliability
+,Software reliability engineering practices,SE/Software Reliability
+,Measurement-based analysis of software reliability,SE/Software Reliability
+,Role of formal specification and analysis techniques in the software development cycle,SE/Formal Methods
+,Program assertion languages and analysis approaches (including languages for writing and analyzing preand,SE/Formal Methods
+,"post-conditions, such as OCL, JML)",SE/Formal Methods
+,Formal approaches to software modeling and analysis,SE/Formal Methods
+,Model checkers,SE/Formal Methods
+,Model finders,SE/Formal Methods
+,Tools in support of formal methods,SE/Formal Methods
+,Analytical tools to guide quantitative evaluation,SF/Quantitative Evaluation
+,Order of magnitude analysis (Big-Oh notation),SF/Quantitative Evaluation
+,Analysis of slow and fast paths of a system,SF/Quantitative Evaluation
+,"Events on their effect on performance (e.g., instruction stalls, cache misses, page faults)",SF/Quantitative Evaluation
+,"Understanding layered systems, workloads, and platforms, their implications for performance, and the challenges they represent for evaluation",SF/Quantitative Evaluation
+,Microbenchmarking pitfalls,SF/Quantitative Evaluation
+,Foundations of the open source movement,SP/Intellectual Property
+,Software piracy,SP/Intellectual Property
+,Privacy legislation in areas of practice,SP/Privacy and Civil Liberties
+,Civil liberties and cultural differences,SP/Privacy and Civil Liberties
+,Freedom of expression and its limitations,SP/Privacy and Civil Liberties
+,Dealing with cross-cultural environments (cross-reference HCI/User-Centered Design and Testing/crosscultural evaluation),SP/Professional Communication
+,"Tradeoffs of competing risks in software projects, such as technology, structure/process, quality, people, market and financial (cross-reference SE/Software Project Management/Risk)",SP/Professional Communication
+,Guidelines for sustainable design standards,SP/Sustainability
+,Systemic effects of complex computer-mediated phenomena (e.g. telecommuting or web shopping),SP/Sustainability
+,"Pervasive computing; information processing integrated into everyday objects and activities, such as smart energy systems, social networking and feedback systems to promote sustainable behavior, transportation, environmental monitoring, citizen science and activism.",SP/Sustainability
+,"Research on applications of computing to environmental issues, such as energy, pollution, resource usage, recycling and reuse, food management, farming and others.",SP/Sustainability
+,"The interdependence of the sustainability of software systems with social systems, including the knowledge and skills of its users, organizational processes and policies, and its societal context (e.g., market forces, government policies).",SP/Sustainability
+,Prehistory—the world before 1946,SP/History
+,"History of computer hardware, software, networking (cross-reference AR/Digital logic and digital systems/history of computer architecture)",SP/History
+,Pioneers of computing,SP/History
+,History of the Internet,SP/History
+,Monopolies and their economic implications,SP/Economies of Computing
+,Effect of skilled labor supply and demand on the quality of computing products,SP/Economies of Computing
+,Pricing strategies in the computing domain,SP/Economies of Computing
+,The phenomenon of outsourcing and off-shoring software development; impacts on employment and on economics,SP/Economies of Computing
+,Consequences of globalization for the computer science profession,SP/Economies of Computing
+,Differences in access to computing resources and the possible effects thereof,SP/Economies of Computing
+,"Cost/benefit analysis of jobs with considerations to manufacturing, hardware, software, and engineering implications",SP/Economies of Computing
+,Cost estimates versus actual costs in relation to total costs,SP/Economies of Computing
+,Entrepreneurship: prospects and pitfalls,SP/Economies of Computing
+,Network effect or demand-side economies of scale,SP/Economies of Computing
+,Use of engineering economics in dealing with finances,SP/Economies of Computing
+,Examples of computer crimes and legal redress for computer criminals (cross-reference IAS/Digital,"SP/Security Policies, Laws and Computer Crimes"
+,Forensics/rules of evidence),"SP/Security Policies, Laws and Computer Crimes"
+,"Social engineering, identity theft and recovery (cross-reference HCI/Human Factors and Security/trust, privacy and deception)","SP/Security Policies, Laws and Computer Crimes"
+,Issues surrounding the misuse of access and breaches in security,"SP/Security Policies, Laws and Computer Crimes"
+,"Motivations and ramifications of cyber terrorism and criminal hacking, “cracking”","SP/Security Policies, Laws and Computer Crimes"
+,"Effects of malware, such as viruses, worms and Trojan horses","SP/Security Policies, Laws and Computer Crimes"
+,Crime prevention strategies,"SP/Security Policies, Laws and Computer Crimes"
+,Security policies (cross-reference IAS/Security Policy and Governance/policies),"SP/Security Policies, Laws and Computer Crimes"

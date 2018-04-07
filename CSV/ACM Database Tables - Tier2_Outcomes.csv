@@ -1,0 +1,296 @@
+Tier2_Outcomes_ID,Name,Knowledge_Unit,Learning_Aspect,Objective_Number
+,Use big O notation formally to give asymptotic upper bounds on time and space complexity of algorithms.,AL/Basic analysis,[Usage],8
+,Use big O notation formally to give expected case bounds on time complexity of algorithms.,AL/Basic analysis,[Usage],9
+,"Explain the use of big omega, big theta, and little o notation to describe the amount of work done by an algorithm.",AL/Basic analysis,[Familiarity],10
+,Use recurrence relations to determine the time complexity of recursively defined algorithms.,AL/Basic analysis,[Usage],11
+,"Solve elementary recurrence relations, e.g., using some form of a Master Theorem.",AL/Basic analysis,[Usage],12
+,Describe various heuristic problem-solving methods.,AL/Algorithmic Strategies,[Familiarity],7
+,Use a heuristic approach to solve an appropriate problem.,AL/Algorithmic Strategies,[Usage],8
+,Describe the trade-offs between brute force and heuristic strategies.,AL/Algorithmic Strategies,[Assessment],9
+,Describe how a branch-and-bound approach may be used to improve the performance of a heuristic method.,AL/Algorithmic Strategies,[Familiarity],10
+,Describe the heap property and the use of heaps as an implementation of priority queues.,AL/Fundamental Data Structures and alrgorithms,[Familiarity],10
+,"Solve problems using graph algorithms, including single-source and all-pairs shortest paths, and at least one minimum spanning tree algorithm.",AL/Fundamental Data Structures and alrgorithms,[Usage],11
+,Trace and/or implement a string-matching algorithm.,AL/Fundamental Data Structures and alrgorithms,[Usage],12
+,Design a context-free grammar to represent a specified language.,"AL/Basic automata, computability and complexity",[Usage],5
+,Define the classes P and NP.,"AL/Basic automata, computability and complexity",[Familiarity],6
+,Explain the significance of NP-completeness.,"AL/Basic automata, computability and complexity",[Familiarity],7
+,"Describe the progression of computer technology components from vacuum tubes to VLSI, from mainframe computer architectures to the organization of warehouse-scale computers.",AR/Digital Logic and Digital Systems ,[Familiarity],1
+,Comprehend the trend of modern computer architectures towards multi-core and that parallelism is inherent in all hardware systems.,AR/Digital Logic and Digital Systems ,[Familiarity],2
+,Explain the implications of the “power wall” in terms of further processor performance improvements and the drive towards harnessing parallelism.,AR/Digital Logic and Digital Systems ,[Familiarity],3
+,"Articulate that there are many equivalent representations of computer functionality, including logical expressions and gates, and be able to use mathematical expressions to describe the functions of simple combinational and sequential circuits.",AR/Digital Logic and Digital Systems ,[Familiarity],4
+,"Design the basic building blocks of a computer: arithmetic-logic unit (gate-level), registers (gate-level), central processing unit (register transfer-level), memory (register transfer-level).",AR/Digital Logic and Digital Systems ,[Usage],5
+,"Use CAD tools for capture, synthesis, and simulation to evaluate simple building blocks (e.g., arithmeticlogic unit, registers, movement between registers) of a simple computer design.",AR/Digital Logic and Digital Systems ,[Usage],6
+,Evaluate the functional and timing diagram behavior of a simple processor implemented at the logic circuit level.,AR/Digital Logic and Digital Systems ,[Assessment],7
+,"Explain why everything is data, including instructions, in computers.",AR/Machine Level Representation of Data ,[Familiarity],1
+,Explain the reasons for using alternative formats to represent numerical data.,AR/Machine Level Representation of Data ,[Familiarity],2
+,Describe how negative integers are stored in sign-magnitude and twos-complement representations.,AR/Machine Level Representation of Data ,[Familiarity],3
+,Explain how fixed-length number representations affect accuracy and precision.,AR/Machine Level Representation of Data ,[Familiarity],4
+,"Describe the internal representation of non-numeric data, such as characters, strings, records, and arrays.",AR/Machine Level Representation of Data ,[Familiarity],5
+,Convert numerical data from one format to another.,AR/Machine Level Representation of Data ,[Usage],6
+,Write simple programs at the assembly/machine level for string processing and manipulation.,AR/Machine Level Representation of Data ,[Usage],7
+,Explain the organization of the classical von Neumann machine and its major functional units.,AR/Assembly Level Machine Organization,[Familiarity],1
+,"Describe how an instruction is executed in a classical von Neumann machine, with extensions for threads, multiprocessor synchronization, and SIMD execution.",AR/Assembly Level Machine Organization,[Familiarity],2
+,"Describe instruction level parallelism and hazards, and how they are managed in typical processor pipelines.",AR/Assembly Level Machine Organization,[Familiarity],3
+,Summarize how instructions are represented at both the machine level and in the context of a symbolic assembler.,AR/Assembly Level Machine Organization,[Familiarity],4
+,Demonstrate how to map between high-level language patterns into assembly/machine language notations.,AR/Assembly Level Machine Organization,[Familiarity],5
+,"Explain different instruction formats, such as addresses per instruction and variable length vs. fixed length formats.",AR/Assembly Level Machine Organization,[Familiarity],6
+,Explain how subroutine calls are handled at the assembly level.,AR/Assembly Level Machine Organization,[Familiarity],7
+,Explain the basic concepts of interrupts and I/O operations.,AR/Assembly Level Machine Organization,[Familiarity],8
+,Write simple assembly language program segments.,AR/Assembly Level Machine Organization,[Usage],9
+,Show how fundamental high-level programming constructs are implemented at the machine-language level.,AR/Assembly Level Machine Organization,[Usage],10
+,"Identify the main types of memory technology (e.g., SRAM, DRAM, Flash, magnetic disk) and their relative cost and performance.",AR/Memory System Organization and Architecture,[Familiarity],1
+,Explain the effect of memory latency on running time.,AR/Memory System Organization and Architecture,[Familiarity],2
+,"Describe how the use of memory hierarchy (cache, virtual memory) is used to reduce the effective memory latency.",AR/Memory System Organization and Architecture,[Familiarity],3
+,Describe the principles of memory management.,AR/Memory System Organization and Architecture,[Familiarity],4
+,Explain the workings of a system with virtual memory management.,AR/Memory System Organization and Architecture,[Familiarity],5
+,Compute Average Memory Access Time under a variety of cache and memory configurations and mixes of instruction and data references.,AR/Memory System Organization and Architecture,[Usage],6
+,Explain how interrupts are used to implement I/O control and data transfers.,AR/Interfacing and Communication,[Familiarity],1
+,Identify various types of buses in a computer system.,AR/Interfacing and Communication,[Familiarity],2
+,Describe data access from a magnetic disk drive.,AR/Interfacing and Communication,[Familiarity],3
+,"Compare common network organizations, such as ethernet/bus, ring, switched vs. routed.",AR/Interfacing and Communication,[Familiarity],4
+,"Identify the cross-layer interfaces needed for multimedia access and presentation, from image fetch from remote storage, through transport over a communications network, to staging into local memory, and final presentation to a graphical display.",AR/Interfacing and Communication,[Familiarity],5
+,Describe the advantages and limitations of RAID architectures.,AR/Interfacing and Communication,[Familiarity],6
+,State the well-ordering principle and its relationship to mathematical induction.,DS/Proof Techniques ,[Familiarity],7
+,Explain how to construct a spanning tree of a graph.,DS/Graphs and Trees,[Usage],5
+,Determine if two graphs are isomorphic.,DS/Graphs and Trees,[Usage],6
+,Compute the variance for a given probability distribution.,DS/Discrete Probability ,[Usage],6
+,Explain how events that are independent can be conditionally dependent (and vice-versa). Identify real-world examples of such cases.,DS/Discrete Probability ,[Usage],7
+,Describe color models and their use in graphics display devices.,GV/Fundamental Concepts,[Familiarity],6
+,"Describe the tradeoffs between storing information vs. storing enough information to reproduce the information, as in the difference between vector and raster rendering.",GV/Fundamental Concepts,[Familiarity],7
+,"For an identified user group, undertake and document an analysis of their needs.",HCI/Designing Interaction,[Assessment],1
+,"Create a simple application, together with help and documentation, that supports a graphical user interface.",HCI/Designing Interaction,[Usage],2
+,Conduct a quantitative evaluation and discuss/report the results.,HCI/Designing Interaction,[Usage],3
+,Discuss at least one national or international user interface design standard.,HCI/Designing Interaction,[Familiarity],4
+,Describe the concept of mediation and the principle of complete mediation.,IAS/Principles of Secure Design,[Familiarity],8
+,"Describe standard components for security operations, and explain the benefits of their use instead of reinventing fundamentals operations.",IAS/Principles of Secure Design,[Familiarity],9
+,Explain the concept of trusted computing including trusted computing base and attack surface and the principle of minimizing trusted computing base.,IAS/Principles of Secure Design,[Familiarity],10
+,Discuss the importance of usability in security mechanism design.,IAS/Principles of Secure Design,[Familiarity],11
+,Describe security issues that arise at boundaries between multiple components.,IAS/Principles of Secure Design,[Familiarity],12
+,Identify the different roles of prevention mechanisms and detection/deterrence mechanisms.,IAS/Principles of Secure Design,[Familiarity],13
+,Explain the risks with misusing interfaces with third-party code and how to correctly use third-party code.,IAS/Defensive Programming,[Familiarity],6
+,Discuss the need to update software to fix security vulnerabilities and the lifecycle management of the fix.,IAS/Defensive Programming,[Familiarity],7
+,Describe likely attacker types against a particular system.,IAS/Threats and Attacks,[Familiarity],1
+,"Discuss the limitations of malware countermeasures (e.g., signature-based detection, behavioral detection).",IAS/Threats and Attacks,[Familiarity],2
+,Identify instances of social engineering attacks and Denial of Service attacks.,IAS/Threats and Attacks,[Familiarity],3
+,Discuss how Denial of Service attacks can be identified and mitigated.,IAS/Threats and Attacks,[Familiarity],4
+,Describe the different categories of network threats and attacks.,IAS/Network Security,[Familiarity],1
+,Describe the architecture for public and private key cryptography and how public key infrastructure (PKI) supports network security.,IAS/Network Security,[Familiarity],2
+,Describe virtues and limitations of security technologies at each layer of the network stack.,IAS/Network Security,[Familiarity],3
+,Identify the appropriate defense mechanism(s) and its limitations given a network threat.,IAS/Network Security,[Familiarity],4
+,Describe the purpose of cryptography and list ways it is used in data communications.,IAS/Cryptography,[Familiarity],1
+,"Define the following terms: cipher, cryptanalysis, cryptographic algorithm, and cryptology, and describe the two basic methods (ciphers) for transforming plain text in cipher text.",IAS/Cryptography,[Familiarity],2
+,Discuss the importance of prime numbers in cryptography and explain their use in cryptographic algorithms.,IAS/Cryptography,[Familiarity],3
+,Explain how public key infrastructure supports digital signing and encryption and discuss the limitations/vulnerabilities.,IAS/Cryptography,[Familiarity],4
+,Critique an information application with regard to satisfying user information needs.,IM/Information Management Concepts,[Assessment],7
+,Explain uses of declarative queries.,IM/Information Management Concepts,[Familiarity],8
+,Give a declarative version for a navigational query.,IM/Information Management Concepts,[Familiarity],9
+,"Describe several technical solutions to the problems related to information privacy, integrity, security, and preservation.",IM/Information Management Concepts,[Familiarity],10
+,"Explain measures of efficiency (throughput, response time) and effectiveness (recall, precision).",IM/Information Management Concepts,[Familiarity],11
+,Describe approaches to scale up information systems.,IM/Information Management Concepts,[Familiarity],12
+,Identify vulnerabilities and failure scenarios in common forms of information systems.,IM/Information Management Concepts,[Usage],13
+,Explain the characteristics that distinguish the database approach from the approach of programming with data files.,IM/Database Systems,[Familiarity],1
+,"Describe the most common designs for core database system components including the query optimizer, query executor, storage manager, access methods, and transaction processor.",IM/Database Systems,[Familiarity],2
+,"Cite the basic goals, functions, and models of database systems.",IM/Database Systems,[Familiarity],3
+,Describe the components of a database system and give examples of their use.,IM/Database Systems,[Familiarity],4
+,Identify major DBMS functions and describe their role in a database system.,IM/Database Systems,[Familiarity],5
+,Explain the concept of data independence and its importance in a database system.,IM/Database Systems,[Familiarity],6
+,Use a declarative query language to elicit information from a database.,IM/Database Systems,[Usage],7
+,"Describe facilities that databases provide supporting structures and/or stream (sequence) data, e.g., text.",IM/Database Systems,[Familiarity],8
+,"Compare and contrast appropriate data models, including internal structures, for different types of data.",IM/Data Modeling,[Assessment],1
+,"Describe concepts in modeling notation (e.g., Entity-Relation Diagrams or UML) and how they would be used.",IM/Data Modeling,[Familiarity],2
+,Define the fundamental terminology used in the relational data model.,IM/Data Modeling,[Familiarity],3
+,Describe the basic principles of the relational data model.,IM/Data Modeling,[Familiarity],4
+,Apply the modeling concepts and notation of the relational data model.,IM/Data Modeling,[Usage],5
+,"Describe the main concepts of the OO model such as object identity, type constructors, encapsulation, inheritance, polymorphism, and versioning.",IM/Data Modeling,[Familiarity],6
+,Describe the differences between relational and semi-structured data models.,IM/Data Modeling,[Assessment],7
+,"Give a semi-structured equivalent (e.g., in DTD or XML Schema) for a given relational schema.",IM/Data Modeling,[Usage],8
+,Describe Turing test and the “Chinese Room” thought experiment.,IS/Fundamental Issues,[Familiarity],1
+,Differentiate between the concepts of optimal reasoning/behavior and human-like reasoning/behavior.,IS/Fundamental Issues,[Familiarity],2
+,Determine the characteristics of a given problem that an intelligent system must solve.,IS/Fundamental Issues,[Assessment],3
+,"Formulate an efficient problem space for a problem expressed in natural language (e.g., English) in terms of initial and goal states, and operators.",IS/Basic Search Strategies,[Usage],1
+,"Describe the role of heuristics and describe the trade-offs among completeness, optimality, time complexity, and space complexity.",IS/Basic Search Strategies,[Familiarity],2
+,Describe the problem of combinatorial explosion of search space and its consequences.,IS/Basic Search Strategies,[Familiarity],3
+,Select and implement an appropriate uninformed search algorithm for a problem and characterize its time and space complexities.,IS/Basic Search Strategies,[Usage],4
+,Select and implement an appropriate informed search algorithm for a problem by designing the necessary heuristic evaluation function.,IS/Basic Search Strategies,[Usage],5
+,Evaluate whether a heuristic for a given problem is admissible/can guarantee optimal solution.,IS/Basic Search Strategies,[Assessment],6
+,"Formulate a problem specified in natural language (e.g., English) as a constraint satisfaction problem and implement it using a chronological backtracking algorithm or stochastic local search.",IS/Basic Search Strategies,[Usage],7
+,Compare and contrast basic search issues with game playing issues.,IS/Basic Search Strategies,[Familiarity],8
+,"Translate a natural language (e.g., English) sentence into predicate logic statement.",IS/Basic Knowledge Representation and Reasoning,[Usage],1
+,Convert a logic statement into clause form.,IS/Basic Knowledge Representation and Reasoning,[Usage],2
+,Apply resolution to a set of logic statements to answer a query.,IS/Basic Knowledge Representation and Reasoning,[Usage],3
+,Make a probabilistic inference in a real-world problem using Bayes’ theorem to determine the probability of a hypothesis given evidence.,IS/Basic Knowledge Representation and Reasoning,[Usage],4
+,"List the differences among the three main styles of learning: supervised, reinforcement, and unsupervised.",IS/Basic Machine Learning,[Familiarity],1
+,"Identify examples of classification tasks, including the available input features and output to be predicted.",IS/Basic Machine Learning,[Familiarity],2
+,Explain the difference between inductive and deductive learning.,IS/Basic Machine Learning,[Familiarity],3
+,Describe over-fitting in the context of a problem.,IS/Basic Machine Learning,[Familiarity],4
+,Apply the simple statistical learning algorithm such as Naive Bayesian Classifier to classification task and measure the classifier's accuracy.,IS/Basic Machine Learning,[Usage],5
+,Describe the operation of reliable delivery protocols.,NC/Reliable Data Delivery,[Familiarity],1
+,List the factors that affect the performance of reliable delivery protocols.,NC/Reliable Data Delivery,[Familiarity],2
+,Design and implement a simple reliable protocol.,NC/Reliable Data Delivery,[Usage],3
+,Describe the organization of the network layer.,NC/Routing and Forwardin,[Familiarity],1
+,Describe how packets are forwarded in an IP network.,NC/Routing and Forwardin,[Familiarity],2
+,List the scalability benefits of hierarchical addressing.,NC/Routing and Forwardin,[Familiarity],3
+,Describe how frames are forwarded in an Ethernet network.,NC/Local Area Networks ,[Familiarity],1
+,Describe the differences between IP and Ethernet.,NC/Local Area Networks ,[Familiarity],2
+,Describe the interrelations between IP and Ethernet.,NC/Local Area Networks ,[Familiarity],3
+,Describe the steps used in one common approach to the multiple access problem.,NC/Local Area Networks ,[Familiarity],4
+,Describe how resources can be allocated in a network.,NC/Resource Allocation,[Familiarity],1
+,Describe the congestion problem in a large network.,NC/Resource Allocation,[Familiarity],2
+,Compare and contrast fixed and dynamic allocation techniques.,NC/Resource Allocation,[Assessment],3
+,Compare and contrast current approaches to congestion.,NC/Resource Allocation,[Assessment],4
+,Describe the organization of a wireless network.,NC/Mobility,[Familiarity],1
+,Describe how wireless networks support mobile users.,NC/Mobility,[Familiarity],2
+,Describe the need for concurrency within the framework of an operating system.,OS/Concurrency,[Familiarity],1
+,Demonstrate the potential run-time problems arising from the concurrent operation of many separate tasks.,OS/Concurrency,[Usage],2
+,Summarize the range of mechanisms that can be employed at the operating system level to realize concurrent systems and describe the benefits of each.,OS/Concurrency,[Familiarity],3
+,Explain the different states that a task may pass through and the data structures needed to support the management of many tasks.,OS/Concurrency,[Familiarity],4
+,"Summarize techniques for achieving synchronization in an operating system (e.g., describe how to implement a semaphore using OS primitives).",OS/Concurrency,[Familiarity],5
+,"Describe reasons for using interrupts, dispatching, and context switching to support concurrency in an operating system.",OS/Concurrency,[Familiarity],6
+,Create state and transition diagrams for simple problem domains.,OS/Concurrency,[Usage],7
+,"Compare and contrast the common algorithms used for both preemptive and non-preemptive scheduling of tasks in operating systems, such as priority, performance comparison, and fair-share schemes.",OS/Scheduling and Dispatch,[Usage],1
+,Describe relationships between scheduling algorithms and application domains.,OS/Scheduling and Dispatch,[Familiarity],2
+,"Discuss the types of processor scheduling such as short-term, medium-term, long-term, and I/O.",OS/Scheduling and Dispatch,[Familiarity],3
+,Describe the difference between processes and threads.,OS/Scheduling and Dispatch,[Usage],4
+,Compare and contrast static and dynamic approaches to real-time scheduling.,OS/Scheduling and Dispatch,[Usage],5
+,Discuss the need for preemption and deadline scheduling.,OS/Scheduling and Dispatch,[Familiarity],6
+,"Identify ways that the logic embodied in scheduling algorithms are applicable to other domains, such as disk I/O, network scheduling, project scheduling, and problems beyond computing.",OS/Scheduling and Dispatch,[Usage],7
+,Explain memory hierarchy and cost-performance trade-offs.,OS/Memory Management,[Familiarity],1
+,Summarize the principles of virtual memory as applied to caching and paging.,OS/Memory Management,[Familiarity],2
+,"Evaluate the trade-offs in terms of memory size (main memory, cache memory, auxiliary memory) and processor speed.",OS/Memory Management,[Assessment],3
+,"Defend the different ways of allocating memory to tasks, citing the relative merits of each.",OS/Memory Management,[Assessment],4
+,"Describe the reason for and use of cache memory (performance and proximity, different dimension of how caches complicate isolation and VM abstraction).",OS/Memory Management,[Familiarity],5
+,"Discuss the concept of thrashing, both in terms of the reasons it occurs and the techniques used to recognize and manage the problem.",OS/Memory Management,[Familiarity],6
+,Articulate the need for protection and security in an OS (cross-reference IAS/Security Architecture and Systems Administration/Investigating Operating Systems Security for various systems).,OS/Security and Protection,[Assessment],1
+,Summarize the features and limitations of an operating system used to provide protection and security (cross-reference IAS/Security Architecture and Systems Administration).,OS/Security and Protection,[Familiarity],2
+,Explain the mechanisms available in an OS to control access to resources (cross-reference IAS/Security Architecture and Systems Administration/Access Control/Configuring systems to operate securely as an IT system).,OS/Security and Protection,[Familiarity],3
+,"Carry out simple system administration tasks according to a security policy, for example creating accounts, setting permissions, applying patches, and arranging for regular backups (cross-reference IAS/Security Architecture and Systems Administration).",OS/Security and Protection,[Usage],4
+,Write a correct and scalable parallel algorithm.,PD/Parallel Decomposition,[Usage],3
+,Parallelize an algorithm by applying task-based decomposition.,PD/Parallel Decomposition,[Usage],4
+,Parallelize an algorithm by applying data-parallel decomposition.,PD/Parallel Decomposition,[Usage],5
+,Write a program using actors and/or reactive processes.,PD/Parallel Decomposition,[Usage],6
+,Give an example of a scenario in which blocking message sends can deadlock.,PD/Communication and Coordination,[Usage],3
+,Explain when and why multicast or event-based messaging can be preferable to alternatives.,PD/Communication and Coordination,[Familiarity],4
+,Write a program that correctly terminates when all of a set of concurrent tasks have completed.,PD/Communication and Coordination,[Usage],5
+,Use a properly synchronized queue to buffer data passed among activities.,PD/Communication and Coordination,[Usage],6
+,"Explain why checks for preconditions, and actions based on these checks, must share the same unit of atomicity to be effective.",PD/Communication and Coordination,[Familiarity],7
+,"Write a test program that can reveal a concurrent programming error; for example, missing an update when two activities both try to increment a variable.",PD/Communication and Coordination,[Usage],8
+,Describe at least one design technique for avoiding liveness failures in programs using multiple locks or semaphores.,PD/Communication and Coordination,[Familiarity],9
+,Describe the relative merits of optimistic versus conservative concurrency control under different rates of contention among updates.,PD/Communication and Coordination,[Familiarity],10
+,Give an example of a scenario in which an attempted optimistic update may never complete.,PD/Communication and Coordination,[Familiarity],11
+,"Define “critical path”, “work”, and “span”.","PD/Parallel Algorithms, Analysis, and Programming",[Familiarity],1
+,"Compute the work and span, and determine the critical path with respect to a parallel execution diagram.","PD/Parallel Algorithms, Analysis, and Programming",[Usage],2
+,Define “speed-up” and explain the notion of an algorithm’s scalability in this regard.,"PD/Parallel Algorithms, Analysis, and Programming",[Familiarity],3
+,Identify independent tasks in a program that may be parallelized.,"PD/Parallel Algorithms, Analysis, and Programming",[Usage],4
+,Characterize features of a workload that allow or prevent it from being naturally parallelized.,"PD/Parallel Algorithms, Analysis, and Programming",[Familiarity],5
+,Implement a parallel divide-and-conquer (and/or graph algorithm) and empirically measure its performance relative to its sequential analog.,"PD/Parallel Algorithms, Analysis, and Programming",[Usage],6
+,"Decompose a problem (e.g., counting the number of occurrences of some word in a document) via map and reduce operations.","PD/Parallel Algorithms, Analysis, and Programming",[Usage],7
+,Describe the SMP architecture and note its key features.,PD/Parallel Architecture,[Familiarity],2
+,Characterize the kinds of tasks that are a natural match for SIMD machines.,PD/Parallel Architecture,[Familiarity],3
+,Explain the relationship between object-oriented inheritance (code-sharing and overriding) and subtyping (the idea of a subtype being usable in a context that expects the supertype).,PL/Object-Oriented Programming,[Familiarity],5
+,Use object-oriented encapsulation mechanisms such as interfaces and private members.,PL/Object-Oriented Programming,[Usage],6
+,"Define and use iterators and other operations on aggregates, including operations that take functions as arguments, in multiple programming languages, selecting the most natural idioms for each language. This outcome also appears in PL/Functional Programming.",PL/Object-Oriented Programming,[Usage],7
+,Correctly reason about variables and lexical scope in a program using function closures.,PL/Functional Programming,[Usage],4
+,Use functional encapsulation mechanisms such as closures and modular interfaces.,PL/Functional Programming,[Usage],5
+,"Define and use iterators and other operations on aggregates, including operations that take functions as arguments, in multiple programming languages, selecting the most natural idioms for each language.   This outcome also appears in PL/Object-Oriented Programming.",PL/Functional Programming,[Usage],6
+,"Write event handlers for use in reactive systems, such as GUIs.",PL/Event-Driven and Reactive Programming,[Usage],1
+,Explain why an event-driven programming style is natural in domains where programs react to external events.,PL/Event-Driven and Reactive Programming,[Familiarity],2
+,"Describe an interactive system in terms of a model, a view, and a controller.",PL/Event-Driven and Reactive Programming,[Familiarity],3
+,Explain how typing rules define the set of operations that are legal for a type.,PL/Basic Type Systems,[Familiarity],7
+,Write down the type rules governing the use of a particular compound type.,PL/Basic Type Systems,[Usage],8
+,Explain why undecidability requires type systems to conservatively approximate program behavior.,PL/Basic Type Systems,[Familiarity],9
+,"Define and use program pieces (such as functions, classes, methods) that use generic types, including for collections.",PL/Basic Type Systems,[Usage],10
+,"Discuss the differences among generics, subtyping, and overloading.",PL/Basic Type Systems,[Familiarity],11
+,"Explain multiple benefits and limitations of static typing in writing, maintaining, and debugging software.",PL/Basic Type Systems,[Familiarity],12
+,"Distinguish a language definition (what constructs mean) from a particular language implementation (compiler vs. interpreter, run-time representation of data objects, etc.).",PL/Language Translation and Execution,[Familiarity],1
+,Distinguish syntax and parsing from semantics and evaluation.,PL/Language Translation and Execution,[Familiarity],2
+,"Sketch a low-level run-time representation of core language constructs, such as objects or closures.",PL/Language Translation and Execution,[Familiarity],3
+,"Explain how programming language implementations typically organize memory into global data, text, heap, and stack sections and how features such as recursion and memory management map to this memory model.",PL/Language Translation and Execution,[Familiarity],4
+,Identify and fix memory leaks and dangling-pointer dereferences.,PL/Language Translation and Execution,[Usage],5
+,"Discuss the benefits and limitations of garbage collection, including the notion of reachability.",PL/Language Translation and Execution,[Familiarity],6
+,"Explain the concept of a software lifecycle and provide an example, illustrating its phases including the deliverables that are produced.",SE/Software Processes,[Familiarity],6
+,"Compare several common process models with respect to their value for development of particular classes of software systems taking into account issues such as requirement stability, size, and non-functional characteristics.",SE/Software Processes,[Usage],7
+,Discuss common behaviors that contribute to the effective functioning of a team.,SE/Software Project Management,[Familiarity],1
+,Create and follow an agenda for a team meeting.,SE/Software Project Management,[Usage],2
+,Identify and justify necessary roles in a software development team.,SE/Software Project Management,[Usage],3
+,"Understand the sources, hazards, and potential benefits of team conflict.",SE/Software Project Management,[Usage],4
+,Apply a conflict resolution strategy in a team setting.,SE/Software Project Management,[Usage],5
+,"Use an ad hoc method to estimate software development effort (e.g., time) and compare to actual effort required.",SE/Software Project Management,[Usage],6
+,List several examples of software risks.,SE/Software Project Management,[Familiarity],7
+,Describe the impact of risk in a software development lifecycle.,SE/Software Project Management,[Familiarity],8
+,Describe different categories of risk in software systems.,SE/Software Project Management,[Familiarity],9
+,Describe the difference between centralized and distributed software configuration management.,SE/Tools and Environments,[Familiarity],1
+,Describe how version control can be used to help manage software release management.,SE/Tools and Environments,[Familiarity],2
+,Identify configuration items and use a source code control tool in a small team-based project.,SE/Tools and Environments,[Usage],3
+,Describe how available static and dynamic test tools can be integrated into the software development environment.,SE/Tools and Environments,[Familiarity],4
+,"Describe the issues that are important in selecting a set of tools for the development of a particular software system, including tools for requirements tracking, design modeling, implementation, build automation, and testing.",SE/Tools and Environments,[Familiarity],5
+,Demonstrate the capability to use software tools in support of the development of a software product of medium size.,SE/Tools and Environments,[Usage],6
+,Describe the fundamental challenges of and common techniques used for requirements elicitation.,SE/Requirements Engineering,[Familiarity],4
+,"List the key components of a data model (e.g., class diagrams or ER diagrams).",SE/Requirements Engineering,[Familiarity],5
+,Identify both functional and non-functional requirements in a given requirements specification for a software system.,SE/Requirements Engineering,[Usage],6
+,Conduct a review of a set of software requirements to determine the quality of the requirements with respect to the characteristics of good requirements.,SE/Requirements Engineering,[Usage],7
+,"For a simple system suitable for a given scenario, discuss and select an appropriate design paradigm.",SE/Software Design,[Usage],5
+,Create appropriate models for the structure and behavior of software products from their requirements specifications.,SE/Software Design,[Usage],6
+,"Explain the relationships between the requirements for a software product and its design, using appropriate models.",SE/Software Design,[Assessment],7
+,"For the design of a simple software system within the context of a single design paradigm, describe the software architecture of that system.",SE/Software Design,[Familiarity],8
+,"Given a high-level design, identify the software architecture by differentiating among common software architectures such as 3-tier, pipe-and-filter, and client-server.",SE/Software Design,[Familiarity],9
+,Investigate the impact of software architectures selection on the design of a simple system.,SE/Software Design,[Assessment],10
+,Apply simple examples of patterns in a software design.,SE/Software Design,[Usage],11
+,Describe a form of refactoring and discuss when it may be applicable.,SE/Software Design,[Familiarity],12
+,Select suitable components for use in the design of a software product.,SE/Software Design,[Usage],13
+,Explain how suitable components might need to be adapted for use in the design of a software product.,SE/Software Design,[Familiarity],14
+,Design a contract for a typical small software component for use in a given system.,SE/Software Design,[Usage],15
+,"Describe techniques, coding idioms and mechanisms for implementing designs to achieve desired properties such as reliability, efficiency, and robustness.",SE/Software Construction,[Familiarity],1
+,Build robust code using exception handling mechanisms.,SE/Software Construction,[Usage],2
+,Describe secure coding and defensive coding practices.,SE/Software Construction,[Familiarity],3
+,Select and use a defined coding standard in a small software project.,SE/Software Construction,[Usage],4
+,"Compare and contrast integration strategies including top-down, bottom-up, and sandwich integration.",SE/Software Construction,[Familiarity],5
+,Describe the process of analyzing and implementing changes to code base developed for a specific project.,SE/Software Construction,[Familiarity],6
+,Describe the process of analyzing and implementing changes to a large existing code base.,SE/Software Construction,[Familiarity],7
+,Distinguish between program validation and verification.,SE/Software Verification and Validation,[Familiarity],1
+,Describe the role that tools can play in the validation of software.,SE/Software Verification and Validation,[Familiarity],2
+,"Undertake, as part of a team activity, an inspection of a medium-size code segment.",SE/Software Verification and Validation,[Usage],3
+,"Describe and distinguish among the different types and levels of testing (unit, integration, systems, and acceptance).",SE/Software Verification and Validation,[Familiarity],4
+,"Describe techniques for identifying significant test cases for integration, regression and system testing.",SE/Software Verification and Validation,[Familiarity],5
+,Create and document a set of tests for a medium-size code segment.,SE/Software Verification and Validation,[Usage],6
+,Describe how to select good regression tests and automate them.,SE/Software Verification and Validation,[Familiarity],7
+,Use a defect tracking tool to manage software defects in a small software project.,SE/Software Verification and Validation,[Usage],8
+,Discuss the limitations of testing in a particular domain.,SE/Software Verification and Validation,[Familiarity],9
+,Identify the principal issues associated with software evolution and explain their impact on the software lifecycle.,SE/Software Evolution,[Familiarity],1
+,Estimate the impact of a change request to an existing product of medium size.,SE/Software Evolution,[Usage],2
+,Use refactoring in the process of modifying a software component.,SE/Software Evolution,[Usage],3
+,Discuss the challenges of evolving systems in a changing environment.,SE/Software Evolution,[Familiarity],4
+,Outline the process of regression testing and its role in release management.,SE/Software Evolution,[Familiarity],5
+,Discuss the advantages and disadvantages of different types of software reuse.,SE/Software Evolution,[Familiarity],6
+,Explain the problems that exist in achieving very high levels of reliability.,SE/Software Reliability,[Familiarity],1
+,Describe how software reliability contributes to system reliability.,SE/Software Reliability,[Familiarity],2
+,List approaches to minimizing faults that can be applied at each stage of the software lifecycle.,SE/Software Reliability,[Familiarity],3
+,"Define how finite computer resources (e.g., processor share, memory, storage and network bandwidth) are managed by their careful allocation to existing entities.",SF/Resource Allocation and Scheduling,[Familiarity],1
+,"Describe the scheduling algorithms by which resources are allocated to competing entities, and the figures of merit by which these algorithms are evaluated, such as fairness.",SF/Resource Allocation and Scheduling,[Familiarity],2
+,Implement simple schedule algorithms.,SF/Resource Allocation and Scheduling,[Usage],3
+,Use figures of merit of alternative scheduler implementations.,SF/Resource Allocation and Scheduling,[Assessment],4
+,Explain the importance of locality in determining performance.,SF/Proximity,[Familiarity],1
+,Describe why things that are close in space take less time to access.,SF/Proximity,[Familiarity],2
+,"Calculate average memory access time and describe the tradeoffs in memory hierarchy performance in terms of capacity, miss/hit rate, and access time.",SF/Proximity,[Assessment],3
+,Explain why it is important to isolate and protect the execution of individual programs and environments that share common underlying resources.,SF/Virtualization and Isolation,[Familiarity],1
+,Describe how the concept of indirection can create the illusion of a dedicated machine and its resources even when physically shared among multiple programs and environments.,SF/Virtualization and Isolation,[Familiarity],2
+,"Measure the performance of two application instances running on separate virtual machines, and determine the effect of performance isolation.",SF/Virtualization and Isolation,[Assessment],3
+,"Explain the distinction between program errors, system errors, and hardware faults (e.g., bad memory) and exceptions (e.g., attempt to divide by zero).",SF/Reliability through Redundancy,[Familiarity],1
+,"Articulate the distinction between detecting, handling, and recovering from faults, and the methods for their implementation.",SF/Reliability through Redundancy,[Familiarity],2
+,"Describe the role of error correcting codes in providing error checking and correction techniques in memories, storage, and networks.",SF/Reliability through Redundancy,[Familiarity],3
+,Apply simple algorithms for exploiting redundant information for the purposes of data correction.,SF/Reliability through Redundancy,[Usage],4
+,"Compare different error detection and correction methods for their data overhead, implementation complexity, and relative execution time for encoding, detecting, and correcting errors.",SF/Reliability through Redundancy,[Assessment],5
+,Discuss how Internet access serves as a liberating force for people living under oppressive forms of government; explain how limits on Internet access are used as tools of political and social repression.,SP/Social Context,[Familiarity],6
+,"Analyze the pros and cons of reliance on computing in the implementation of democracy (e.g. delivery of social services, electronic voting).",SP/Social Context,[Assessment],7
+,"Describe the impact of the under-representation of diverse populations in the computing profession (e.g., industry culture, product diversity).",SP/Social Context,[Familiarity],8
+,Explain the implications of context awareness in ubiquitous computing systems.,SP/Social Context,[Familiarity],9
+,Describe ways in which professionals may contribute to public policy.,SP/Professional Ethics,[Familiarity],7
+,Describe the consequences of inappropriate professional behavior.,SP/Professional Ethics,[Familiarity],8
+,Identify progressive stages in a whistle-blowing incident.,SP/Professional Ethics,[Familiarity],9
+,Identify examples of how regional culture interplays with ethical dilemmas.,SP/Professional Ethics,[Familiarity],10
+,Investigate forms of harassment and discrimination and avenues of assistance.,SP/Professional Ethics,[Usage],11
+,Examine various forms of professional credentialing.,SP/Professional Ethics,[Usage],12
+,Explain the relationship between ergonomics in computing environments and people’s health.,SP/Professional Ethics,[Familiarity],13
+,Develop a computer usage/acceptable use policy with enforcement measures.,SP/Professional Ethics,[Assessment],14
+,Describe issues associated with industries’ push to focus on time to market versus enforcing quality professional standards.,SP/Professional Ethics,[Familiarity],15
+,"Describe the environmental impacts of design choices within the field of computing that relate to algorithm design, operating system design, networking design, database design, etc.",SP/Sustainability,[Familiarity],3
+,Investigate the social and environmental impacts of new system designs through projects.,SP/Sustainability,[Usage],4

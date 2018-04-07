@@ -1,0 +1,262 @@
+Tier1_Outcomes_ID,Name,Knowledge_Unit,Learning_Aspect,Objective_Number
+,"Explain what is meant by “best”, “expected”, and “worst” case behavior of an algorithm.",AL/Basic analysis,[Familiarity],1
+,"In the context of specific algorithms, identify the characteristics of data and/or other conditions or assumptions that lead to different behaviors.",AL/Basic analysis,[Assessment],2
+,Determine informally the time and space complexity of simple algorithms.,AL/Basic analysis,[Usage],3
+,State the formal definition of big O.,AL/Basic analysis,[Familiarity],4
+,List and contrast standard complexity classes.,AL/Basic analysis,[Familiarity],5
+,Perform empirical studies to validate hypotheses about runtime stemming from mathematical analysis. Run algorithms on input of various sizes and compare performance.,AL/Basic analysis,[Assessment],6
+,Give examples that illustrate time-space trade-offs of algorithms.,AL/Basic analysis,[Familiarity],7
+,"For each of the strategies (brute-force, greedy, divide-and-conquer, recursive backtracking, and dynamic programming), identify a practical example to which it would apply.",AL/Algorithmic Strategies,[Familiarity],1
+,Use a greedy approach to solve an appropriate problem and determine if the greedy rule chosen leads to an optimal solution.,AL/Algorithmic Strategies,[Assessment],2
+,Use a divide-and-conquer algorithm to solve an appropriate problem.,AL/Algorithmic Strategies,[Usage],3
+,Use recursive backtracking to solve a problem such as navigating a maze.,AL/Algorithmic Strategies,[Usage],4
+,Use dynamic programming to solve an appropriate problem.,AL/Algorithmic Strategies,[Usage],5
+,Determine an appropriate algorithmic approach to a problem.,AL/Algorithmic Strategies,[Assessment],6
+,Implement basic numerical algorithms.,AL/Fundamental Data Structures and alrgorithms,[Usage],1
+,Implement simple search algorithms and explain the differences in their time complexities.,AL/Fundamental Data Structures and alrgorithms,[Assessment],2
+,Be able to implement common quadratic and O(N log N) sorting algorithms.,AL/Fundamental Data Structures and alrgorithms,[Usage],3
+,"Describe the implementation of hash tables, including collision avoidance and resolution.",AL/Fundamental Data Structures and alrgorithms,[Familiarity],4
+,"Discuss the runtime and memory efficiency of principal algorithms for sorting, searching, and hashing.",AL/Fundamental Data Structures and alrgorithms,[Familiarity],5
+,"Discuss factors other than computational efficiency that influence the choice of algorithms, such as programming time, maintainability, and the use of application-specific patterns in the input data.",AL/Fundamental Data Structures and alrgorithms,[Familiarity],6
+,Explain how tree balance affects the efficiency of various binary search tree operations.,AL/Fundamental Data Structures and alrgorithms,[Familiarity],7
+,"Solve problems using fundamental graph algorithms, including depth-first and breadth-first search.",AL/Fundamental Data Structures and alrgorithms,[Usage],8
+,"Demonstrate the ability to evaluate algorithms, to select from a range of possible options, to provide justification for that selection, and to implement the algorithm in a particular context.",AL/Fundamental Data Structures and alrgorithms,[Assessment],9
+,Discuss the concept of finite state machines.,"AL/Basic automata, computability and complexity",[Familiarity],1
+,Design a deterministic finite state machine to accept a specified language.,"AL/Basic automata, computability and complexity",[Usage],2
+,Generate a regular expression to represent a specified language.,"AL/Basic automata, computability and complexity",[Usage],3
+,Explain why the halting problem has no algorithmic solution.,"AL/Basic automata, computability and complexity",[Familiarity],4
+,Explain the concept of modeling and the use of abstraction that allows the use of a machine to solve a problem.,CN/Introduction to Modeling and Simulation,[Familiarity],1
+,"Describe the relationship between modeling and simulation, i.e., thinking of simulation as dynamic modeling.",CN/Introduction to Modeling and Simulation,[Familiarity],2
+,"Create a simple, formal mathematical model of a real-world situation and use that model in a simulation.",CN/Introduction to Modeling and Simulation,[Usage],3
+,"Differentiate among the different types of simulations, including physical simulations, human-guided simulations, and virtual reality.",CN/Introduction to Modeling and Simulation,[Familiarity],4
+,Describe several approaches to validating models.,CN/Introduction to Modeling and Simulation,[Familiarity],5
+,Create a simple display of the results of a simulation.,CN/Introduction to Modeling and Simulation,[Usage],6
+,"Explain with examples the basic terminology of functions, relations, and sets.","DS/Sets, Relations, and Functions ",[Familiarity],1
+,"Perform the operations associated with sets, functions, and relations.","DS/Sets, Relations, and Functions ",[Usage],2
+,"Relate practical examples to the appropriate set, function, or relation model, and interpret the associated operations and terminology in context.","DS/Sets, Relations, and Functions ",[Assessment],3
+,Convert logical statements from informal language to propositional and predicate logic expressions.,DS/Basic Logic ,[Usage],1
+,"Apply formal methods of symbolic propositional and predicate logic, such as calculating validity of formulae and computing normal forms.",DS/Basic Logic ,[Usage],2
+,Use the rules of inference to construct proofs in propositional and predicate logic.,DS/Basic Logic ,[Usage],3
+,"Describe how symbolic logic can be used to model real-life situations or applications, including those arising in computing contexts such as software analysis (e.g., program correctness), database queries, and algorithms.",DS/Basic Logic ,[Usage],4
+,"Apply formal logic proofs and/or informal, but rigorous, logical reasoning to real problems, such as predicting the behavior of software or solving problems such as puzzles.",DS/Basic Logic ,[Usage],5
+,Describe the strengths and limitations of propositional and predicate logic.,DS/Basic Logic ,[Familiarity],6
+,Identify the proof technique used in a given proof.,DS/Proof Techniques ,[Familiarity],1
+,"Outline the basic structure of each proof technique (direct proof, proof by contradiction, and induction) described in this unit.",DS/Proof Techniques ,[Usage],2
+,"Apply each of the proof techniques (direct proof, proof by contradiction, and induction) correctly in the construction of a sound argument.",DS/Proof Techniques ,[Usage],3
+,Determine which type of proof is best for a given problem.,DS/Proof Techniques ,[Assessment],4
+,Explain the parallels between ideas of mathematical and/or structural induction to recursion and recursively defined structures.,DS/Proof Techniques ,[Assessment],5
+,Explain the relationship between weak and strong induction and give examples of the appropriate use of each.,DS/Proof Techniques ,[Assessment],6
+,"Apply counting arguments, including sum and product rules, inclusion-exclusion principle and arithmetic/geometric progressions.",DS/Basics of Counting,[Usage],1
+,Apply the pigeonhole principle in the context of a formal proof.,DS/Basics of Counting,[Usage],2
+,"Compute permutations and combinations of a set, and interpret the meaning in the context of the particular application.",DS/Basics of Counting,[Usage],3
+,"Map real-world applications to appropriate counting formalisms, such as determining the number of ways to arrange people around a table, subject to constraints on the seating arrangement, or the number of ways to determine certain hands in cards (e.g., a full house).",DS/Basics of Counting,[Usage],4
+,Solve a variety of basic recurrence relations.,DS/Basics of Counting,[Usage],5
+,Analyze a problem to determine underlying recurrence relations.,DS/Basics of Counting,[Usage],6
+,Perform computations involving modular arithmetic.,DS/Basics of Counting,[Usage],7
+,"Illustrate by example the basic terminology of graph theory, as well as some of the properties and special cases of each type of graph/tree.",DS/Graphs and Trees,[Familiarity],1
+,"Demonstrate different traversal methods for trees and graphs, including pre-, post-, and in-order traversal of trees.",DS/Graphs and Trees,[Usage],2
+,"Model a variety of real-world problems in computer science using appropriate forms of graphs and trees, such as representing a network topology or the organization of a hierarchical file system.",DS/Graphs and Trees,[Usage],3
+,"Show how concepts from graphs and trees appear in data structures, algorithms, proof techniques (structural induction), and counting.",DS/Graphs and Trees,[Usage],4
+,Calculate probabilities of events and expectations of random variables for elementary problems such as games of chance.,DS/Discrete Probability ,[Usage],1
+,Differentiate between dependent and independent events.,DS/Discrete Probability ,[Usage],2
+,Identify a case of the binomial distribution and compute a probability using that distribution.,DS/Discrete Probability ,[Usage],3
+,Apply Bayes theorem to determine conditional probabilities in a problem.,DS/Discrete Probability ,[Usage],4
+,Apply the tools of probability to solve problems such as the average case analysis of algorithms or analyzing hashing.,DS/Discrete Probability ,[Usage],5
+,"Identify common uses of digital presentation to humans (e.g., computer graphics, sound).",GV/Fundamental Concepts,[Familiarity],1
+,"Explain in general terms how analog signals can be reasonably represented by discrete samples, for example, how images can be represented by pixels.",GV/Fundamental Concepts,[Familiarity],2
+,Explain how the limits of human perception affect choices about the digital representation of analog signals.,GV/Fundamental Concepts,[Familiarity],3
+,Construct a simple user interface using a standard API.,GV/Fundamental Concepts,[Usage],4
+,"Describe the differences between lossy and lossless image compression techniques, for example as reflected in common graphics image file formats such as JPG, PNG, MP3, MP4, and GIF.",GV/Fundamental Concepts,[Familiarity],5
+,Discuss why human-centered software development is important.,HCI/Foundations,[Familiarity],1
+,Summarize the basic precepts of psychological and social interaction.,HCI/Foundations,[Familiarity],2
+,"Develop and use a conceptual vocabulary for analyzing human interaction with software: affordance, conceptual model, feedback, and so forth.",HCI/Foundations,[Usage],3
+,Define a user-centered design process that explicitly takes account of the fact that the user is not like the developer or their acquaintances.,HCI/Foundations,[Usage],4
+,Create and conduct a simple usability test for an existing software application.,HCI/Foundations,[Assessment],5
+,"Analyze the tradeoffs of balancing key security properties (Confidentiality, Integrity, and Availability).",IAS/Foundational Concepts in Security,[Usage],1
+,"Describe the concepts of risk, threats, vulnerabilities and attack vectors (including the fact that there is no such thing as perfect security).",IAS/Foundational Concepts in Security,[Familiarity],2
+,"Explain the concepts of authentication, authorization, access control.",IAS/Foundational Concepts in Security,[Familiarity],3
+,Explain the concept of trust and trustworthiness.,IAS/Foundational Concepts in Security,[Familiarity],4
+,"Describe important ethical issues to consider in computer security, including ethical issues associated with fixing or not fixing vulnerabilities and disclosing or not disclosing vulnerabilities.",IAS/Foundational Concepts in Security,[Familiarity],5
+,Describe the principle of least privilege and isolation as applied to system design.,IAS/Principles of Secure Design,[Familiarity],1
+,Summarize the principle of fail-safe and deny-by-default.,IAS/Principles of Secure Design,[Familiarity],2
+,Discuss the implications of relying on open design or the secrecy of design for security.,IAS/Principles of Secure Design,[Familiarity],3
+,Explain the goals of end-to-end data security.,IAS/Principles of Secure Design,[Familiarity],4
+,Discuss the benefits of having multiple layers of defenses.,IAS/Principles of Secure Design,[Familiarity],5
+,"For each stage in the lifecycle of a product, describe what security considerations should be evaluated.",IAS/Principles of Secure Design,[Familiarity],6
+,Describe the cost and tradeoffs associated with designing security into a product.,IAS/Principles of Secure Design,[Familiarity],7
+,Explain why input validation and data sanitization is necessary in the face of adversarial control of the input channel.,IAS/Defensive Programming,[Familiarity],1
+,"Explain why you might choose to develop a program in a type-safe language like Java, in contrast to an unsafe programming language like C/C++.",IAS/Defensive Programming,[Familiarity],2
+,"Classify common input validation errors, and write correct input validation code.",IAS/Defensive Programming,[Usage],3
+,Demonstrate using a high-level programming language how to prevent a race condition from occurring and how to handle an exception.,IAS/Defensive Programming,[Usage],4
+,Demonstrate the identification and graceful handling of error conditions.,IAS/Defensive Programming,[Usage],5
+,Describe how humans gain access to information and data to support their needs.,IM/Information Management Concepts,[Familiarity],1
+,Describe the advantages and disadvantages of central organizational control over data.,IM/Information Management Concepts,[Assessment],2
+,"Identify the careers/roles associated with information management (e.g., database administrator, data modeler, application developer, end-user).",IM/Information Management Concepts,[Familiarity],3
+,Compare and contrast information with data and knowledge.,IM/Information Management Concepts,[Assessment],4
+,Demonstrate uses of explicitly stored metadata/schema associated with data.,IM/Information Management Concepts,[Usage],5
+,Identify issues of data persistence for an organization.,IM/Information Management Concepts,[Familiarity],6
+,Articulate the organization of the Internet.,NC/Introduction,[Familiarity],1
+,List and define the appropriate network terminology.,NC/Introduction,[Familiarity],2
+,Describe the layered structure of a typical networked architecture.,NC/Introduction,[Familiarity],3
+,"Identify the different types of complexity in a network (edges, core, etc.).",NC/Introduction,[Familiarity],4
+,List the differences and the relations between names and addresses in a network.,NC/Networked Applications,[Familiarity],1
+,Define the principles behind naming schemes and resource location.,NC/Networked Applications,[Familiarity],2
+,Implement a simple client-server socket-based application.,NC/Networked Applications,[Usage],3
+,Explain the objectives and functions of modern operating systems.,OS/Overview of Operating Systems,[Familiarity],1
+,Analyze the tradeoffs inherent in operating system design.,OS/Overview of Operating Systems,[Usage],2
+,"Describe the functions of a contemporary operating system with respect to convenience, efficiency, and the ability to evolve.",OS/Overview of Operating Systems,[Familiarity],3
+,"Discuss networked, client-server, distributed operating systems and how they differ from single user operating systems.",OS/Overview of Operating Systems,[Familiarity],4
+,Identify potential threats to operating systems and the security features design to guard against them.,OS/Overview of Operating Systems,[Familiarity],5
+,Explain the concept of a logical layer.,OS/Operating System Principles,[Familiarity],1
+,Explain the benefits of building abstract layers in hierarchical fashion.,OS/Operating System Principles,[Familiarity],2
+,Describe the value of APIs and middleware.,OS/Operating System Principles,[Assessment],3
+,Describe how computing resources are used by application software and managed by system software.,OS/Operating System Principles,[Familiarity],4
+,Contrast kernel and user mode in an operating system.,OS/Operating System Principles,[Usage],5
+,Discuss the advantages and disadvantages of using interrupt processing.,OS/Operating System Principles,[Familiarity],6
+,Explain the use of a device list and driver I/O queue.,OS/Operating System Principles,[Familiarity],7
+,"Distinguish using computational resources for a faster answer from managing efficient access to a shared resource. (Cross-reference GV/Fundamental Concepts, outcome 5.)",PD/Parallelism Fundamentals,[Familiarity],1
+,Distinguish multiple sufficient programming constructs for synchronization that may be interimplementable but have complementary advantages.,PD/Parallelism Fundamentals,[Familiarity],2
+,Distinguish data races from higher level races.,PD/Parallelism Fundamentals,[Familiarity],3
+,Explain why synchronization is necessary in a specific parallel program.,PD/Parallel Decomposition,[Usage],1
+,Identify opportunities to partition a serial program into independent parallel modules.,PD/Parallel Decomposition,[Familiarity],2
+,Use mutual exclusion to avoid a given race condition.,PD/Communication and Coordination,[Usage],1
+,"Give an example of an ordering of accesses among concurrent activities (e.g., program with a data race) that is not sequentially consistent.",PD/Communication and Coordination,[Familiarity],2
+,Explain the differences between shared and distributed memory.,PD/Parallel Architecture,[Familiarity],1
+,Design and implement a class.,PL/Object-Oriented Programming,[Usage],1
+,Use subclassing to design simple class hierarchies that allow code to be reused for distinct subclasses.,PL/Object-Oriented Programming,[Usage],2
+,Correctly reason about control flow in a program using dynamic dispatch.,PL/Object-Oriented Programming,[Usage],3
+,Compare and contrast (1) the procedural/functional approach (defining a function for each operation with the function body providing a case for each data variant) and (2) the object-oriented approach (defining a class for each data variant with the class definition providing a method for each operation). Understand both as defining a matrix of operations and variants.   This outcome also appears in PL/Functional Programming.,PL/Object-Oriented Programming,[Assessment],4
+,Write basic algorithms that avoid assigning to mutable state or considering reference equality.,PL/Functional Programming,[Usage],1
+,Write useful functions that take and return other functions.,PL/Functional Programming,[Usage],2
+,Compare and contrast (1) the procedural/functional approach (defining a function for each operation with the function body providing a case for each data variant) and (2) the object-oriented approach (defining a class for each data variant with the class definition providing a method for each operation). Understand both as defining a matrix of operations and variants.   This outcome also appears in PL/Object-Oriented Programming.,PL/Functional Programming,[Assessment],3
+,"For both a primitive and a compound type, informally describe the values that have that type.",PL/Basic Type Systems,[Familiarity],1
+,"For a language with a static type system, describe the operations that are forbidden statically, such as passing the wrong type of value to a function or method.",PL/Basic Type Systems,[Familiarity],2
+,Describe examples of program errors detected by a type system.,PL/Basic Type Systems,[Familiarity],3
+,"For multiple programming languages, identify program properties checked statically and program properties checked dynamically.",PL/Basic Type Systems,[Usage],4
+,Give an example program that does not type-check in a particular language and yet would have no error if run.,PL/Basic Type Systems,[Familiarity],5
+,Use types and type-error messages to write and debug programs.,PL/Basic Type Systems,[Usage],6
+,Explain how programs that process other programs treat the other programs as their input data.,PL/Program Representation,[Familiarity],7
+,Describe an abstract syntax tree for a small language.,PL/Program Representation,[Usage],1
+,Describe the benefits of having program representations other than strings of source code.,PL/Program Representation,[Familiarity],2
+,"Write a program to process some representation of code for some purpose, such as an interpreter, an expression optimizer, or a documentation generator.",PL/Program Representation,[Usage],3
+,Discuss the importance of algorithms in the problem-solving process.,SDF/Algorithms and Design,[Familiarity],1
+,"Discuss how a problem may be solved by multiple algorithms, each with different properties.",SDF/Algorithms and Design,[Familiarity],2
+,Create algorithms for solving simple problems.,SDF/Algorithms and Design,[Usage],3
+,"Use a programming language to implement, test, and debug algorithms for solving simple problems.",SDF/Algorithms and Design,[Usage],4
+,"Implement, test, and debug simple recursive functions and procedures.",SDF/Algorithms and Design,[Usage],5
+,Determine whether a recursive or iterative solution is most appropriate for a problem.,SDF/Algorithms and Design,[Assessment],6
+,Implement a divide-and-conquer algorithm for solving a problem.,SDF/Algorithms and Design,[Usage],7
+,Apply the techniques of decomposition to break a program into smaller pieces.,SDF/Algorithms and Design,[Usage],8
+,Identify the data components and behaviors of multiple abstract data types.,SDF/Algorithms and Design,[Usage],9
+,"Implement a coherent abstract data type, with loose coupling between components and behaviors.",SDF/Algorithms and Design,[Usage],10
+,Identify the relative strengths and weaknesses among multiple designs or implementations for a problem.,SDF/Algorithms and Design,[Assessment],11
+,"Analyze and explain the behavior of simple programs involving the fundamental programming constructs variables, expressions, assignments, I/O, control constructs, functions, parameter passing, and recursion.",SDF/Fundamental Programming Concepts,[Assessment],1
+,Identify and describe uses of primitive data types.,SDF/Fundamental Programming Concepts,[Familiarity],2
+,Write programs that use primitive data types.,SDF/Fundamental Programming Concepts,[Usage],3
+,Modify and expand short programs that use standard conditional and iterative control structures and functions.,SDF/Fundamental Programming Concepts,[Usage],4
+,"Design, implement, test, and debug a program that uses each of the following fundamental programming constructs: basic computation, simple I/O, standard conditional and iterative structures, the definition of functions, and parameter passing.",SDF/Fundamental Programming Concepts,[Usage],5
+,Write a program that uses file I/O to provide persistence across multiple executions.,SDF/Fundamental Programming Concepts,[Usage],6
+,Choose appropriate conditional and iteration constructs for a given programming task.,SDF/Fundamental Programming Concepts,[Assessment],7
+,Describe the concept of recursion and give examples of its use.,SDF/Fundamental Programming Concepts,[Familiarity],8
+,Identify the base case and the general case of a recursively-defined problem.,SDF/Fundamental Programming Concepts,[Assessment],9
+,Discuss the appropriate use of built-in data structures.,SDF/Fundamental Data Structures,[Familiarity],1
+,"Describe common applications for each of the following data structures: stack, queue, priority queue, set, and map.",SDF/Fundamental Data Structures,[Familiarity],2
+,"Write programs that use each of the following data structures: arrays, records/structs, strings, linked lists, stacks, queues, sets, and maps.",SDF/Fundamental Data Structures,[Usage],3
+,Compare alternative implementations of data structures with respect to performance.,SDF/Fundamental Data Structures,[Assessment],4
+,Describe how references allow for objects to be accessed in multiple ways.,SDF/Fundamental Data Structures,[Familiarity],5
+,Compare and contrast the costs and benefits of dynamic and static data structure implementations.,SDF/Fundamental Data Structures,[Assessment],6
+,Choose the appropriate data structure for modeling a given problem.,SDF/Fundamental Data Structures,[Assessment],7
+,Trace the execution of a variety of code segments and write summaries of their computations.,SDF/Development Methods,[Assessment],1
+,Explain why the creation of correct program components is important in the production of high-quality software.,SDF/Development Methods,[Familiarity],2
+,"Identify common coding errors that lead to insecure programs (e.g., buffer overflows, memory leaks, malicious code) and apply strategies for avoiding such errors.",SDF/Development Methods,[Usage],3
+,Conduct a personal code review (focused on common coding errors) on a program component using a provided checklist.,SDF/Development Methods,[Usage],4
+,Contribute to a small-team code review focused on component correctness.,SDF/Development Methods,[Usage],5
+,Describe how a contract can be used to specify the behavior of a program component.,SDF/Development Methods,[Familiarity],6
+,Refactor a program by identifying opportunities to apply procedural abstraction.,SDF/Development Methods,[Usage],7
+,Apply a variety of strategies to the testing and debugging of simple programs.,SDF/Development Methods,[Usage],8
+,"Construct, execute and debug programs using a modern IDE and associated tools such as unit testing tools and visual debuggers.",SDF/Development Methods,[Usage],9
+,Construct and debug programs using the standard libraries available with a chosen programming language.,SDF/Development Methods,[Usage],10
+,Analyze the extent to which another programmer’s code meets documentation and programming style standards.,SDF/Development Methods,[Assessment],11
+,Apply consistent documentation and program style standards that contribute to the readability and maintainability of software.,SDF/Development Methods,[Usage],12
+,"Describe how software can interact with and participate in various systems including information management, embedded, process control, and communications systems.",SE/Software Processes,[Familiarity],1
+,"Describe the relative advantages and disadvantages among several major process models (e.g., waterfall, iterative, and agile).",SE/Software Processes,[Familiarity],2
+,Describe the different practices that are key components of various process models.,SE/Software Processes,[Familiarity],3
+,Differentiate among the phases of software development.,SE/Software Processes,[Familiarity],4
+,"Describe how programming in the large differs from individual efforts with respect to understanding a large code base, code reading, understanding builds, and understanding context of changes.",SE/Software Processes,[Familiarity],5
+,List the key components of a use case or similar description of some behavior that is required for a system.,SE/Requirements Engineering,[Familiarity],1
+,Describe how the requirements engineering process supports the elicitation and validation of behavioral requirements.,SE/Requirements Engineering,[Familiarity],2
+,Interpret a given requirements model for a simple software system.,SE/Requirements Engineering,[Familiarity],3
+,"Articulate design principles including separation of concerns, information hiding, coupling and cohesion, and encapsulation.",SE/Software Design,[Familiarity],1
+,"Use a design paradigm to design a simple software system, and explain how system design principles have been applied in this design.",SE/Software Design,[Usage],2
+,Construct models of the design of a simple software system that are appropriate for the paradigm used to design it.,SE/Software Design,[Usage],3
+,"Within the context of a single design paradigm, describe one or more design patterns that could be applicable to the design of a simple software system.",SE/Software Design,[Familiarity],4
+,List commonly encountered patterns of how computations are organized.,SF/Computational Paradigms,[Familiarity],1
+,Describe the basic building blocks of computers and their role in the historical development of computer architecture.,SF/Computational Paradigms,[Familiarity],2
+,"Articulate the differences between single thread vs. multiple thread, single server vs. multiple server models, motivated by real world examples (e.g., cooking recipes, lines for multiple teller machines and couples shopping for food).",SF/Computational Paradigms,[Familiarity],3
+,"Articulate the concept of strong vs. weak scaling, i.e., how performance is affected by scale of problem vs. scale of resources to solve the problem. This can be motivated by the simple, real-world examples.",SF/Computational Paradigms,[Familiarity],4
+,Design a simple logic circuit using the fundamental building blocks of logic design.,SF/Computational Paradigms,[Usage],5
+,"Use tools for capture, synthesis, and simulation to evaluate a logic design.",SF/Computational Paradigms,[Usage],6
+,Write a simple sequential problem and a simple parallel version of the same program.,SF/Computational Paradigms,[Usage],7
+,"Evaluate performance of simple sequential and parallel versions of a program with different problem sizes, and be able to describe the speed-ups achieved.",SF/Computational Paradigms,[Assessment],8
+,"Describe how computing systems are constructed of layers upon layers, based on separation of concerns, with well-defined interfaces, hiding details of low layers from the higher layers.",SF/Cross-Layer Communications,[Familiarity],1
+,"Describe how hardware, VM, OS, and applications are additional layers of interpretation/processing.",SF/Cross-Layer Communications,[Familiarity],2
+,"Describe the mechanisms of how errors are detected, signaled back, and handled through the layers.",SF/Cross-Layer Communications,[Familiarity],3
+,"Construct a simple program using methods of layering, error detection and recovery, and reflection of error status across layers.",SF/Cross-Layer Communications,[Usage],4
+,"Find bugs in a layered program by using tools for program tracing, single stepping, and debugging.",SF/Cross-Layer Communications,[Usage],5
+,Describe computations as a system characyterized by a known set of configurations with transitions from one unique configuration (state) to another (state).,SF/State and State Machines,[Familiarity],1
+,Describe the distinction between systems whose output is only a function of their input (Combinational) and those with memory/history (Sequential).,SF/State and State Machines,[Familiarity],2
+,Describe a computer as a state machine that interprets machine instructions.,SF/State and State Machines,[Familiarity],3
+,"Explain how a program or network protocol can also be expressed as a state machine, and that alternative representations for the same computation can exist.",SF/State and State Machines,[Familiarity],4
+,"Develop state machine descriptions for simple problem statement solutions (e.g., traffic light sequencing, pattern recognizers).",SF/State and State Machines,[Usage],5
+,Derive time-series behavior of a state machine from its state machine representation.,SF/State and State Machines,[Assessment],6
+,"For a given program, distinguish between its sequential and parallel execution, and the performance implications thereof.",SF/Parallelism,[Familiarity],1
+,"Demonstrate on an execution time line that parallelism events and operations can take place simultaneously (i.e., at the same time). Explain how work can be performed in less elapsed time if this can be exploited.",SF/Parallelism,[Familiarity],2
+,"Explain other uses of parallelism, such as for reliability/redundancy of execution.",SF/Parallelism,[Familiarity],3
+,"Define the differences between the concepts of Instruction Parallelism, Data Parallelism, Thread",SF/Parallelism,[Familiarity],4
+,"Parallelism/Multitasking, Task/Request Parallelism.",SF/Parallelism,[Usage],5
+,"Write more than one parallel program (e.g., one simple parallel program in more than one parallel programming paradigm; a simple parallel program that manages shared resources through synchronization primitives; a simple parallel program that performs simultaneous operation on partitioned data through task parallel (e.g., parallel search terms; a simple parallel program that performs step-by-step pipeline processing through message passing).",SF/Parallelism,[Assessment],6
+,Use performance tools to measure speed-up achieved by parallel programs in terms of both problem size and number of resources.,SF/Evaluation,[Familiarity],7
+,Explain how the components of system architecture contribute to improving its performance.,SF/Evaluation,[Familiarity],8
+,Describe Amdahl’s law and discuss its limitations.,SF/Evaluation,[Usage],9
+,Design and conduct a performance-oriented experiment.,SF/Evaluation,[Assessment],10
+,Use software tools to profile and measure program performance.,SP/Social Context,[Familiarity],1
+,"Describe positive and negative ways in which computer technology (networks, mobile computing, cloud computing) alters modes of social interaction at the personal level.",SP/Social Context,[Familiarity],2
+,"Identify developers’ assumptions and values embedded in hardware and software design, especially as they pertain to usability for diverse populations including under-represented populations and the disabled.",SP/Social Context,[Familiarity],3
+,Interpret the social context of a given design and its implementation.,SP/Social Context,[Assessment],4
+,Evaluate the efficacy of a given design and implementation using empirical data.,SP/Social Context,[Usage],5
+,Summarize the implications of social media on individualism versus collectivism and culture.,SP/Analytical Tools,[Assessment],1
+,Evaluate stakeholder positions in a given situation.,SP/Analytical Tools,[Assessment],2
+,Analyze basic logical fallacies in an argument.,SP/Analytical Tools,[Assessment],3
+,Analyze an argument to identify premises and conclusion.,SP/Analytical Tools,[Usage],4
+,Illustrate the use of example and analogy in ethical argument.,SP/Analytical Tools,[Assessment],5
+,Evaluate ethical/social tradeoffs in technical decisions.,SP/Professional Ethics,[Familiarity],1
+,Identify ethical issues that arise in software development and determine how to address them technically and ethically.,SP/Professional Ethics,[Familiarity],2
+,"Explain the ethical responsibility of ensuring software correctness, reliability and safety.",SP/Professional Ethics,[Familiarity],3
+,Describe the mechanisms that typically exist for a professional to keep up-to-date.,SP/Professional Ethics,[Familiarity],4
+,Describe the strengths and weaknesses of relevant professional codes as expressions of professionalism and guides to decision-making.,SP/Professional Ethics,[Assessment],5
+,"Analyze a global computing issue, observing the role of professionals and government officials in managing this problem.",SP/Professional Ethics,[Assessment],6
+,"Evaluate the professional codes of ethics from the ACM, the IEEE Computer Society, and other organizations.",SP/Intellectual Property,[Familiarity],1
+,Discuss the philosophical bases of intellectual property.,SP/Intellectual Property,[Familiarity],2
+,Discuss the rationale for the legal protection of intellectual property.,SP/Intellectual Property,[Familiarity],3
+,Describe legislation aimed at digital copyright infringements.,SP/Intellectual Property,[Assessment],4
+,Critique legislation aimed at digital copyright infringements.,SP/Intellectual Property,[Familiarity],5
+,Identify contemporary examples of intangible digital intellectual property.,SP/Intellectual Property,[Assessment],6
+,Justify uses of copyrighted materials.,SP/Intellectual Property,[Assessment],7
+,Evaluate the ethical issues inherent in various plagiarism detection mechanisms.,SP/Intellectual Property,[Familiarity],8
+,Interpret the intent and implementation of software licensing.,SP/Intellectual Property,[Familiarity],9
+,Discuss the issues involved in securing software patents.,SP/Intellectual Property,[Assessment],10
+,"Characterize and contrast the concepts of copyright, patenting and trademarks.",SP/Privacy and Civil Liberties,[Familiarity],1
+,Discuss the philosophical basis for the legal protection of personal privacy.,SP/Privacy and Civil Liberties,[Assessment],2
+,Evaluate solutions to privacy threats in transactional databases and data warehouses.,SP/Privacy and Civil Liberties,[Familiarity],3
+,"Describe the role of data collection in the implementation of pervasive surveillance systems (e.g., RFID, face recognition, toll collection, mobile computing).",SP/Privacy and Civil Liberties,[Familiarity],4
+,Describe the ramifications of differential privacy.,SP/Privacy and Civil Liberties,[Usage],5
+,Investigate the impact of technological solutions to privacy problems.,SP/Professional Communication,[Usage],1
+,"Write clear, concise, and accurate technical documents following well-defined standards for format and for including appropriate tables, figures, and references.",SP/Professional Communication,[Assessment],2
+,Evaluate written technical documentation to detect problems of various kinds.,SP/Professional Communication,[Assessment],3
+,Develop and deliver a good quality formal presentation.,SP/Professional Communication,[Usage],4
+,"Plan interactions (e.g. virtual, face-to-face, shared documents) with others in which they are able to get their point across, and are also able to listen carefully and appreciate the points of others, even when they disagree, and are able to convey to others what they have heard.",SP/Professional Communication,[Familiarity],5
+,"Describe the strengths and weaknesses of various forms of communication (e.g. virtual, face-to-face, shared documents).",SP/Professional Communication,[Usage],6
+,Examine appropriate measures used to communicate with stakeholders involved in a project.,SP/Professional Communication,[Assessment],7
+,Compare and contrast various collaboration tools.,SP/Sustainability,[Familiarity],1
+,Identify ways to be a sustainable practitioner.,SP/Sustainability,[Usage],2
+,Illustrate global social and environmental impacts of computer use and disposal (e-waste).,,,
