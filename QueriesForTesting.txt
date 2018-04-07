@@ -4,21 +4,37 @@ Below are sample queries that I need tested. Each query follows the same format,
 
 /*Below are the queries for getting Knowledge Units*/
 select Name from Knowledge_Unit where Name like 'AL/%';
+Success
 
 /*Below are the queries for getting Topics*/
 /*AL*/
 select Name from Tier1_Topic join Tier2_Topic on Tier1_Topic.Knowledge_Unit = Tier2_Topic.Knowledge_Unit join Elective_Topic on Tier2_Topic.Knowledge_Unit = Elective_Topic.Knowledge_Unit join Tier1_Topic on Elective_Topic.Knowledge_Unit = Tier1_Topic.Knowledge_Unit where Name like 'AL/%';
+ERROR 1066 (42000): Not unique table/alias: 'Tier1_Topic'
+
+
 
 select Name from Tier2_Topic join Tier1_Topic on Tier2_Topic.Knowledge_Unit = Tier1_Topic.Knowledge_Unit join Elective_Topic on Tier1_Topic.Knowledge_Unit = Elective_Topic.Knowledge_Unit join Tier2_Topic on Elective_Topic.Knowledge_Unit = Tier2_Topic.Knowledge_Unit where Name like 'AL/%';
+ERROR 1066 (42000): Not unique table/alias: 'Tier2_Topic'
+
+
 
 select Name from Elective_Topic join Tier2_Topic on Elective_Topic.Knowledge_Unit = Tier2_Topic.Knowledge_Unit join Tier1_Topic on Tier2_Topic.Knowledge_Unit = Tier1_Topic.Knowledge_Unit join Elective_Topic on Tier1_Topic.Knowledge_Unit = Elective_Topic.Knowledge_Unit where Name like 'AL/%';
+ERROR 1066 (42000): Not unique table/alias: 'Elective_Topic'
+
 
 /*Below are the queries for getting the Outcomes*/
 /*AL*/
 select Name from Tier1_Outcomes join Tier2_Outcomes on Tier1_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit join Elective_Outcomes on Tier2_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit join Tier1_Outcomes on Elective_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit where Name like 'AL/%';
+ERROR 1066 (42000): Not unique table/alias: 'Tier1_Outcomes'
+
+
 
 select Name from Tier2_Outcomes join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit join Elective_Outcomes on Tier1_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit join Tier2_Outcomes on Elective_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit where Name like 'AL/%';
+ERROR 1066 (42000): Not unique table/alias: 'Tier2_Outcomes'
+
 
 select Name from Elective_Outcomes join Tier2_Outcomes on Elective_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit join Elective_Outcomes on Tier1_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Name like 'AL/%';
+ERROR 1066 (42000): Not unique table/alias: 'Elective_Outcomes'
+
 
 If you have any questions, let me know. 
