@@ -1,4 +1,4 @@
-/*Below arthqueries for getting Knowledge Units*/
+/*Below are the queries for getting Knowledge Units*/
 select Name from Knowledge_Unit where Name like 'AL/%';
 select Name from Knowledge_Unit where Name like 'AR/%';
 select Name from Knowledge_Unit where Name like 'CN/%';
@@ -18,150 +18,150 @@ select Name from Knowledge_Unit where Name like 'SE/%';
 select Name from Knowledge_Unit where Name like 'SF/%';
 select Name from Knowledge_Unit where Name like 'SP/%';
 
-/*Below arthqueries for getting Topics*/
+/*Below are the queries for getting Topics*/
 /*AL*/
-select Tier1_Topic.Name from Tier1_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier1_Topic.Knowledge_Unit like 'AL/%';
-select Tier2_Topic.Name from Tier2_Topic inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier2_Topic.Knowledge_Unit like 'AL/%';
-select Elective_Topic.Name from Elective_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit where Elective_Topic.Knowledge_Unit like 'AL/%';
+select Name from Tier1_Topic where Knowledge_Unit like 'AL/%';
+select Name from Tier2_Topic where Knowledge_Unit like 'AL/%';
+select Name from Elective_Topic where Knowledge_Unit like 'AL/%';
 /*AR*/
-select Tier1_Topic.Name from Tier1_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier1_Topic.Knowledge_Unit like 'AR/%';
-select Tier2_Topic.Name from Tier2_Topic inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier2_Topic.Knowledge_Unit like 'AR/%';
-select Elective_Topic.Name from Elective_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit where Elective_Topic.Knowledge_Unit like 'AR/%';
+select Name from Tier1_Topic where Knowledge_Unit like 'AR/%';
+select Name from Tier2_Topic where Knowledge_Unit like 'AR/%';
+select Name from Elective_Topic where Knowledge_Unit like 'AR/%';
 /*CN*/
-select Tier1_Topic.Name from Tier1_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier1_Topic.Knowledge_Unit like 'CN/%';
-select Tier2_Topic.Name from Tier2_Topic inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier2_Topic.Knowledge_Unit like 'CN/%';
-select Elective_Topic.Name from Elective_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit where Elective_Topic.Knowledge_Unit like 'CN/%';
+select Name from Tier1_Topic where Knowledge_Unit like 'CN/%';
+select Name from Tier2_Topic where Knowledge_Unit like 'CN/%';
+select Name from Elective_Topic where Knowledge_Unit like 'CN/%';
 /*DS*/
-select Tier1_Topic.Name from Tier1_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier1_Topic.Knowledge_Unit like 'DS/%';
-select Tier2_Topic.Name from Tier2_Topic inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier2_Topic.Knowledge_Unit like 'DS/%';
-select Elective_Topic.Name from Elective_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit where Elective_Topic.Knowledge_Unit like 'DS/%';
+select Name from Tier1_Topic where Knowledge_Unit like 'DS/%';
+select Name from Tier2_Topic where Knowledge_Unit like 'DS/%';
+select Name from Elective_Topic where Knowledge_Unit like 'DS/%';
 /*GV*/
-select Tier1_Topic.Name from Tier1_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier1_Topic.Knowledge_Unit like 'GV/%';
-select Tier2_Topic.Name from Tier2_Topic inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier2_Topic.Knowledge_Unit like 'GV/%';
-select Elective_Topic.Name from Elective_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit where Elective_Topic.Knowledge_Unit like 'GV/%';
+select Name from Tier1_Topic where Knowledge_Unit like 'GV/%';
+select Name from Tier2_Topic where Knowledge_Unit like 'GV/%';
+select Name from Elective_Topic where Knowledge_Unit like 'GV/%';
 /*HCI*/
-select Tier1_Topic.Name from Tier1_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier1_Topic.Knowledge_Unit like 'HCI/%';
-select Tier2_Topic.Name from Tier2_Topic inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier2_Topic.Knowledge_Unit like 'HCI/%';
-select Elective_Topic.Name from Elective_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit where Elective_Topic.Knowledge_Unit like 'HCI/%';
+select Name from Tier1_Topic where Knowledge_Unit like 'HCI/%';
+select Name from Tier2_Topic where Knowledge_Unit like 'HCI/%';
+select Name from Elective_Topic where Knowledge_Unit like 'HCI/%';
 /*IAS*/
-select Tier1_Topic.Name from Tier1_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier1_Topic.Knowledge_Unit like 'IAS/%';
-select Tier2_Topic.Name from Tier2_Topic inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier2_Topic.Knowledge_Unit like 'IAS/%';
-select Elective_Topic.Name from Elective_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit where Elective_Topic.Knowledge_Unit like 'IAS/%';
+select Name from Tier1_Topic where Knowledge_Unit like 'IAS/%';
+select Name from Tier2_Topic where Knowledge_Unit like 'IAS/%';
+select Name from Elective_Topic where Knowledge_Unit like 'IAS/%';
 /*IM*/
-select Tier1_Topic.Name from Tier1_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier1_Topic.Knowledge_Unit like 'IM/%';
-select Tier2_Topic.Name from Tier2_Topic inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier2_Topic.Knowledge_Unit like 'IM/%';
-select Elective_Topic.Name from Elective_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit where Elective_Topic.Knowledge_Unit like 'IM/%';
+select Name from Tier1_Topic where Knowledge_Unit like 'IM/%';
+select Name from Tier2_Topic where Knowledge_Unit like 'IM/%';
+select Name from Elective_Topic where Knowledge_Unit like 'IM/%';
 /*IS*/
-select Tier1_Topic.Name from Tier1_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier1_Topic.Knowledge_Unit like 'IS/%';
-select Tier2_Topic.Name from Tier2_Topic inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier2_Topic.Knowledge_Unit like 'IS/%';
-select Elective_Topic.Name from Elective_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit where Elective_Topic.Knowledge_Unit like 'IS/%';
+select Name from Tier1_Topic where Knowledge_Unit like 'IS/%';
+select Name from Tier2_Topic where Knowledge_Unit like 'IS/%';
+select Name from Elective_Topic where Knowledge_Unit like 'IS/%';
 /*NC*/
-select Tier1_Topic.Name from Tier1_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier1_Topic.Knowledge_Unit like 'NC/%';
-select Tier2_Topic.Name from Tier2_Topic inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier2_Topic.Knowledge_Unit like 'NC/%';
-select Elective_Topic.Name from Elective_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit where Elective_Topic.Knowledge_Unit like 'NC/%';
+select Name from Tier1_Topic where Knowledge_Unit like 'NC/%';
+select Name from Tier2_Topic where Knowledge_Unit like 'NC/%';
+select Name from Elective_Topic where Knowledge_Unit like 'NC/%';
 /*OS*/
-select Tier1_Topic.Name from Tier1_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier1_Topic.Knowledge_Unit like 'OS/%';
-select Tier2_Topic.Name from Tier2_Topic inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier2_Topic.Knowledge_Unit like 'OS/%';
-select Elective_Topic.Name from Elective_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit where Elective_Topic.Knowledge_Unit like 'OS/%';
+select Name from Tier1_Topic where Knowledge_Unit like 'OS/%';
+select Name from Tier2_Topic where Knowledge_Unit like 'OS/%';
+select Name from Elective_Topic where Knowledge_Unit like 'OS/%';
 /*PBD*/
-select Tier1_Topic.Name from Tier1_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier1_Topic.Knowledge_Unit like 'PBD/%';
-select Tier2_Topic.Name from Tier2_Topic inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier2_Topic.Knowledge_Unit like 'PBD/%';
-select Elective_Topic.Name from Elective_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit where Elective_Topic.Knowledge_Unit like 'PBD/%';
+select Name from Tier1_Topic where Knowledge_Unit like 'PBD/%';
+select Name from Tier2_Topic where Knowledge_Unit like 'PBD/%';
+select Name from Elective_Topic where Knowledge_Unit like 'PBD/%';
 /*PD*/
-select Tier1_Topic.Name from Tier1_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier1_Topic.Knowledge_Unit like 'PD/%';
-select Tier2_Topic.Name from Tier2_Topic inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier2_Topic.Knowledge_Unit like 'PD/%';
-select Elective_Topic.Name from Elective_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit where Elective_Topic.Knowledge_Unit like 'PD/%';
+select Name from Tier1_Topic where Knowledge_Unit like 'PD/%';
+select Name from Tier2_Topic where Knowledge_Unit like 'PD/%';
+select Name from Elective_Topic where Knowledge_Unit like 'PD/%';
 /*PL*/
-select Tier1_Topic.Name from Tier1_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier1_Topic.Knowledge_Unit like 'PL/%';
-select Tier2_Topic.Name from Tier2_Topic inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier2_Topic.Knowledge_Unit like 'PL/%';
-select Elective_Topic.Name from Elective_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit where Elective_Topic.Knowledge_Unit like 'PL/%';
+select Name from Tier1_Topic where Knowledge_Unit like 'PL/%';
+select Name from Tier2_Topic where Knowledge_Unit like 'PL/%';
+select Name from Elective_Topic where Knowledge_Unit like 'PL/%';
 /*SDF*/
-select Tier1_Topic.Name from Tier1_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier1_Topic.Knowledge_Unit like 'SDF/%';
-select Tier2_Topic.Name from Tier2_Topic inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier2_Topic.Knowledge_Unit like 'SDF/%';
-select Elective_Topic.Name from Elective_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit where Elective_Topic.Knowledge_Unit like 'SDF/%';
+select Name from Tier1_Topic where Knowledge_Unit like 'SDF/%';
+select Name from Tier2_Topic where Knowledge_Unit like 'SDF/%';
+select Name from Elective_Topic where Knowledge_Unit like 'SDF/%';
 /*SE*/
-select Tier1_Topic.Name from Tier1_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier1_Topic.Knowledge_Unit like 'SE/%';
-select Tier2_Topic.Name from Tier2_Topic inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier2_Topic.Knowledge_Unit like 'SE/%';
-select Elective_Topic.Name from Elective_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit where Elective_Topic.Knowledge_Unit like 'SE/%';
+select Name from Tier1_Topic where Knowledge_Unit like 'SE/%';
+select Name from Tier2_Topic where Knowledge_Unit like 'SE/%';
+select Name from Elective_Topic where Knowledge_Unit like 'SE/%';
 /*SF*/
-select Tier1_Topic.Name from Tier1_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier1_Topic.Knowledge_Unit like 'SF/%';
-select Tier2_Topic.Name from Tier2_Topic inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier2_Topic.Knowledge_Unit like 'SF/%';
-select Elective_Topic.Name from Elective_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit where Elective_Topic.Knowledge_Unit like 'SF/%';
+select Name from Tier1_Topic where Knowledge_Unit like 'SF/%';
+select Name from Tier2_Topic where Knowledge_Unit like 'SF/%';
+select Name from Elective_Topic where Knowledge_Unit like 'SF/%';
 /*SP*/
-select Tier1_Topic.Name from Tier1_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier1_Topic.Knowledge_Unit like 'SP/%';
-select Tier2_Topic.Name from Tier2_Topic inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit inner join Elective_Topic on Knowledge_Unit = Knowledge_Unit where Tier2_Topic.Knowledge_Unit like 'SP/%';
-select Elective_Topic.Name from Elective_Topic inner join Tier2_Topic on Knowledge_Unit = Knowledge_Unit inner join Tier1_Topic on Knowledge_Unit = Knowledge_Unit where Elective_Topic.Knowledge_Unit like 'SP/%';
+select Name from Tier1_Topic where Knowledge_Unit like 'SP/%';
+select Name from Tier2_Topic where Knowledge_Unit like 'SP/%';
+select Name from Elective_Topic where Knowledge_Unit like 'SP/%';
 
-/*Below arthqueries for getting thOutcomes*/
+/*Below are the queries for getting the Outcomes*/
 /*AL*/
-select Tier1_Outcomes.Name from Tier1_Outcomes inner join Tier2_Outcomes on Tier1_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier2_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier1_Outcomes.Knowledge_Unit like 'AL/%';
-select Tier2_Outcomes.Name from Tier2_Outcomes inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier1_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier2_Outcomes.Knowledge_Unit like 'AL/%';
-select Elective_Outcomes.Name from Elective_Outcomes inner join Tier2_Outcomes on Elective_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit where Elective_Outcomes.Knowledge_Unit like 'AL/%';
+select Name from Tier1_Outcomes where Knowledge_Unit like 'AL/%';
+select Name from Tier2_Outcomes where Knowledge_Unit like 'AL/%';
+select Name from Elective_Outcomes where Knowledge_Unit like 'AL/%';
 /*AR*/
-select Tier1_Outcomes.Name from Tier1_Outcomes inner join Tier2_Outcomes on Tier1_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier2_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier1_Outcomes.Knowledge_Unit like 'AR/%';
-select Tier2_Outcomes.Name from Tier2_Outcomes inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier1_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier2_Outcomes.Knowledge_Unit like 'AR/%';
-select Elective_Outcomes.Name from Elective_Outcomes inner join Tier2_Outcomes on Elective_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit where Elective_Outcomes.Knowledge_Unit like 'AR/%';
+select Name from Tier1_Outcomes where Knowledge_Unit like 'AR/%';
+select Name from Tier2_Outcomes where Knowledge_Unit like 'AR/%';
+select Name from Elective_Outcomes where Knowledge_Unit like 'AR/%';
 /*CN*/
-select Tier1_Outcomes.Name from Tier1_Outcomes inner join Tier2_Outcomes on Tier1_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier2_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier1_Outcomes.Knowledge_Unit like 'CN/%';
-select Tier2_Outcomes.Name from Tier2_Outcomes inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier1_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier2_Outcomes.Knowledge_Unit like 'CN/%';
-select Elective_Outcomes.Name from Elective_Outcomes inner join Tier2_Outcomes on Elective_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit where Elective_Outcomes.Knowledge_Unit like 'CN/%';
+select Name from Tier1_Outcomes where Knowledge_Unit like 'CN/%';
+select Name from Tier2_Outcomes where Knowledge_Unit like 'CN/%';
+select Name from Elective_Outcomes where Knowledge_Unit like 'CN/%';
 /*DS*/
-select Tier1_Outcomes.Name from Tier1_Outcomes inner join Tier2_Outcomes on Tier1_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier2_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier1_Outcomes.Knowledge_Unit like 'DS/%';
-select Tier2_Outcomes.Name from Tier2_Outcomes inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier1_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier2_Outcomes.Knowledge_Unit like 'DS/%';
-select Elective_Outcomes.Name from Elective_Outcomes inner join Tier2_Outcomes on Elective_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit where Elective_Outcomes.Knowledge_Unit like 'DS/%';
+select Name from Tier1_Outcomes where Knowledge_Unit like 'DS/%';
+select Name from Tier2_Outcomes where Knowledge_Unit like 'DS/%';
+select Name from Elective_Outcomes where Knowledge_Unit like 'DS/%';
 /*GV*/
-select Tier1_Outcomes.Name from Tier1_Outcomes inner join Tier2_Outcomes on Tier1_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier2_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier1_Outcomes.Knowledge_Unit like 'GV/%';
-select Tier2_Outcomes.Name from Tier2_Outcomes inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier1_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier2_Outcomes.Knowledge_Unit like 'GV/%';
-select Elective_Outcomes.Name from Elective_Outcomes inner join Tier2_Outcomes on Elective_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit where Elective_Outcomes.Knowledge_Unit like 'GV/%';
+select Name from Tier1_Outcomes where Knowledge_Unit like 'GV/%';
+select Name from Tier2_Outcomes where Knowledge_Unit like 'GV/%';
+select Name from Elective_Outcomes where Knowledge_Unit like 'GV/%';
 /*HCI*/
-select Tier1_Outcomes.Name from Tier1_Outcomes inner join Tier2_Outcomes on Tier1_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier2_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier1_Outcomes.Knowledge_Unit like 'HCI/%';
-select Tier2_Outcomes.Name from Tier2_Outcomes inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier1_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier2_Outcomes.Knowledge_Unit like 'HCI/%';
-select Elective_Outcomes.Name from Elective_Outcomes inner join Tier2_Outcomes on Elective_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit where Elective_Outcomes.Knowledge_Unit like 'HCI/%';
+select Name from Tier1_Outcomes where Knowledge_Unit like 'HCI/%';
+select Name from Tier2_Outcomes where Knowledge_Unit like 'HCI/%';
+select Name from Elective_Outcomes where Knowledge_Unit like 'HCI/%';
 /*IAS*/
-select Tier1_Outcomes.Name from Tier1_Outcomes inner join Tier2_Outcomes on Tier1_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier2_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier1_Outcomes.Knowledge_Unit like 'IAS/%';
-select Tier2_Outcomes.Name from Tier2_Outcomes inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier1_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier2_Outcomes.Knowledge_Unit like 'IAS/%';
-select Elective_Outcomes.Name from Elective_Outcomes inner join Tier2_Outcomes on Elective_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit where Elective_Outcomes.Knowledge_Unit like 'IAS/%';
+select Name from Tier1_Outcomes where Knowledge_Unit like 'IAS/%';
+select Name from Tier2_Outcomes where Knowledge_Unit like 'IAS/%';
+select Name from Elective_Outcomes where Knowledge_Unit like 'IAS/%';
 /*IM*/
-select Tier1_Outcomes.Name from Tier1_Outcomes inner join Tier2_Outcomes on Tier1_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier2_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier1_Outcomes.Knowledge_Unit like 'IM/%';
-select Tier2_Outcomes.Name from Tier2_Outcomes inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier1_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier2_Outcomes.Knowledge_Unit like 'IM/%';
-select Elective_Outcomes.Name from Elective_Outcomes inner join Tier2_Outcomes on Elective_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit where Elective_Outcomes.Knowledge_Unit like 'IM/%';
+select Name from Tier1_Outcomes where Knowledge_Unit like 'IM/%';
+select Name from Tier2_Outcomes where Knowledge_Unit like 'IM/%';
+select Name from Elective_Outcomes where Knowledge_Unit like 'IM/%';
 /*IS*/
-select Tier1_Outcomes.Name from Tier1_Outcomes inner join Tier2_Outcomes on Tier1_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier2_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier1_Outcomes.Knowledge_Unit like 'IS/%';
-select Tier2_Outcomes.Name from Tier2_Outcomes inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier1_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier2_Outcomes.Knowledge_Unit like 'IS/%';
-select Elective_Outcomes.Name from Elective_Outcomes inner join Tier2_Outcomes on Elective_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit where Elective_Outcomes.Knowledge_Unit like 'IS/%';
+select Name from Tier1_Outcomes where Knowledge_Unit like 'IS/%';
+select Name from Tier2_Outcomes where Knowledge_Unit like 'IS/%';
+select Name from Elective_Outcomes where Knowledge_Unit like 'IS/%';
 /*NC*/
-select Tier1_Outcomes.Name from Tier1_Outcomes inner join Tier2_Outcomes on Tier1_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier2_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier1_Outcomes.Knowledge_Unit like 'NC/%';
-select Tier2_Outcomes.Name from Tier2_Outcomes inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier1_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier2_Outcomes.Knowledge_Unit like 'NC/%';
-select Elective_Outcomes.Name from Elective_Outcomes inner join Tier2_Outcomes on Elective_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit where Elective_Outcomes.Knowledge_Unit like 'NC/%';
+select Name from Tier1_Outcomes where Knowledge_Unit like 'NC/%';
+select Name from Tier2_Outcomes where Knowledge_Unit like 'NC/%';
+select Name from Elective_Outcomes where Knowledge_Unit like 'NC/%';
 /*OS*/
-select Tier1_Outcomes.Name from Tier1_Outcomes inner join Tier2_Outcomes on Tier1_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier2_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier1_Outcomes.Knowledge_Unit like 'OS/%';
-select Tier2_Outcomes.Name from Tier2_Outcomes inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier1_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier2_Outcomes.Knowledge_Unit like 'OS/%';
-select Elective_Outcomes.Name from Elective_Outcomes inner join Tier2_Outcomes on Elective_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit where Elective_Outcomes.Knowledge_Unit like 'OS/%';
+select Name from Tier1_Outcomes where Knowledge_Unit like 'OS/%';
+select Name from Tier2_Outcomes where Knowledge_Unit like 'OS/%';
+select Name from Elective_Outcomes where Knowledge_Unit like 'OS/%';
 /*PBD*/
-select Tier1_Outcomes.Name from Tier1_Outcomes inner join Tier2_Outcomes on Tier1_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier2_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier1_Outcomes.Knowledge_Unit like 'PBD/%';
-select Tier2_Outcomes.Name from Tier2_Outcomes inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier1_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier2_Outcomes.Knowledge_Unit like 'PBD/%';
-select Elective_Outcomes.Name from Elective_Outcomes inner join Tier2_Outcomes on Elective_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit where Elective_Outcomes.Knowledge_Unit like 'PBD/%';
+select Name from Tier1_Outcomes where Knowledge_Unit like 'PBD/%';
+select Name from Tier2_Outcomes where Knowledge_Unit like 'PBD/%';
+select Name from Elective_Outcomes where Knowledge_Unit like 'PBD/%';
 /*PD*/
-select Tier1_Outcomes.Name from Tier1_Outcomes inner join Tier2_Outcomes on Tier1_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier2_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier1_Outcomes.Knowledge_Unit like 'PD/%';
-select Tier2_Outcomes.Name from Tier2_Outcomes inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier1_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier2_Outcomes.Knowledge_Unit like 'PD/%';
-select Elective_Outcomes.Name from Elective_Outcomes inner join Tier2_Outcomes on Elective_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit where Elective_Outcomes.Knowledge_Unit like 'PD/%';
+select Name from Tier1_Outcomes where Knowledge_Unit like 'PD/%';
+select Name from Tier2_Outcomes where Knowledge_Unit like 'PD/%';
+select Name from Elective_Outcomes where Knowledge_Unit like 'PD/%';
 /*PL*/
-select Tier1_Outcomes.Name from Tier1_Outcomes inner join Tier2_Outcomes on Tier1_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier2_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier1_Outcomes.Knowledge_Unit like 'PL/%';
-select Tier2_Outcomes.Name from Tier2_Outcomes inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier1_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier2_Outcomes.Knowledge_Unit like 'PL/%';
-select Elective_Outcomes.Name from Elective_Outcomes inner join Tier2_Outcomes on Elective_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit where Elective_Outcomes.Knowledge_Unit like 'PL/%';
+select Name from Tier1_Outcomes where Knowledge_Unit like 'PL/%';
+select Name from Tier2_Outcomes where Knowledge_Unit like 'PL/%';
+select Name from Elective_Outcomes where Knowledge_Unit like 'PL/%';
 /*SDF*/
-select Tier1_Outcomes.Name from Tier1_Outcomes inner join Tier2_Outcomes on Tier1_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier2_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier1_Outcomes.Knowledge_Unit like 'SDF/%';
-select Tier2_Outcomes.Name from Tier2_Outcomes inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier1_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier2_Outcomes.Knowledge_Unit like 'SDF/%';
-select Elective_Outcomes.Name from Elective_Outcomes inner join Tier2_Outcomes on Elective_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit where Elective_Outcomes.Knowledge_Unit like 'SDF/%';
+select Name from Tier1_Outcomes where Knowledge_Unit like 'SDF/%';
+select Name from Tier2_Outcomes where Knowledge_Unit like 'SDF/%';
+select Name from Elective_Outcomes where Knowledge_Unit like 'SDF/%';
 /*SE*/
-select Tier1_Outcomes.Name from Tier1_Outcomes inner join Tier2_Outcomes on Tier1_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier2_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier1_Outcomes.Knowledge_Unit like 'SE/%';
-select Tier2_Outcomes.Name from Tier2_Outcomes inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier1_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier2_Outcomes.Knowledge_Unit like 'SE/%';
-select Elective_Outcomes.Name from Elective_Outcomes inner join Tier2_Outcomes on Elective_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit where Elective_Outcomes.Knowledge_Unit like 'SE/%';
+select Name from Tier1_Outcomes where Knowledge_Unit like 'SE/%';
+select Name from Tier2_Outcomes where Knowledge_Unit like 'SE/%';
+select Name from Elective_Outcomes where Knowledge_Unit like 'SE/%';
 /*SF*/
-select Tier1_Outcomes.Name from Tier1_Outcomes inner join Tier2_Outcomes on Tier1_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier2_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier1_Outcomes.Knowledge_Unit like 'SF/%';
-select Tier2_Outcomes.Name from Tier2_Outcomes inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier1_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier2_Outcomes.Knowledge_Unit like 'SF/%';
-select Elective_Outcomes.Name from Elective_Outcomes inner join Tier2_Outcomes on Elective_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit where Elective_Outcomes.Knowledge_Unit like 'SF/%';
+select Name from Tier1_Outcomes where Knowledge_Unit like 'SF/%';
+select Name from Tier2_Outcomes where Knowledge_Unit like 'SF/%';
+select Name from Elective_Outcomes where Knowledge_Unit like 'SF/%';
 /*SP*/
-select Tier1_Outcomes.Name from Tier1_Outcomes inner join Tier2_Outcomes on Tier1_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier2_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier1_Outcomes.Knowledge_Unit like 'SP/%';
-select Tier2_Outcomes.Name from Tier2_Outcomes inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit inner join Elective_Outcomes on Tier1_Outcomes.Knowledge_Unit = Elective_Outcomes.Knowledge_Unit where Tier2_Outcomes.Knowledge_Unit like 'SP/%';
-select Elective_Outcomes.Name from Elective_Outcomes inner join Tier2_Outcomes on Elective_Outcomes.Knowledge_Unit = Tier2_Outcomes.Knowledge_Unit inner join Tier1_Outcomes on Tier2_Outcomes.Knowledge_Unit = Tier1_Outcomes.Knowledge_Unit where Elective_Outcomes.Knowledge_Unit like 'SP/%';
+select Name from Tier1_Outcomes where Knowledge_Unit like 'SP/%';
+select Name from Tier2_Outcomes where Knowledge_Unit like 'SP/%';
+select Name from Elective_Outcomes where Knowledge_Unit like 'SP/%';
