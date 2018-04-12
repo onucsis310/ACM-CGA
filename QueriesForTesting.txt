@@ -38,3 +38,14 @@ ERROR 1066 (42000): Not unique table/alias: 'Elective_Outcomes'
 
 
 If you have any questions, let me know. 
+
+
+select substring(Name,1,INSTR(Name,'/')-1) as ACM_Unit_Abbreviation, SUM(Default_Tier1_Hours) + SUM(Default_Tier2_Hours) as ACM_Unit_Hours from Knowledge_Unit group by ACM_Unit_Abbreviation;
+
+select substring(Knowledge_Unit.Name,1,INSTR(Knowledge_Unit.Name,'/')-1) as Unit_Name, SUM(User_Tier1_Hours.Hours) as Unit_Hours from Knowledge_Unit, User_Tier1_Hours where User_Tier1_Hours.Knowledge_Unit_ID=Knowledge_Unit.Knowledge_Unit_ID group by Unit_Name;
+---
+
+
+select substring(Knowledge_Unit.Name,1,INSTR(Knowledge_Unit.Name,'/')-1) as Unit_Name, User_Tier1_Hours.Knowledge_Unit_ID, User_Tier1_Hours.Hours as Unit_Hours from Knowledge_Unit, User_Tier1_Hours where User_Tier1_Hours.Knowledge_Unit_ID=Knowledge_Unit.Knowledge_Unit_ID;
+
+
