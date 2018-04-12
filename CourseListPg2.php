@@ -5,6 +5,7 @@
 </head>
 
 <body>
+	<center>
 	<div id="test1">
 	</div>
 	<script>
@@ -26,4 +27,5 @@
 	}
 	</script>
 	<input type="submit" name="Submit" value="Generate Report" onClick="location.href='Report.php'";>
+	</center>
 </body>
