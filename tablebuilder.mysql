@@ -82,21 +82,21 @@ CREATE TABLE User_Tier1_Hours (
     User_Tier1_Hours_ID int(50) NOT NULL AUTO_INCREMENT,
     Course_Curriculum_ID int(50),
     Knowledge_Unit_ID int(50),
-    Hours int(50),
+    Hours float(4,1),
     PRIMARY KEY (User_Tier1_Hours_ID));
     
 CREATE TABLE User_Tier2_Hours (
     User_Tier2_Hours_ID int(50) NOT NULL AUTO_INCREMENT,
     Course_Curriculum_ID int(50),
     Knowledge_Unit_ID int(50),
-    Hours int(50),
+    Hours float(4,1),
     PRIMARY KEY (User_Tier2_Hours_ID));
 
 CREATE TABLE User_Elective_Hours (
     User_Elective_Hours_ID int(50) NOT NULL AUTO_INCREMENT,
     Course_Curriculum_ID int(50),
     Knowledge_Unit_ID int(50),
-    Hours int(50),
+    Hours float(4,1),
     PRIMARY KEY (User_Elective_Hours_ID));
 
 CREATE TABLE Course_Curriculum(
@@ -155,4 +155,3 @@ CREATE TABLE Access_Key (
     Access_Key_ID int(50) NOT NULL AUTO_INCREMENT,
     Access_Level VARCHAR(50),
     PRIMARY KEY (Access_Key_ID));
-
