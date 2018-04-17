@@ -14,19 +14,18 @@ function numOfCourses(){
 }
 
 function setValues(){
-	var addCourse = "course";
-	var courseNums;
-	while(n <= numOfCourses()){
-		courseNums = addCourse + "" + n;
-		coursesNParam.push(courseNums);
-		n++;
-	}
-	if (numOfCourses() == 1)
-	{
+	if (schoolCourses().trim().length < 1){
 		alert("You must enter in at least one course!");
+		return;
 	}
-	else
-	{
+	else{
+		var addCourse = "course";
+		var courseNums;
+		while(n <= numOfCourses()){
+			courseNums = addCourse + "" + n;
+			coursesNParam.push(courseNums);
+			n++;
+		}
 		var words = schoolCourses().split("\n");
 		storeCourses(words);
 		assignToParam();
@@ -43,8 +42,11 @@ function storeCourses(wds){
 function assignToParam(){
 	n = 0;	
 	while(n < numOfCourses()){
+		if (listCourses[n] == ""){
+			return;
+		}		
 		aCourseNParam.push(coursesNParam[n] 
-		+ "=" + listCourses[n] );
+			+ "=" + listCourses[n] );
 		n++;
 	}
 }
