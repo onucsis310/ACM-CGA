@@ -6,6 +6,17 @@
 
 <body>
 	<center>
+	<div id="logout" style="float:right">
+	<form align="right" name="logoutForm" action="LoggedOutPage.html">
+  	<label class="logoutLblPos">
+  	<input name="logout" type="submit" id="logout" value="Logout">
+  	</label>
+	</form>
+	</div>
+	<br>
+	<br>
+
+	
 	<div id="test1">
 	</div>
 	<script>

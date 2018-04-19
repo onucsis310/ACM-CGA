@@ -5,7 +5,7 @@
 <style>
 #nav{
 position: fixed;
-background: rgb(45, 160, 215);
+background: rgb(0, 93, 171);
 width: 8%;
 height: 100%;
 left: 0px;
@@ -53,7 +53,7 @@ $count = 0;
 while($row = mysqli_fetch_assoc($query)){
 	$count++;
 	echo "<details style='text-align: center;' id='dropOpenTab".$count."'>";
-	echo "<summary style='background: purple; width: 80%; position: relative; left: 10%;'>";
+	echo "<summary style='background: rgb(0, 93, 171); width: 80%; position: relative; left: 10%;'>";
 	echo "<span style='color: white; top: 20px;'>".$row['ACM_Unit_Abbreviation']."</span>";
 	$user_NameHrs = "select substring(Knowledge_Unit.Name, 1, INSTR(Knowledge_Unit.Name, '/') -1)	as Unit_Name, 
 			SUM(User_Tier1_Hours.Hours) 							as Unit_Hours 
@@ -61,7 +61,7 @@ while($row = mysqli_fetch_assoc($query)){
 			where User_Tier1_Hours.Knowledge_Unit_ID = Knowledge_Unit.Knowledge_Unit_ID 	
 			group by Unit_Name";
 	$query2 = mysqli_query($con, $user_NameHrs);
-	echo "<p style='text-align: center; background: green; width: 100%; color: white;'>";
+	echo "<p style='text-align: center; background: rgb(45, 160, 215); width: 100%; color: white;'>";
 	while($row1 = mysqli_fetch_assoc($query2)){
 		if($row['ACM_Unit_Abbreviation'] == $row1['Unit_Name']){
 			echo $row1['Unit_Hours'];
