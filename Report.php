@@ -5,7 +5,7 @@
 <style>
 #nav{
 position: fixed;
-background: purple;
+background: rgb(45, 160, 215);
 width: 8%;
 height: 100%;
 left: 0px;

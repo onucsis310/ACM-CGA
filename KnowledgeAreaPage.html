@@ -10,15 +10,19 @@
 		</script>
     </head>
     
-	<body><center>
+	<body>
 		<div>
   		<div id="row_0"> 
             	<form action="/action_page.php">
-            	<label> Knowledge Area &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
-		        Knowledge Unit &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-			Topic Tiers	   &emsp;&emsp;
+            	<label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+			Knowledge Area
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+			Knowledge Unit
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+			Topic
+			&emsp;&emsp;
 			Hours </br></label>
-		
+		<center>
 		<select id="Knowledge Area">
                 <option value=""></option>
                 <option value="AL">Algorithms and Complexity</option>
@@ -209,7 +213,6 @@
                 <option name=""></option>
                 <option name="" title="Tier 1">Topic 1</option>
                 <option name="" title="Tier 2">Topic 2</option>
-                <option name="" title="Elective">Elective Topic</option>
             	</select>
             	
 		<input name="Hours" type=text size="4" id="hours">
@@ -218,12 +221,13 @@
 		
 		</div>
 		</div>
-	<br>
+	<br></center>
+	<center>
 	<input type="submit" id="button" onclick="copyDiv()" value="Add New Guidelines"><br><br>
-	<input type="submit" onclick="history.back()" value="cancel">
-	<input type="button" onclick="history.back()" value="submit">
+	<input type="submit" onclick="history.back()" value="Cancel">
+	<input type="button" onclick="history.back()" value="Submit">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="functions.js"></script>
-	</center>	
+	</center>
 	</body>
 </html>
