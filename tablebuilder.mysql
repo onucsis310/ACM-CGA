@@ -105,7 +105,6 @@ CREATE TABLE Course_Curriculum(
     Curricula_ID int(50),
     PRIMARY KEY (Course_Curriculum_ID));
 
-
 CREATE TABLE Curricula (
     Curricula_ID int(50) NOT NULL AUTO_INCREMENT,
     Curricula VARCHAR(50),
@@ -138,7 +137,6 @@ CREATE TABLE User_Scores (
     Abet_Category VARCHAR(50),
     PRIMARY KEY (User_Scores_ID));
 
-
 CREATE TABLE System_User (
     System_User_ID int(50) NOT NULL AUTO_INCREMENT,
     Username VARCHAR(50),
@@ -155,4 +153,3 @@ CREATE TABLE Access_Key (
     Access_Key_ID int(50) NOT NULL AUTO_INCREMENT,
     Access_Level VARCHAR(50),
     PRIMARY KEY (Access_Key_ID));
-

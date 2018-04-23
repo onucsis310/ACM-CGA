@@ -1,10 +1,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="functions.js"></script>
+
 <head>
-	<title> Course List Pg 2 </title>
+	<title>Course List</title>
 </head>
 
 <body>
+	<!-div for logout button in top right of page->
 	<center>
 	<div id="logout" style="float:right">
 	<form align="right" name="logoutForm" action="LoggedOutPage.html">
@@ -16,9 +18,7 @@
 	<br>
 	<br>
 
-	
-	<div id="test1">
-	</div>
+	<div id="displayCourses"></div>
 	<script>
 	var url = $(location).attr('href');
 	var p = new URL(url);
@@ -33,10 +33,11 @@
 
 	start = 0;
 	while(start < n - 1 ){
-	$('#test1').append("<p><a href='KnowledgeAreaPage.html?knowledge="+ listCourses[start]  +"'>" + listCourses[start] + "</a></p>");
+	$('#displayCourses').append("<p><a href='KnowledgeAreaPage.html?knowledge="+ 
+				    listCourses[start]  +"'>" + listCourses[start] + "</a></p>");
 	start++;
 	}
 	</script>
-	<input type="submit" name="Submit" value="Generate Report" onClick="location.href='Report.php'";>
+	<input type="submit" name="Submit" value="Generate Report" onClick="location.href='Report.php'"s>
 	</center>
 </body>

@@ -1,6 +1,5 @@
 <html>
     <head>
-        <meta charset="UTF-8">
 		<!-- sets tab title to the course you are editing -->
 		<script>
 			var myURL = document.URL;
@@ -11,16 +10,17 @@
     </head>
     
 	<body>
+		<!-- row of label header titles for each drop down bar -->		
 		<label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 			Knowledge Area
 			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 			Knowledge Unit 
 			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-			 Topics
+			Topics
 			&emsp;&emsp;
-			Hours </br></label>		
+			Hours <br></label>
 		<div align=center>
-  		<div id="row_0"> 
+  		<div id="row_0">
             	<form action="/action_page.php">
             	
 		<select id="Knowledge Area">
@@ -53,7 +53,8 @@
                 <option value="AL/BasicsAutomataComputabilityandComplexity">Basics Automata, Computability, and Complexity </option>
                 <option value="AL/AdvancedComputationalTheory">Advanced Computational Theory</option>
                 <option value="AL/AdvancedAutomataComputabilityandComplexity">Advanced Automata, Computability, and Complexity</option>
-                <option value="AL/AdvancedDataStructuresAlgorithmsandAnalysis">Advanced Data Structures Algorithms and Analysis</option>
+                <option value="AL/AdvancedDataStructuresAlgorithmsandAnalysis">Advanced Data Structures Algorithms and Analysis
+		</option>
                 <option value="AR/DigitalLogicandDigitalSystems">Digital Logic and Digital Systems</option>
                 <option value="AR/MachineLevelRepresentationofData">Machine Level Representation of Data</option>
                 <option value="AR/AssemblyLevelMachineOrganization">Assembly Level Machine Organization</option>
@@ -223,11 +224,12 @@
 		</div>
 	<center>
 	<br>
+	<!-- all of the buttons beneath the drop down menus -->	
 	<input type="submit" id="button" onclick="copyDiv()" value="Add New Guidelines"><br><br>
 	<input type="submit" onclick="history.back()" value="Cancel">
 	<input type="button" onclick="history.back()" value="Submit">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="functions.js"></script>
+	<script src="functions.js"></script>	
 	</center>
 	</body>
 </html>

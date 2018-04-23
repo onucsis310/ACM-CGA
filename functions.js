@@ -58,7 +58,7 @@ function getGeneratedVars(){
 }
 
 function redirect(){
-	window.location = "CourseListPg2.php?" + getGeneratedVars();
+	window.location = "CourseList.php?" + getGeneratedVars();
 }
 
 var i = 0;
@@ -129,8 +129,8 @@ function passwordCheck(){
 	}
 	else
 	{	
-		alert("Account Created! Window will redirect to login page.");			
-		document.registration.submit();
+		alert("Account Created! Window will redirect to login page.");
+		history.back();
 		return true;
 	}
 }
