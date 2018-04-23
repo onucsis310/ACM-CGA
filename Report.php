@@ -18,12 +18,13 @@
 	<div id="nav">
 	<img src="imgs/ShowLess.png" style="width: 100%;" onclick="shortView()">
 	<img src="imgs/ShowMore.png" style="width: 100%;" onclick="advancedView()">
-	<img src="imgs/print.png" style="width: 95%; left: 2.5%; position: relative;">
+	<img src="imgs/print.png" style="width: 95%; left: 2.5%; position: relative;" onclick="window.print()">
 	<img src="imgs/back.png" style="width: 70%; left: 15%; position: relative;" onclick="history.back()">
 	</div>
 
 	<div>
-	<p style="text-align: right;">Institution: [University]<br>Prof: [Dr. Professor]<br>Report Generated: [Date]</p>
+	<p style="text-align: right;">Institution: [University]<br>Prof: [Dr. Professor]<br>
+                                      Report Generated: <?php echo date("m/d/Y"); ?></p>
 	</div>
 	<script>
 		var count = 1;
