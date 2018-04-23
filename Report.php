@@ -14,10 +14,10 @@ top: 0px;
 </style>
 <body>
 <div id="nav">
-<img src="imgs/shorts.png" style="width: 100%;" onclick="shortView()">
-<img src="imgs/moredetails.png" style="width: 100%;" onclick="advancedView()">
+<img src="imgs/ShowLess.png" style="width: 100%;" onclick="shortView()">
+<img src="imgs/ShowMore.png" style="width: 100%;" onclick="advancedView()">
 <img src="imgs/print.png" style="width: 95%; left: 2.5%; position: relative;">
-<img src="imgs/back.png" style="width: 70%; left: 15%; position: relative;">
+<img src="imgs/back.png" style="width: 70%; left: 15%; position: relative;" onclick="history.back()">
 </div>
 <div>
 <p style="text-align: right;">Institution: [Love University]<br>Prof: [Dr. Sauce]<br>Report Generated: [Date]</p>
