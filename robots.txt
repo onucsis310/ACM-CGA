@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /CSV/
+Crawl-delay: 15
